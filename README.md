@@ -27,8 +27,10 @@ The Termineric Toolbox contains utilities and helpers across multiple domains:
 - Logging and consistency checks
 
 ### 🔹 Windows App Installers
-- Prebuilt Windows applications I’ve written in the past
+- Standalone Windows applications I’ve written in the past
 - Provided with installers for convenience
+- Built for and tested on Windows only
+- Source code is not included
 - Shared as-is, without guarantees or support
 
 ### 🔹 TechnoCave (Hobby Projects)
@@ -56,7 +58,6 @@ I don’t currently have access to other operating systems, so unless otherwise 
 If I test a tool on another OS or know it works, I’ll mark it clearly.
 
 Some scripts are being reviewed to ensure they still function correctly on modern systems.
-
 
 ## 🙌 I hope you find something useful in this collection.
 
