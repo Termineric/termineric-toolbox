@@ -1,25 +1,25 @@
-# LaravelTableImporter - Handleiding
+# LaravelTableImporter - User Guide
 
-**Versie:** 1.0  
-**Auteur:** TerminEric  
+**Version:** 1.0  
+**Author:** TerminEric  
 **Project:** Termineric Toolbox  
 
 ---
 
-## ✨ Doel
-`LaravelTableImporter.php` is een command-line tool waarmee je bestaande MySQL-tabellen kunt omzetten naar Laravel-conforme **migratie- en seederbestanden**.
+## ✨ Purpose
+`LaravelTableImporter.php` is a command-line tool that converts existing MySQL tables into Laravel-compliant **migration and seeder files**.
 
-De tool is onderdeel van de **Termineric Toolbox**, maar werkt direct in elk Laravel-project. Output wordt geplaatst in de map:
+The tool is part of the **Termineric Toolbox**, but it works directly inside any Laravel project. Output is placed in:
 ```
 [project]/database/LaravelTableImporter/
 ```
 
 ---
 
-## ⚡ Benodigdheden
-- PHP 8.1+ met mysqli-extensie
-- Laravel-project met geldige `database`-map
-- `.env2` bestand in de **projectmap** (niet in de toolmap!) met o.a.:
+## ⚡ Requirements
+- PHP 8.1+ with the mysqli extension
+- Laravel project with a valid `database` directory
+- `.env2` file located in the **project root** (not the tool folder), for example:
 
 ```env
 DB_HOST=localhost
@@ -30,82 +30,82 @@ DB_PASSWORD=secret
 
 ---
 
-## 🔧 Installatie / Setup
-1. Zet `LaravelTableImporter.php` in:
+## 🔧 Installation / Setup
+1. Place `LaravelTableImporter.php` here:
    ```
    C:\Project-List\termineric-toolbox\laravel\LaravelTableImporter\LaravelTableImporter.php
    ```
 
-2. Voeg een PowerShell functie toe aan je profiel:
+2. Add a PowerShell function to your profile:
    ```powershell
    function tableimport {
        php "C:\Project-List\termineric-toolbox\laravel\LaravelTableImporter\LaravelTableImporter.php" $args
    }
    ```
-   Sla dit op in `$PROFILE` zodat het automatisch geladen wordt.
+   Save this in your `$PROFILE` so it loads automatically.
 
-3. Zorg dat `.env2` in de map staat van waaruit je werkt:
+3. Make sure `.env2` exists in the root of the Laravel project you're working in:
    ```
    C:\Project-List\MyLaravelProject\.env2
    ```
 
 ---
 
-## ⚖️ Gebruik
-Ga in de root van een Laravel-project staan (waar `.env2` staat) en voer uit:
+## ⚖️ Usage
+From the root of your Laravel project (where `.env2` exists), run:
 ```powershell
-tableimport <tabelnaam>
+tableimport <table_name>
 ```
 
-Bijvoorbeeld:
+Example:
 ```powershell
-tableimport ZND_FILEREPOSITORY
+tableimport your_table_name
 ```
 
-De tool genereert:
-- Migratiebestand in `database/LaravelTableImporter/migrations/`
-- Seederbestand in `database/LaravelTableImporter/seeders/`
-- Logbestand in `database/LaravelTableImporter/ImportTables.log`
+The tool will generate:
+- Migration file in `database/LaravelTableImporter/migrations/`
+- Seeder file in `database/LaravelTableImporter/seeders/`
+- Log file in `database/LaravelTableImporter/ImportTables.log`
 
 ---
 
-## 📊 Logboek
-Tijdens het importproces wordt elke stap gelogd naar:
+## 📊 Logging
+Each step of the process is logged to:
 ```
 [project]/database/LaravelTableImporter/ImportTables.log
 ```
-Zowel successen als tussenstappen worden gelogd. Dit is handig bij fouten of crashes.
+This includes all intermediate steps and success messages, useful for debugging crashes or reviewing the import.
 
-Voorbeeld:
+Example:
 ```
-[2025-03-21 17:00:00] start import: ZND_FILEREPOSITORY
+[2025-03-21 17:00:00] start import: your_table_name
 [2025-03-21 17:00:00] database connection OK
-[2025-03-21 17:00:00] fetching CREATE TABLE for ZND_FILEREPOSITORY
-[2025-03-21 17:00:00] migration written: 2025_03_21_170000_create_znd_filerepository_table.php
-[2025-03-21 17:00:00] seeder written: ZND_FILEREPOSITORYSeeder.php
+[2025-03-21 17:00:00] fetching CREATE TABLE for your_table_name
+[2025-03-21 17:00:00] migration written: 2025_03_21_170000_create_your_table_name_table.php
+[2025-03-21 17:00:00] seeder written: YourTableNameSeeder.php
 ```
 
 ---
 
 ## 💡 Tips
-- Je kunt meerdere tabellen achter elkaar importeren:
+- You can import multiple tables in sequence:
   ```powershell
-  tableimport klanten
-  tableimport producten
+  tableimport users
+  tableimport orders
   ```
 
-- Combineer met Git voor versiebeheer op gegenereerde bestanden
+- Combine with Git to version control generated files
 
-- Nog geen support voor relaties of foreign keys (in ontwikkeling)
-
----
-
-## 📹 Toekomstige uitbreidingen (roadmap)
-- Slimmere field parsing (`nullable`, `default`, `unique`, enz.)
-- `--preview` optie zonder schrijven
-- Automatisch model genereren
-- CLI-vlaggen voor configuratie
+- No support yet for relationships or foreign keys (in development)
 
 ---
 
-**Laatste update:** 21 maart 2025
+## 📹 Planned Features (Roadmap)
+- Smarter field parsing (`nullable`, `default`, `unique`, etc.)
+- `--preview` option (generate without writing)
+- Automatic model generation
+- CLI flags for customization
+
+---
+
+**Last updated:** March 21, 2025
