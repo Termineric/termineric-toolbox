@@ -8,10 +8,3 @@ Nederlands:
 English:
 
 "This GitHub project reflects my personal insights and experiences. It is a collection of code examples, projects, and resources I have created and gathered over the years. My goal is to share my knowledge and inspire others to learn and grow in their own development journey. Feel free to browse the repository, contribute, and provide feedback. Let's build great things together!"
-
-
-
-
-
-
-
