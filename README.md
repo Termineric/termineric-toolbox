@@ -26,26 +26,37 @@ The Termineric Toolbox contains utilities and helpers across multiple domains:
 - Helper scripts for setup, import/export
 - Logging and consistency checks
 
-### 🔹 MCU / PIC Development
-- Logic and bus testing tools
-- Serial communication scripts (e.g. UART monitoring)
-- Development utilities for working with microcontrollers and debugging circuits
-
-### 🔹 6502 Retro / Hardware Projects
-- Address and data bus debugging tools
-- ROM/EPROM content generation
-- Instruction testing, signal tracing and logic validation
-- Utilities for homebrew 6502-based systems
-
 ### 🔹 Windows App Installers
 - Prebuilt Windows applications I’ve written in the past
 - Provided with installers for convenience
 - Shared as-is, without guarantees or support
 
+### 🔹 TechnoCave (Hobby Projects)
+
+Tools and experiments from my personal electronics lab, **TechnoCave** — focused on microcontrollers, retro hardware and circuit design.
+
+- **MCU / PIC Development**  
+  Logic and bus testing tools, UART communication scripts, and low-level development utilities.
+
+- **6502 Retro ASM**  
+  Address/data bus debugging, ROM content generation, signal tracing, and instruction validation for 6502-based systems.
+
+- **Hardware Projects**  
+  Prototyping helpers, power/signal monitoring tools, and general electronics utilities.
+
+- **Lab Tools & Experiments**  
+  Blinking light boards, testing rigs, and experimental circuits from ongoing projects.
+
 ## 🚧 Work in Progress
 
-Not everything is available in this repository yet — I’m currently reviewing and cleaning up old tools before publishing them.  
-Some scripts are being tested to make sure they still work correctly on modern systems.
+Not everything is available in this repository yet — I’m currently reviewing and cleaning up older tools before publishing them.
+
+Most of these tools are written and tested on **Windows**.  
+I don’t currently have access to other operating systems, so unless otherwise noted, cross-platform compatibility is not guaranteed.  
+If I test a tool on another OS or know it works, I’ll mark it clearly.
+
+Some scripts are being reviewed to ensure they still function correctly on modern systems.
+
 
 ## 🙌 I hope you find something useful in this collection.
 
