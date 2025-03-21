@@ -1,6 +1,6 @@
 # 🧰 Termineric Toolbox
 
-**Termineric Toolbox** is a personal collection of open-source tools, scripts, and helpers that I’ve created or am actively developing. These tools are built to support various workflows — including Laravel-based development, data conversion, and automation tasks — and are designed to be modular, flexible, and easy to reuse.
+**Termineric Toolbox** is a personal collection of open-source tools, scripts, and helpers that I’ve created or am actively developing. These tools are built to support various workflows for Web/App development, data conversion, and automation tasks — and are designed to be modular, flexible, and easy to reuse.
 
 ## 🛠️ Areas of Focus
 
@@ -60,6 +60,9 @@ If I test a tool on another OS or know it works, I’ll mark it clearly.
 Some scripts are being reviewed to ensure they still function correctly on modern systems.
 
 ## 🙌 I hope you find something useful in this collection.
+
+🧠 *Heads up:* I’m dyslexic. Some things might not be perfectly spelled or phrased   
+Feel free to point out issues if something is unclear — but no need to complain.🙂 Thanks for understanding!
 
 Groeten,  
 **TerminEric**
