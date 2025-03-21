@@ -1,0 +1,34 @@
+{
+  "CommonFolders": [
+    "Apps-Help",
+    "Documents",
+    "Graphical",
+    "LibrarySupport",
+    "Settings-Info"
+  ],
+  "ProjectTypes": {
+    "Delphi": [
+      "Beta Version",
+      "Current Version",
+      "Source-%PROJECT_NAME%-%PROJECT_VERSION%",
+      "Beta Version/All others stuff",
+      "Beta Version/Apps-Help",
+      "Beta Version/Apps-Help/Images",
+      "Beta Version/DataBase",
+      "Beta Version/DataBase/MetaData",
+      "Beta Version/File Base",
+      "Beta Version/Legacy Folder",
+      "Beta Version/Log",
+      "Beta Version/Reports"
+    ],
+    "Web": [
+      "Source-Web",
+      "Source-Web/assets",
+      "Source-Web/css"
+      "Source-Web/js"
+    ],
+    "Laravel": [
+      "Project-Source"
+    ]
+  }
+}
