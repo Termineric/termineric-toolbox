@@ -37,9 +37,10 @@ The Termineric Toolbox contains utilities and helpers across multiple domains:
 - Instruction testing, signal tracing and logic validation
 - Utilities for homebrew 6502-based systems
 
-### 🔹 Windows Installers & Tools
-- Setup scripts and custom installers for Windows-based tools
-- Delphi app packaging and system helpers
+### 🔹 Windows App Installers
+- Prebuilt Windows applications I’ve written in the past
+- Provided with installers for convenience
+- Shared as-is, without guarantees or support
 
 ## 🚧 Work in Progress
 
@@ -54,4 +55,3 @@ Groeten,
 ## 📄 License
 
 MIT License — see [LICENSE](LICENSE) for details.
-
