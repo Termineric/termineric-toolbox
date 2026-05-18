@@ -1,0 +1,283 @@
+﻿==================================================
+==================================================
+Total RAM : 16077 MB
+Used RAM  : 10963 MB
+Free RAM  : 5114 MB
+
+==================================================
+==================================================
+
+ProcessName                      Id    MemoryMB CPU       
+-----------                      --    -------- ---       
+explorer                         10272 1043,9   184,234375
+Memory Compression               3084  571,3    65,859375 
+chrome                           14324 419,2    27,953125 
+OneDrive                         9356  351,4    87,5      
+MsMpEng                          5748  315      672,5     
+chrome                           15720 293,5    37,71875  
+WhatsApp.Root                    19296 244,8    28        
+logioptionsplus_agent            10944 240,7    140,6875  
+chrome                           23212 233,1    3,96875   
+esrv_svc                         2432  219,9    2,90625   
+msedgewebview2                   2948  177,2    70,9375   
+SearchHost                       14300 150,4    9,25      
+StartMenuExperienceHost          14332 139,9    7,34375   
+WindowsTerminal                  22316 131,9    0,1875    
+OneDrive                         10076 131,5    12,203125 
+DSAService                       5128  118,8    146,953125
+SurSvc                           5632  118,2    146,203125
+Microsoft.CmdPal.UI              14728 114,4    39,015625 
+dwm                              2620  113,8    415,109375
+svchost                          2200  108,8    188,71875 
+pwsh                             14412 107,7    0,875     
+msedgewebview2                   24348 105,9    0,171875  
+SysInfoCap                       3196  103,2    2,875     
+TextInputHost                    12336 96,3     3,734375  
+msedgewebview2                   22440 95,8     0,484375  
+DSATray                          16048 91,6     3,296875  
+msedgewebview2                   24684 86,6     0,125     
+powershell                       444   83,3     0,125     
+ICPS                             18324 79,4     6,0625    
+OneDrive.Sync.Service            18912 76,8     20,203125 
+duet                             21240 76,5     38        
+intel_cst_service_standalone     5236  75,1     16,0625   
+TouchpointAnalyticsClientService 3208  70,2     3,5       
+PowerToys.Peek.UI                16276 69,2     0,546875  
+ShellExperienceHost              9152  69,1     0,4375    
+PowerToys.MonacoPreviewHandler   19044 66,9     0,265625  
+svchost                          1872  62,5     81,40625  
+IntelConnectivityNetworkService  6496  62,3     8,890625  
+RuntimeBroker                    13716 60,9     7,453125  
+TabTip                           12660 54,4     3,046875  
+chrome                           20888 53,5     0,703125  
+BangOlufsenAudioControl          1840  52,8     1,09375   
+WmiPrvSE                         2284  51,8     39,609375 
+WmiPrvSE                         23780 49,3     161,53125 
+Secure System                    204   48,2     0         
+intel_cst_helper_service         25052 47,8     0,625     
+svchost                          456   47,6     13,515625 
+Registry                         236   46,2     0,78125   
+XtuService                       5860  45,9     1,265625  
+PowerToys.ColorPickerUI          11484 44,8     1,625     
+msedgewebview2                   12936 44,6     14,5625   
+PrintNodeService                 6756  43       27,28125  
+OneApp.IGCC.WinService           5144  42,8     1,421875  
+OfficeClickToRun                 5252  42,7     4,390625  
+DSAUpdateService                 4824  42,3     1,4375    
+SearchIndexer                    12488 41,9     16,46875  
+svchost                          10936 41,8     6,859375  
+IntelGraphicsSoftware.Service    5260  41,7     1,4375    
+PowerToys.QuickAccess            13608 40,3     1,5625    
+svchost                          1856  39,6     51,90625  
+svchost                          1444  36,8     17,953125 
+WidgetBoard                      13640 35,3     1,484375  
+msedgewebview2                   4528  34,6     0,015625  
+spoolsv                          4640  34,5     3,25      
+Microsoft.CmdPal.Ext.PowerToys   9092  34,2     0,953125  
+sihost                           11104 34,2     6,515625  
+svchost                          13936 33,9     1,40625   
+SystemSettingsBroker             3392  33,4     7,0625    
+RuntimeBroker                    2644  33,4     4,078125  
+mysqld                           5332  32,8     1,046875  
+lsass                            1284  32,1     24,40625  
+RtkAudUService64                 5536  32       1,921875  
+logioptionsplus_updater          5360  31,7     7,015625  
+PresentMonService                7924  31,1     90,765625 
+PowerToys                        13424 31,1     4,328125  
+svchost                          1372  30,9     44,734375 
+chrome                           8348  30,4     0,015625  
+ctfmon                           15792 29,8     9,15625   
+IntelAudioService                5152  29,4     0,546875  
+MpDefenderCoreService            5272  28,8     2         
+WindowsPackageManagerServer      7816  28,1     1,296875  
+WebManagement                    5712  27,8     194,078125
+svchost                          4164  27,2     16,875    
+svchost                          18588 27       4,46875   
+svchost                          2920  26,9     43,796875 
+IntelConnect                     20692 26,2     11,375    
+WUDFHost                         1936  25,6     35,046875 
+ApplicationFrameHost             19940 25,6     0,203125  
+DisplayControl                   18048 24,8     7,09375   
+SDXHelper                        20224 23,8     17,90625  
+SetPoint                         17156 22,4     0,390625  
+SynTPEnh                         13656 22,2     11,984375 
+figma_agent                      19064 22,2     29,265625 
+RuntimeBroker                    16484 22       4,59375   
+taskhostw                        11196 21,6     1,125     
+svchost                          3596  21,6     28,46875  
+SecurityHealthService            16980 21,5     1,640625  
+svchost                          4356  21,3     0,328125  
+FileSyncHelper                   21404 21,1     0,46875   
+svchost                          4476  20,6     7,078125  
+
+
+
+
+==================================================
+==================================================
+
+Name                               DisplayName                                                          StartType
+----                               -----------                                                          ---------
+Apache2.4                          Apache2.4                                                            Automatic
+Appinfo                            Application Information                                                 Manual
+AppXSvc                            AppX Deployment Service (AppXSVC)                                       Manual
+BthAvctpSvc                        AVCTP-service                                                           Manual
+BrokerInfrastructure               Background Tasks Infrastructure Service                              Automatic
+BFE                                Base Filtering Engine                                                Automatic
+DispBrokerDesktopSvc               Beeldschermbeleidsservice                                            Automatic
+wscsvc                             Beveiligingscentrum                                                  Automatic
+BTAGService                        Bluetooth Audio Gateway-service                                         Manual
+bthserv                            Bluetooth Support Service                                               Manual
+camsvc                             Capability Access Manager Service                                       Manual
+KeyIso                             CNG Key Isolation                                                       Manual
+EventSystem                        COM+ Event System                                                    Automatic
+CoreMessagingRegistrar             CoreMessaging                                                        Automatic
+VaultSvc                           Credential Manager                                                      Manual
+CryptSvc                           Cryptographic Services                                               Automatic
+DsSvc                              Data Sharing Service                                                    Manual
+DusmSvc                            Dataverbruik                                                         Automatic
+DcomLaunch                         DCOM Server Process Launcher                                         Automatic
+debugregsvc                        debugregsvc                                                          Automatic
+DeviceAssociationService           Device Association Service                                           Automatic
+DevicesFlowUserSvc_160eae          DevicesFlow_160eae                                                      Manual
+Dhcp                               DHCP Client                                                          Automatic
+DPS                                Diagnostic Policy Service                                            Automatic
+WdiSystemHost                      Diagnostic System Host                                                  Manual
+TrkWks                             Distributed Link Tracking Client                                     Automatic
+Dnscache                           DNS Client                                                           Automatic
+DYMOConnectPnPService              DYMO Connect PnP Service                                             Automatic
+ElanTouchXiSvc                     ELAN WoT Capable Service                                             Automatic
+ESRV_SVC_QUEENCREEK                Energy Server Service queencreek                                     Automatic
+FileSyncHelper                     FileSyncHelper                                                          Manual
+fdPHost                            Function Discovery Provider Host                                        Manual
+FDResPub                           Function Discovery Resource Publication                                 Manual
+CDPUserSvc_160eae                  Gebruikerservice voor Connected Devices Platform_160eae              Automatic
+cbdhsvc_160eae                     Gebruikersservice voor klembord_160eae                               Automatic
+lfsvc                              Geolocation Service                                                     Manual
+gpsvc                              Group Policy Client                                                  Automatic
+hns                                Host Network Service                                                    Manual
+OneSyncSvc_160eae                  Host synchroniseren_160eae                                           Automatic
+HPAppHelperCap                     HP App Helper HSA Service                                            Automatic
+HPDiagsCap                         HP Diagnostics HSA Service                                           Automatic
+HPDCService                        HP Display Control Service by Portrait Displays                      Automatic
+HpTouchpointAnalyticsService       HP Insights Analytics                                                Automatic
+HPNetworkCap                       HP Network HSA Service                                               Automatic
+HPPrintScanDoctorService           HP Print Scan Doctor Service                                         Automatic
+HPSysInfoCap                       HP System Info HSA Service                                           Automatic
+hidserv                            Human Interface Device Service                                          Manual
+HvHost                             HV-hostservice                                                          Manual
+IKEEXT                             IKE and AuthIP IPsec Keying Modules                                  Automatic
+Intel Analytics Service            Intel Analytics Service                                              Automatic
+Intel Connectivity Network Service Intel Connectivity Network Service                                   Automatic
+IDBWM                              Intel Dynamic Bandwidth Management                                      Manual
+Intel Provider Data Helper Service Intel Provider Data Helper Service                                   Automatic
+IntelAudioService                  Intel(R) Audio Service                                               Automatic
+cplspcon                           Intel(R) Content Protection HDCP Service                             Automatic
+IntelCstService                    Intel(R) Context Sensing Technology Service                          Automatic
+DSAService                         Intel(R) Driver & Support Assistant                                  Automatic
+DSAUpdateService                   Intel(R) Driver & Support Assistant Updater                          Automatic
+jhi_service                        Intel(R) Dynamic Application Loader Host Interface Service           Automatic
+dptftcs                            Intel(R) Dynamic Tuning Technology Telemetry Service                 Automatic
+igccservice                        Intel(R) Graphics Command Center Service                             Automatic
+ipfsvc                             Intel(R) Innovation Platform Framework Service                       Automatic
+WMIRegistrationService             Intel(R) Management Engine WMI Provider Registration                 Automatic
+SystemUsageReportSvc_QUEENCREEK    Intel(R) System Usage Report Service SystemUsageReportSvc_QUEENCREEK Automatic
+IntelGraphicsSoftwareService       Intel® Graphics Software Service                                     Automatic
+IntelConnectService                IntelConnect Service                                                    Manual
+IBG_developer_ib2020               InterBase 2020 64bit Guardian developer_ib2020                       Automatic
+IBS_developer_ib2020               InterBase 2020 64bit Server developer_ib2020                            Manual
+SharedAccess                       Internet Connection Sharing (ICS)                                       Manual
+iphlpsvc                           IP Helper                                                            Automatic
+PolicyAgent                        IPsec Policy Agent                                                      Manual
+LSM                                Local Session Manager                                                Automatic
+OptionsPlusUpdaterService          Logi Options+                                                        Automatic
+logi_lamparray_service             Logitech LampArray Service                                           Automatic
+LxssManager                        LxssManager                                                             Manual
+wlidsvc                            Microsoft Account Sign-in Assistant                                     Manual
+WdNisSvc                           Microsoft Defender Antivirus-netwerkinspectieservice                    Manual
+WinDefend                          Microsoft Defender Antivirus-service                                 Automatic
+MDCoreSvc                          Microsoft Defender Core-service                                      Automatic
+ClickToRunSvc                      Microsoft Office Click-to-Run Service                                Automatic
+NgcSvc                             Microsoft Passport                                                      Manual
+NgcCtnrSvc                         Microsoft Passport Container                                            Manual
+InstallService                     Microsoft Store-installatieservice                                      Manual
+mysql                              mysql                                                                Automatic
+nlsX86cc                           Nalpeiron Licensing Service                                          Automatic
+nvagent                            Netwerkvirtualisatieservice                                             Manual
+NcdAutoSetup                       Network Connected Devices Auto-Setup                                    Manual
+NcbService                         Network Connection Broker                                               Manual
+Netman                             Network Connections                                                     Manual
+netprofm                           Network List Service                                                    Manual
+nsi                                Network Store Interface Service                                      Automatic
+NPSMSvc_160eae                     NPSMSvc_160eae                                                          Manual
+BluetoothUserService_160eae        Ondersteuningsservice voor Bluetooth-gebruikers_160eae                  Manual
+sshd                               OpenSSH SSH Server                                                      Manual
+PenService_160eae                  PenService_160eae                                                       Manual
+PhoneSvc                           Phone Service                                                           Manual
+PlugPlay                           Plug and Play                                                           Manual
+Power                              Power                                                                Automatic
+Spooler                            Print Spooler                                                        Automatic
+PrintNode                          PrintNode                                                            Automatic
+PcaSvc                             Program Compatibility Assistant Service                                 Manual
+RmSvc                              Radiobeheerservice                                                      Manual
+RtkAudioUniversalService           Realtek Audio Universal Service                                      Automatic
+RasMan                             Remote Access Connection Manager                                        Manual
+RpcSs                              Remote Procedure Call (RPC)                                          Automatic
+RpcEptMapper                       RPC Endpoint Mapper                                                  Automatic
+SstpSvc                            Secure Socket Tunneling Protocol Service                                Manual
+SamSs                              Security Accounts Manager                                            Automatic
+SensrSvc                           Sensor Monitoring Service                                               Manual
+SensorService                      Sensor Service                                                          Manual
+LanmanServer                       Server                                                               Automatic
+CDPSvc                             Service Platform voor verbonden apparaten                               Manual
+DisplayEnhancementService          Service voor beeldschermverbetering                                     Manual
+LicenseManager                     Service voor Windows-licentiebeheer                                     Manual
+ShellHWDetection                   Shell Hardware Detection                                             Automatic
+SECOMNService                      Sound Research SECOMN Service                                        Automatic
+SSDPSRV                            SSDP Discovery                                                          Manual
+SshdBroker                         SshdBroker                                                              Manual
+StateRepository                    State Repository Service                                             Automatic
+StorSvc                            Storage Service                                                         Manual
+SynTPEnhService                    SynTPEnhService                                                      Automatic
+SysMain                            SysMain                                                              Automatic
+WpnService                         Systeemservice voor Windows Push Notifications                          Manual
+SENS                               System Event Notification Service                                    Automatic
+SystemEventsBroker                 System Events Broker                                                 Automatic
+Schedule                           Task Scheduler                                                       Automatic
+lmhosts                            TCP/IP NetBIOS Helper                                                   Manual
+TapiSrv                            Telephony                                                               Manual
+TextInputManagementService         Text Input Management Service                                        Automatic
+Themes                             Themes                                                               Automatic
+TimeBrokerSvc                      Time Broker                                                             Manual
+UdkUserSvc_160eae                  UDK-gebruikersservice_160eae                                            Manual
+UsoSvc                             Update Orchestrator-service                                             Manual
+usbipd                             USBIP Device Host                                                    Automatic
+UserManager                        User Manager                                                         Automatic
+ProfSvc                            User Profile Service                                                 Automatic
+WebManagement                      Web Management                                                       Automatic
+webthreatdefusersvc_160eae         Web Threat Defense-gebruikersservice_160eae                          Automatic
+webthreatdefsvc                    Web Threat Defense-service                                              Manual
+TokenBroker                        Webaccountbeheer                                                        Manual
+WebClient                          WebClient                                                               Manual
+Audiosrv                           Windows Audio                                                        Automatic
+AudioEndpointBuilder               Windows Audio Endpoint Builder                                       Automatic
+wcncsvc                            Windows Connect Now - Config Registrar                                  Manual
+Wcmsvc                             Windows Connection Manager                                           Automatic
+mpssvc                             Windows Defender Firewall                                            Automatic
+EventLog                           Windows Event Log                                                    Automatic
+FontCache                          Windows Font Cache Service                                           Automatic
+StiSvc                             Windows Image Acquisition (WIA)                                      Automatic
+Winmgmt                            Windows Management Instrumentation                                   Automatic
+icssvc                             Windows Mobile Hotspot Service                                          Manual
+IpOverUsbSvc                       Windows Phone IP over USB Transport (IpOverUsbSvc)                   Automatic
+WpnUserService_160eae              Windows Push Notifications User Service_160eae                       Automatic
+WSearch                            Windows Search                                                       Automatic
+W32Time                            Windows Time                                                            Manual
+SecurityHealthService              Windows-beveiligingsservice                                             Manual
+WinHttpAutoProxySvc                WinHTTP Web Proxy Auto-Discovery Service                                Manual
+WlanSvc                            WLAN AutoConfig                                                      Automatic
+LanmanWorkstation                  Workstation                                                          Automatic
+XTU3SERVICE                        XTUOCDriverService                                                   Automatic
+
+
+

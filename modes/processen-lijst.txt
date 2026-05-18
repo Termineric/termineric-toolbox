@@ -1,257 +1,701 @@
 
-   Id ProcessName                      MainWindowTitle                   Path                                          
-   -- -----------                      ---------------                   ----                                          
- 3252 AppHelperCap                                                       C:\WINDOWS\System32\DriverStore\FileRepository
-                                                                         \hpcustomcapcomp.inf_amd64_1466604327697633\x6
-                                                                         4\AppHelperCap.exe                            
- 8004 backgroundTaskHost                                                 C:\WINDOWS\system32\BackgroundTaskHost.exe    
- 7932 conhost                                                            C:\WINDOWS\system32\conhost.exe               
- 7584 conhost                                                            C:\WINDOWS\system32\conhost.exe               
-15548 conhost                                                            C:\WINDOWS\system32\conhost.exe               
-12456 conhost                                                            C:\WINDOWS\system32\conhost.exe               
- 7256 conhost                                                            C:\WINDOWS\system32\conhost.exe               
- 4952 conhost                                                            C:\WINDOWS\system32\conhost.exe               
- 1288 conhost                                                            C:\WINDOWS\system32\conhost.exe               
- 6492 conhost                                                            C:\WINDOWS\system32\conhost.exe               
- 5764 conhost                                                            C:\WINDOWS\system32\conhost.exe               
- 1400 csrss                                                                                                            
- 1176 csrss                                                                                                            
-11804 ctfmon                                                             C:\WINDOWS\system32\ctfmon.exe                
-11196 CTHelper                                                           C:\Program Files\Portrait Displays\HP Display 
-                                                                         Control Service\CTHelper.exe                  
- 5316 dasHost                                                            C:\WINDOWS\system32\dashost.exe               
- 4284 dasHost                                                            C:\WINDOWS\system32\dashost.exe               
- 3288 DiagsCap                                                           C:\WINDOWS\System32\DriverStore\FileRepository
-                                                                         \hpcustomcapcomp.inf_amd64_1466604327697633\x6
-                                                                         4\DiagsCap.exe                                
-13288 DisplayControl                                                     C:\Program Files\WindowsApps\PortraitDisplays.
-                                                                         HPDisplayControl_4.9.25.0_x64__2dgmkzkw4h30c\w
-                                                                         in32\DisplayControl.exe                       
- 4964 DisplayControlService                                              C:\Program Files\Portrait Displays\HP Display 
-                                                                         Control Service\DisplayControlService.exe     
-10916 dllhost                                                            C:\WINDOWS\system32\DllHost.exe               
- 6936 dllhost                                                            C:\WINDOWS\system32\DllHost.exe               
- 1736 dllhost                                                            C:\WINDOWS\system32\DllHost.exe               
- 5152 DSAUpdateService                                                   C:\Program Files (x86)\Intel\Driver and Suppor
-                                                                         t Assistant\x86\DSAUpdateService.exe          
- 2380 dwm                                                                C:\WINDOWS\system32\dwm.exe                   
- 5128 DYMOConnectPnPService                                              C:\Program Files (x86)\DYMO\DYMO Connect\DYMOC
-                                                                         onnectPnPService.exe                          
-12552 esrv                                                               C:\Program Files\Intel\SUR\QUEENCREEK\x64\esrv
-                                                                         .exe                                          
-11928 esrv_svc                                                           C:\Program Files\Intel\SUR\QUEENCREEK\x64\esrv
-                                                                         _svc.exe                                      
-10104 explorer                                                           C:\WINDOWS\Explorer.EXE                       
-12628 FileSyncHelper                                                     C:\Program Files\Microsoft OneDrive\25.110.060
-                                                                         8.0002\FileSyncHelper.exe                     
- 1740 fontdrvhost                                                        C:\WINDOWS\system32\fontdrvhost.exe           
- 1532 fontdrvhost                                                        C:\WINDOWS\system32\fontdrvhost.exe           
-16280 hpwuschd2                                                          C:\Program Files (x86)\HP\HP Software Update\h
-                                                                         pwuschd2.exe                                  
- 5168 ibguard                                                            C:\Program Files (x86)\Embarcadero\Studio\23.0
-                                                                         \InterBase2020\bin\ibguard.exe                
- 7004 ibserver                                                           C:\Program Files (x86)\Embarcadero\Studio\23.0
-                                                                         \InterBase2020\bin\ibserver.exe               
- 7992 IDBWM                                                              C:\WINDOWS\System32\drivers\Intel\ICPS\IDBWM.e
-                                                                         xe                                            
- 5712 IDBWM                                                              C:\WINDOWS\System32\drivers\Intel\ICPS\IDBWM.e
-                                                                         xe                                            
- 5656 IDBWMService                                                       C:\WINDOWS\System32\drivers\Intel\ICPS\IDBWMSe
-                                                                         rvice.exe                                     
+   Id ProcessName                      MainWindowTitle                                           Path                  
+   -- -----------                      ---------------                                           ----                  
+ 3172 AppHelperCap                                                                               C:\WINDOWS\System32\Dr
+                                                                                                 iverStore\FileReposito
+                                                                                                 ry\hpcustomcapcomp.inf
+                                                                                                 _amd64_db0ee1e66e6d408
+                                                                                                 e\x64\AppHelperCap.exe
+19940 ApplicationFrameHost             Bang & Olufsen Audio Control                              C:\WINDOWS\system32\Ap
+                                                                                                 plicationFrameHost.exe
+ 1840 BangOlufsenAudioControl          Bang & Olufsen Audio Control                              C:\Program Files\Windo
+                                                                                                 wsApps\AD2F1837.BangOl
+                                                                                                 ufsenAudioControl_1.47
+                                                                                                 .308.0_x64__v10z8vjag6
+                                                                                                 ke6\BangOlufsenAudioCo
+                                                                                                 ntrol.exe             
+23212 chrome                           Game mode script aanpassen - Google Chrome                C:\Program Files\Googl
+                                                                                                 e\Chrome\Application\c
+                                                                                                 hrome.exe             
+20888 chrome                                                                                     C:\Program Files\Googl
+                                                                                                 e\Chrome\Application\c
+                                                                                                 hrome.exe             
+25496 chrome                                                                                     C:\Program Files\Googl
+                                                                                                 e\Chrome\Application\c
+                                                                                                 hrome.exe             
+24004 chrome                                                                                     C:\Program Files\Googl
+                                                                                                 e\Chrome\Application\c
+                                                                                                 hrome.exe             
+14324 chrome                                                                                     C:\Program Files\Googl
+                                                                                                 e\Chrome\Application\c
+                                                                                                 hrome.exe             
+ 8348 chrome                                                                                     C:\Program Files\Googl
+                                                                                                 e\Chrome\Application\c
+                                                                                                 hrome.exe             
+16568 chrome                                                                                     C:\Program Files\Googl
+                                                                                                 e\Chrome\Application\c
+                                                                                                 hrome.exe             
+15720 chrome                                                                                     C:\Program Files\Googl
+                                                                                                 e\Chrome\Application\c
+                                                                                                 hrome.exe             
+18292 Code                             export-processen.ps1 - Visual Studio Code [Administrator] C:\Users\ericz\AppData
+                                                                                                 \Local\Programs\Micros
+                                                                                                 oft VS Code\Code.exe  
+17272 Code                                                                                       C:\Users\ericz\AppData
+                                                                                                 \Local\Programs\Micros
+                                                                                                 oft VS Code\Code.exe  
+19772 Code                                                                                       C:\Users\ericz\AppData
+                                                                                                 \Local\Programs\Micros
+                                                                                                 oft VS Code\Code.exe  
+19752 Code                                                                                       C:\Users\ericz\AppData
+                                                                                                 \Local\Programs\Micros
+                                                                                                 oft VS Code\Code.exe  
+ 5936 Code                                                                                       C:\Users\ericz\AppData
+                                                                                                 \Local\Programs\Micros
+                                                                                                 oft VS Code\Code.exe  
+ 4784 Code                                                                                       C:\Users\ericz\AppData
+                                                                                                 \Local\Programs\Micros
+                                                                                                 oft VS Code\Code.exe  
+16580 Code                                                                                       C:\Users\ericz\AppData
+                                                                                                 \Local\Programs\Micros
+                                                                                                 oft VS Code\Code.exe  
+ 8788 Code                                                                                       C:\Users\ericz\AppData
+                                                                                                 \Local\Programs\Micros
+                                                                                                 oft VS Code\Code.exe  
+11292 conhost                                                                                    C:\WINDOWS\system32\co
+                                                                                                 nhost.exe             
+ 7932 conhost                                                                                    C:\WINDOWS\system32\co
+                                                                                                 nhost.exe             
+18920 conhost                                                                                    C:\WINDOWS\system32\co
+                                                                                                 nhost.exe             
+17384 conhost                                                                                    C:\WINDOWS\system32\co
+                                                                                                 nhost.exe             
+ 2812 conhost                                                                                    C:\WINDOWS\system32\co
+                                                                                                 nhost.exe             
+ 1548 conhost                                                                                    C:\WINDOWS\system32\co
+                                                                                                 nhost.exe             
+ 6792 conhost                                                                                    C:\WINDOWS\system32\co
+                                                                                                 nhost.exe             
+ 4820 conhost                                                                                    C:\WINDOWS\system32\co
+                                                                                                 nhost.exe             
+ 1328 csrss                                                                                                            
+ 1104 csrss                                                                                                            
+15792 ctfmon                                                                                     C:\WINDOWS\system32\ct
+                                                                                                 fmon.exe              
+18348 cthelper                                                                                   C:\Program Files\Portr
+                                                                                                 ait Displays\HP Displa
+                                                                                                 y Control Service\CTHe
+                                                                                                 lper.exe              
+ 9576 dasHost                                                                                    C:\WINDOWS\system32\da
+                                                                                                 shost.exe             
+ 5244 dasHost                                                                                    C:\WINDOWS\system32\da
+                                                                                                 shost.exe             
+ 3188 DiagsCap                                                                                   C:\WINDOWS\System32\Dr
+                                                                                                 iverStore\FileReposito
+                                                                                                 ry\hpcustomcapcomp.inf
+                                                                                                 _amd64_db0ee1e66e6d408
+                                                                                                 e\x64\DiagsCap.exe    
+18048 DisplayControl                                                                             C:\Program Files\Portr
+                                                                                                 ait Displays\HP Displa
+                                                                                                 y Control Service\Disp
+                                                                                                 layControl.exe        
+ 5228 DisplayControlService                                                                      C:\Program Files\Portr
+                                                                                                 ait Displays\HP Displa
+                                                                                                 y Control Service\Disp
+                                                                                                 layControlService.exe 
+21540 dllhost                                                                                    C:\WINDOWS\system32\Dl
+                                                                                                 lHost.exe             
+20708 dllhost                                                                                    C:\WINDOWS\system32\Dl
+                                                                                                 lHost.exe             
+24924 dllhost                                                                                    C:\WINDOWS\system32\Dl
+                                                                                                 lHost.exe             
+23156 dllhost                                                                                    C:\WINDOWS\system32\Dl
+                                                                                                 lHost.exe             
+20476 dllhost                                                                                    C:\WINDOWS\system32\Dl
+                                                                                                 lHost.exe             
+ 9876 dllhost                                                                                    C:\WINDOWS\system32\Dl
+                                                                                                 lHost.exe             
+ 8416 dllhost                                                                                    C:\WINDOWS\SysWOW64\Dl
+                                                                                                 lHost.exe             
+15284 dllhost                                                                                    C:\WINDOWS\system32\Dl
+                                                                                                 lHost.exe             
+14792 dllhost                                                                                    C:\WINDOWS\system32\Dl
+                                                                                                 lHost.exe             
+ 5128 DSAService                                                                                 C:\Program Files (x86)
+                                                                                                 \Intel\Driver and Supp
+                                                                                                 ort Assistant\x86\DSAS
+                                                                                                 ervice.exe            
+16048 DSATray                                                                                    C:\Program Files (x86)
+                                                                                                 \Intel\Driver and Supp
+                                                                                                 ort Assistant\x86\DSAT
+                                                                                                 ray.exe               
+ 4824 DSAUpdateService                                                                           C:\Program Files (x86)
+                                                                                                 \Intel\Driver and Supp
+                                                                                                 ort Assistant\x86\DSAU
+                                                                                                 pdateService.exe      
+21240 duet                                                                                       C:\Program Files\Duet\
+                                                                                                 Duet Display\duet.exe 
+ 2620 dwm                                                                                        C:\WINDOWS\system32\dw
+                                                                                                 m.exe                 
+ 4832 DYMOConnectPnPService                                                                      C:\Program Files (x86)
+                                                                                                 \DYMO\DYMO Connect\DYM
+                                                                                                 OConnectPnPService.exe
+ 5180 ElanTouchXiSvc                                                                             C:\WINDOWS\SysWOW64\El
+                                                                                                 anTouchXiSvc.exe      
+ 2432 esrv_svc                                                                                   C:\Program Files\Intel
+                                                                                                 \SUR\QUEENCREEK\x64\es
+                                                                                                 rv_svc.exe            
+10272 explorer                                                                                   C:\WINDOWS\Explorer.EX
+                                                                                                 E                     
+19064 figma_agent                                                                                C:\Users\ericz\AppData
+                                                                                                 \Local\FigmaAgent\figm
+                                                                                                 a_agent.exe           
+21484 FileCoAuth                                                                                 C:\Program Files\Micro
+                                                                                                 soft OneDrive\26.074.0
+                                                                                                 420.0001\FileCoAuth.ex
+                                                                                                 e                     
+21404 FileSyncHelper                                                                             C:\Program Files\Micro
+                                                                                                 soft OneDrive\26.074.0
+                                                                                                 420.0001\FileSyncHelpe
+                                                                                                 r.exe                 
+ 1724 fontdrvhost                                                                                C:\WINDOWS\system32\fo
+                                                                                                 ntdrvhost.exe         
+ 1472 fontdrvhost                                                                                C:\WINDOWS\system32\fo
+                                                                                                 ntdrvhost.exe         
+ 5164 HPPrintScanDoctorService                                                                   C:\Program Files\HPPri
+                                                                                                 ntScanDoctor\HPPrintSc
+                                                                                                 anDoctorService.exe   
+ 3792 hpwuschd2                                                                                  C:\Program Files (x86)
+                                                                                                 \HP\HP Software Update
+                                                                                                 \hpwuschd2.exe        
+ 8204 httpd                                                                                      C:\tools\xampp\apache\
+                                                                                                 bin\httpd.exe         
+ 4212 httpd                                                                                      C:\tools\xampp\apache\
+                                                                                                 bin\httpd.exe         
+ 5196 ibguard                                                                                    C:\Program Files (x86)
+                                                                                                 \Embarcadero\Studio\37
+                                                                                                 .0\InterBase2020\bin\i
+                                                                                                 bguard.exe            
+ 6112 ibserver                                                                                   C:\Program Files (x86)
+                                                                                                 \Embarcadero\Studio\37
+                                                                                                 .0\InterBase2020\bin\i
+                                                                                                 bserver.exe           
+18324 ICPS                                                                                       C:\Program Files\Windo
+                                                                                                 wsApps\AppUp.IntelConn
+                                                                                                 ectivityPerformanceSui
+                                                                                                 te_50.25.1015.0_x64__8
+                                                                                                 j3eq9eme6ctt\ICPS.exe 
+15276 IDBWM                                                                                      C:\WINDOWS\System32\dr
+                                                                                                 ivers\Intel\ICPS\IDBWM
+                                                                                                 .exe                  
+ 2772 IDBWM                                                                                      C:\WINDOWS\System32\dr
+                                                                                                 ivers\Intel\ICPS\IDBWM
+                                                                                                 .exe                  
+ 5676 IDBWMService                                                                               C:\WINDOWS\System32\dr
+                                                                                                 ivers\Intel\ICPS\IDBWM
+                                                                                                 Service.exe           
     0 Idle                                                                                                             
-14756 intel_cst_helper_service                                           C:\WINDOWS\System32\DriverStore\FileRepository
-                                                                         \icst_service.inf_amd64_58f7b9ef0e943646\intel
-                                                                         _cst_helper_service.exe                       
- 5624 intel_cst_service_standalone                                       C:\WINDOWS\System32\DriverStore\FileRepository
-                                                                         \icst_service.inf_amd64_58f7b9ef0e943646\intel
-                                                                         _cst_service_standalone.exe                   
- 2784 IntelAnalyticsService                                              C:\WINDOWS\System32\drivers\Intel\ICPS\IntelAn
-                                                                         alyticsService.exe                            
- 5196 IntelAudioService                                                  C:\WINDOWS\System32\DriverStore\FileRepository
-                                                                         \intcoed.inf_amd64_33284f5d2f7b1562\AS\IAS\Int
-                                                                         elAudioService.exe                            
-12480 IntelConnect                                                       C:\WINDOWS\System32\drivers\Intel\ICPS\IntelCo
-                                                                         nnect.exe                                     
- 4304 IntelConnectivityNetworkService                                    C:\WINDOWS\System32\drivers\Intel\ICPS\IntelCo
-                                                                         nnectivityNetworkService.exe                  
-12524 IntelConnectService                                                C:\WINDOWS\System32\drivers\Intel\ICPS\IntelCo
-                                                                         nnectService.exe                              
-16200 IntelGraphicsSoftware                                              C:\Program Files\Intel\Intel Graphics Software
-                                                                         \IntelGraphicsSoftware.exe                    
- 5144 IntelGraphicsSoftware.Service                                      C:\Program Files\Intel\Intel Graphics Software
-                                                                         \IntelGraphicsSoftware.Service.exe            
-12448 IntelProviderDataHelperService                                     C:\WINDOWS\System32\drivers\Intel\ICPS\IntelPr
-                                                                         oviderDataHelperService.exe                   
- 7964 ipf_helper                                                         C:\WINDOWS\System32\DriverStore\FileRepository
-                                                                         \ipf_cpu.inf_amd64_bef44694f882994d\ipf_helper
-                                                                         .exe                                          
- 5364 ipf_uf                                                             C:\WINDOWS\System32\DriverStore\FileRepository
-                                                                         \ipf_cpu.inf_amd64_bef44694f882994d\ipf_uf.exe
- 5232 ipfsvc                                                             C:\WINDOWS\System32\DriverStore\FileRepository
-                                                                         \dtt_sw.inf_amd64_3ea1838906a8645a\ipfsvc.exe 
- 5184 IpOverUsbSvc                                                       C:\Program Files (x86)\Common Files\Microsoft 
-                                                                         Shared\Phone Tools\CoreCon\11.0\bin\IpOverUsbS
-                                                                         vc.exe                                        
- 5204 logi_lamparray_service                                             C:\WINDOWS\System32\DriverStore\FileRepository
-                                                                         \logi_lamparray_usb.inf_amd64_cdf3ca3c77d5f267
-                                                                         \logi_lamparray_service.exe                   
- 1340 LsaIso                                                                                                           
- 1356 lsass                                                              C:\WINDOWS\system32\lsass.exe                 
- 3176 Memory Compression                                                                                               
- 5044 Microsoft.SharePoint                                               C:\Program Files\Microsoft OneDrive\25.110.060
-                                                                         8.0002\Microsoft.SharePoint.exe               
- 5344 MpDefenderCoreService                                                                                            
- 5480 MsMpEng                                                                                                          
- 3272 NetworkCap                                                         C:\WINDOWS\System32\DriverStore\FileRepository
-                                                                         \hpcustomcapcomp.inf_amd64_1466604327697633\x6
-                                                                         4\NetworkCap.exe                              
-14512 NisSrv                                                                                                           
- 5292 nssm_64                                                            C:\Program Files\PrintNode\nssm_64.exe        
- 5252 OfficeClickToRun                                                   C:\Program Files\Common Files\Microsoft Shared
-                                                                         \ClickToRun\OfficeClickToRun.exe              
- 5136 OneApp.IGCC.WinService                                             C:\WINDOWS\System32\DriverStore\FileRepository
-                                                                         \igcc_dch.inf_amd64_b02dffd8b27dedd4\OneApp.IG
-                                                                         CC.WinService.exe                             
- 6528 OpenConsole                                                        C:\Program Files\WindowsApps\Microsoft.Windows
-                                                                         Terminal_1.22.11141.0_x64__8wekyb3d8bbwe\OpenC
-                                                                         onsole.exe                                    
- 3908 OpenConsole                                                        C:\Program Files\WindowsApps\Microsoft.Windows
-                                                                         Terminal_1.22.11141.0_x64__8wekyb3d8bbwe\OpenC
-                                                                         onsole.exe                                    
-13020 powershell                                                         C:\Windows\System32\WindowsPowerShell\v1.0\pow
-                                                                         ershell.exe                                   
- 7916 PresentMonService                                                  C:\Program Files\Intel\Intel Graphics Software
-                                                                         \PresentMonService.exe                        
- 6456 PrintNodeService                                                   C:\Program Files\PrintNode\PrintNodeService.ex
-                                                                         e                                             
- 9928 pwsh                                                               C:\Program Files\PowerShell\7\pwsh.exe        
+25052 intel_cst_helper_service                                                                   C:\WINDOWS\System32\Dr
+                                                                                                 iverStore\FileReposito
+                                                                                                 ry\icst_service.inf_am
+                                                                                                 d64_58f7b9ef0e943646\i
+                                                                                                 ntel_cst_helper_servic
+                                                                                                 e.exe                 
+ 5236 intel_cst_service_standalone                                                               C:\WINDOWS\System32\Dr
+                                                                                                 iverStore\FileReposito
+                                                                                                 ry\icst_service.inf_am
+                                                                                                 d64_58f7b9ef0e943646\i
+                                                                                                 ntel_cst_service_stand
+                                                                                                 alone.exe             
+10024 IntelAnalyticsService                                                                      C:\WINDOWS\System32\dr
+                                                                                                 ivers\Intel\ICPS\Intel
+                                                                                                 AnalyticsService.exe  
+ 5152 IntelAudioService                                                                          C:\WINDOWS\System32\Dr
+                                                                                                 iverStore\FileReposito
+                                                                                                 ry\intcoed.inf_amd64_6
+                                                                                                 6ea546960968650\AS\IAS
+                                                                                                 \IntelAudioService.exe
+20692 IntelConnect                                                                               C:\WINDOWS\System32\dr
+                                                                                                 ivers\Intel\ICPS\Intel
+                                                                                                 Connect.exe           
+ 6496 IntelConnectivityNetworkService                                                            C:\WINDOWS\System32\dr
+                                                                                                 ivers\Intel\ICPS\Intel
+                                                                                                 ConnectivityNetworkSer
+                                                                                                 vice.exe              
+ 2592 IntelConnectService                                                                        C:\WINDOWS\System32\dr
+                                                                                                 ivers\Intel\ICPS\Intel
+                                                                                                 ConnectService.exe    
+ 1960 IntelCpHDCPSvc                                                                             C:\WINDOWS\System32\Dr
+                                                                                                 iverStore\FileReposito
+                                                                                                 ry\iigd_dch.inf_amd64_
+                                                                                                 439645f2062b9f7d\Intel
+                                                                                                 CpHDCPSvc.exe         
+ 5260 IntelGraphicsSoftware.Service                                                              C:\Program Files\Intel
+                                                                                                 \Intel Graphics Softwa
+                                                                                                 re\IntelGraphicsSoftwa
+                                                                                                 re.Service.exe        
+18968 IntelProviderDataHelperService                                                             C:\WINDOWS\System32\dr
+                                                                                                 ivers\Intel\ICPS\Intel
+                                                                                                 ProviderDataHelperServ
+                                                                                                 ice.exe               
+10452 ipf_helper                                                                                 C:\WINDOWS\System32\Dr
+                                                                                                 iverStore\FileReposito
+                                                                                                 ry\ipf_cpu.inf_amd64_0
+                                                                                                 49e38a37c46edc4\ipf_he
+                                                                                                 lper.exe              
+ 5316 ipf_uf                                                                                     C:\WINDOWS\System32\Dr
+                                                                                                 iverStore\FileReposito
+                                                                                                 ry\ipf_cpu.inf_amd64_0
+                                                                                                 49e38a37c46edc4\ipf_uf
+                                                                                                 .exe                  
+ 5324 ipfsvc                                                                                     C:\WINDOWS\System32\Dr
+                                                                                                 iverStore\FileReposito
+                                                                                                 ry\dtt_sw.inf_amd64_3e
+                                                                                                 a1838906a8645a\ipfsvc.
+                                                                                                 exe                   
+ 5400 IpOverUsbSvc                                                                               C:\Program Files (x86)
+                                                                                                 \Common Files\Microsof
+                                                                                                 t Shared\Phone Tools\C
+                                                                                                 oreCon\11.0\bin\IpOver
+                                                                                                 UsbSvc.exe            
+ 5300 jhi_service                                                                                C:\WINDOWS\System32\Dr
+                                                                                                 iverStore\FileReposito
+                                                                                                 ry\dal.inf_amd64_3befa
+                                                                                                 a646f991169\jhi_servic
+                                                                                                 e.exe                 
+17304 KHALMNPR                                                                                   C:\Program Files\Commo
+                                                                                                 n Files\LogiShrd\KHAL3
+                                                                                                 \KHALMNPR.EXE         
+17360 laclient                                                                                   C:\Program Files\Commo
+                                                                                                 n Files\Logishrd\LACli
+                                                                                                 ent\laclient.exe      
+12548 logi_crashpad_handler                                                                      C:\Program Files\LogiO
+                                                                                                 ptionsPlus\logi_crashp
+                                                                                                 ad_handler.exe        
+ 9808 logi_crashpad_handler                                                                      C:\Program Files\LogiO
+                                                                                                 ptionsPlus\logi_crashp
+                                                                                                 ad_handler.exe        
+ 5484 logi_lamparray_service                                                                     C:\WINDOWS\System32\Dr
+                                                                                                 iverStore\FileReposito
+                                                                                                 ry\logi_lamparray_usb.
+                                                                                                 inf_amd64_cdf3ca3c77d5
+                                                                                                 f267\logi_lamparray_se
+                                                                                                 rvice.exe             
+10944 logioptionsplus_agent                                                                      C:\Program Files\LogiO
+                                                                                                 ptionsPlus\logioptions
+                                                                                                 plus_agent.exe        
+20364 logioptionsplus_appbroker                                                                  C:\Program Files\LogiO
+                                                                                                 ptionsPlus\logioptions
+                                                                                                 plus_appbroker.exe    
+ 5360 logioptionsplus_updater                                                                    C:\Program Files\LogiO
+                                                                                                 ptionsPlus\logioptions
+                                                                                                 plus_updater.exe      
+ 1268 LsaIso                                                                                                           
+ 1284 lsass                                                                                      C:\WINDOWS\system32\ls
+                                                                                                 ass.exe               
+ 3084 Memory Compression                                                                                               
+ 9092 Microsoft.CmdPal.Ext.PowerToys                                                             C:\Users\ericz\AppData
+                                                                                                 \Local\PowerToys\WinUI
+                                                                                                 3Apps\Microsoft.CmdPal
+                                                                                                 .Ext.PowerToys.exe    
+14728 Microsoft.CmdPal.UI                                                                        C:\Program Files\Windo
+                                                                                                 wsApps\Microsoft.Comma
+                                                                                                 ndPalette_0.10.11181.0
+                                                                                                 _x64__8wekyb3d8bbwe\Mi
+                                                                                                 crosoft.CmdPal.UI.exe 
+ 5272 MpDefenderCoreService                                                                                            
+20628 msedgewebview2                                                                             C:\Program Files (x86)
+                                                                                                 \Microsoft\EdgeWebView
+                                                                                                 \Application\148.0.396
+                                                                                                 7.70\msedgewebview2.ex
+                                                                                                 e                     
+19696 msedgewebview2                                                                             C:\Program Files (x86)
+                                                                                                 \Microsoft\EdgeWebView
+                                                                                                 \Application\148.0.396
+                                                                                                 7.54\msedgewebview2.ex
+                                                                                                 e                     
+19640 msedgewebview2                                                                             C:\Program Files (x86)
+                                                                                                 \Microsoft\EdgeWebView
+                                                                                                 \Application\148.0.396
+                                                                                                 7.54\msedgewebview2.ex
+                                                                                                 e                     
+23704 msedgewebview2                                                                             C:\Program Files (x86)
+                                                                                                 \Microsoft\EdgeWebView
+                                                                                                 \Application\148.0.396
+                                                                                                 7.70\msedgewebview2.ex
+                                                                                                 e                     
+22460 msedgewebview2                                                                             C:\Program Files (x86)
+                                                                                                 \Microsoft\EdgeWebView
+                                                                                                 \Application\148.0.396
+                                                                                                 7.70\msedgewebview2.ex
+                                                                                                 e                     
+22364 msedgewebview2                                                                             C:\Program Files (x86)
+                                                                                                 \Microsoft\EdgeWebView
+                                                                                                 \Application\148.0.396
+                                                                                                 7.70\msedgewebview2.ex
+                                                                                                 e                     
+19632 msedgewebview2                                                                             C:\Program Files (x86)
+                                                                                                 \Microsoft\EdgeWebView
+                                                                                                 \Application\148.0.396
+                                                                                                 7.54\msedgewebview2.ex
+                                                                                                 e                     
+12936 msedgewebview2                                                                             C:\Program Files (x86)
+                                                                                                 \Microsoft\EdgeWebView
+                                                                                                 \Application\148.0.396
+                                                                                                 7.54\msedgewebview2.ex
+                                                                                                 e                     
+12484 msedgewebview2                                                                             C:\Program Files (x86)
+                                                                                                 \Microsoft\EdgeWebView
+                                                                                                 \Application\148.0.396
+                                                                                                 7.70\msedgewebview2.ex
+                                                                                                 e                     
+ 2948 msedgewebview2                                                                             C:\Program Files (x86)
+                                                                                                 \Microsoft\EdgeWebView
+                                                                                                 \Application\148.0.396
+                                                                                                 7.54\msedgewebview2.ex
+                                                                                                 e                     
+19040 msedgewebview2                                                                             C:\Program Files (x86)
+                                                                                                 \Microsoft\EdgeWebView
+                                                                                                 \Application\148.0.396
+                                                                                                 7.54\msedgewebview2.ex
+                                                                                                 e                     
+17204 msedgewebview2                                                                             C:\Program Files (x86)
+                                                                                                 \Microsoft\EdgeWebView
+                                                                                                 \Application\148.0.396
+                                                                                                 7.54\msedgewebview2.ex
+                                                                                                 e                     
+16640 msedgewebview2                                                                             C:\Program Files (x86)
+                                                                                                 \Microsoft\EdgeWebView
+                                                                                                 \Application\148.0.396
+                                                                                                 7.70\msedgewebview2.ex
+                                                                                                 e                     
+ 5748 MsMpEng                                                                                                          
+ 5332 mysqld                                                                                     C:\tools\xampp\mysql\b
+                                                                                                 in\mysqld.exe         
+ 3180 NetworkCap                                                                                 C:\WINDOWS\System32\Dr
+                                                                                                 iverStore\FileReposito
+                                                                                                 ry\hpcustomcapcomp.inf
+                                                                                                 _amd64_db0ee1e66e6d408
+                                                                                                 e\x64\NetworkCap.exe  
+10784 NisSrv                                                                                                           
+ 5280 nlssrv32                                                                                   C:\WINDOWS\SysWOW64\nl
+                                                                                                 ssrv32.exe            
+ 5428 nssm_64                                                                                    C:\Program Files\Print
+                                                                                                 Node\nssm_64.exe      
+ 5252 OfficeClickToRun                                                                           C:\Program Files\Commo
+                                                                                                 n Files\Microsoft Shar
+                                                                                                 ed\ClickToRun\OfficeCl
+                                                                                                 ickToRun.exe          
+ 5144 OneApp.IGCC.WinService                                                                     C:\WINDOWS\System32\Dr
+                                                                                                 iverStore\FileReposito
+                                                                                                 ry\igcc_dch.inf_amd64_
+                                                                                                 b02dffd8b27dedd4\OneAp
+                                                                                                 p.IGCC.WinService.exe 
+10076 OneDrive                                                                                   C:\Program Files\Micro
+                                                                                                 soft OneDrive\OneDrive
+                                                                                                 .exe                  
+ 9356 OneDrive                                                                                   C:\Program Files\Micro
+                                                                                                 soft OneDrive\OneDrive
+                                                                                                 .exe                  
+18912 OneDrive.Sync.Service                                                                      C:\Program Files\Micro
+                                                                                                 soft OneDrive\26.074.0
+                                                                                                 420.0001\OneDrive.Sync
+                                                                                                 .Service.exe          
+ 8036 OpenConsole                                                                                C:\Program Files\Windo
+                                                                                                 wsApps\Microsoft.Windo
+                                                                                                 wsTerminal_1.24.11321.
+                                                                                                 0_x64__8wekyb3d8bbwe\O
+                                                                                                 penConsole.exe        
+20104 Photoshop                        begin.psd @ 214% (LADY, RGB/8) *                          C:\Program Files (x86)
+                                                                                                 \Adobe Photoshop CS6\A
+                                                                                                 pp\Photoshop\Photoshop
+                                                                                                 .exe                  
+ 9636 Photoshop                                                                                  C:\Program Files (x86)
+                                                                                                 \Adobe Photoshop CS6\P
+                                                                                                 hotoshop.exe          
+10244 powershell                                                                                 C:\Windows\System32\Wi
+                                                                                                 ndowsPowerShell\v1.0\p
+                                                                                                 owershell.exe         
+13424 PowerToys                                                                                  C:\Users\ericz\AppData
+                                                                                                 \Local\PowerToys\Power
+                                                                                                 Toys.exe              
+12408 PowerToys.AlwaysOnTop                                                                      C:\Users\ericz\AppData
+                                                                                                 \Local\PowerToys\Power
+                                                                                                 Toys.AlwaysOnTop.exe  
+12804 PowerToys.Awake                                                                            C:\Users\ericz\AppData
+                                                                                                 \Local\PowerToys\Power
+                                                                                                 Toys.Awake.exe        
+11484 PowerToys.ColorPickerUI                                                                    C:\Users\ericz\AppData
+                                                                                                 \Local\PowerToys\Power
+                                                                                                 Toys.ColorPickerUI.exe
+10336 PowerToys.FancyZones                                                                       C:\Users\ericz\AppData
+                                                                                                 \Local\PowerToys\Power
+                                                                                                 Toys.FancyZones.exe   
+ 4092 PowerToys.MonacoPreviewHandler                                                             C:\Users\ericz\AppData
+                                                                                                 \Local\PowerToys\Power
+                                                                                                 Toys.MonacoPreviewHand
+                                                                                                 ler.exe               
+16276 PowerToys.Peek.UI                                                                          C:\Users\ericz\AppData
+                                                                                                 \Local\PowerToys\WinUI
+                                                                                                 3Apps\PowerToys.Peek.U
+                                                                                                 I.exe                 
+13608 PowerToys.QuickAccess            PowerToys Quick Access (Preview)                          C:\Users\ericz\AppData
+                                                                                                 \Local\PowerToys\WinUI
+                                                                                                 3Apps\PowerToys.QuickA
+                                                                                                 ccess.exe             
+ 7924 PresentMonService                                                                          C:\Program Files\Intel
+                                                                                                 \Intel Graphics Softwa
+                                                                                                 re\PresentMonService.e
+                                                                                                 xe                    
+ 9892 prevhost                                                                                   C:\WINDOWS\system32\pr
+                                                                                                 evhost.exe            
+ 6756 PrintNodeService                                                                           C:\Program Files\Print
+                                                                                                 Node\PrintNodeService.
+                                                                                                 exe                   
   236 Registry                                                                                                         
-14056 RtkAudUService64                                                   C:\WINDOWS\System32\DriverStore\FileRepository
-                                                                         \realtekservice.inf_amd64_cd9395798dc1b01f\Rtk
-                                                                         AudUService64.exe                             
- 6776 RtkAudUService64                                                   C:\Windows\System32\DriverStore\FileRepository
-                                                                         \realtekservice.inf_amd64_cd9395798dc1b01f\Rtk
-                                                                         AudUService64.exe                             
- 5264 RtkAudUService64                                                   C:\WINDOWS\System32\DriverStore\FileRepository
-                                                                         \realtekservice.inf_amd64_cd9395798dc1b01f\Rtk
-                                                                         AudUService64.exe                             
- 6752 RuntimeBroker                                                      C:\Windows\System32\RuntimeBroker.exe         
- 3636 RuntimeBroker                                                      C:\Windows\System32\RuntimeBroker.exe         
- 7024 SDXHelper                                                          C:\Program Files\Microsoft Office\Root\Office1
-                                                                         6\SDXHelper.exe                               
-12268 SearchHost                                                         C:\WINDOWS\SystemApps\MicrosoftWindows.Client.
-                                                                         CBS_cw5n1h2txyewy\SearchHost.exe              
-10120 SearchIndexer                                                      C:\WINDOWS\system32\SearchIndexer.exe         
- 7568 SECOCL64                                                           C:\WINDOWS\System32\SECOCL64.exe              
- 5276 SECOMN64                                                           C:\WINDOWS\System32\SECOMN64.exe              
+17044 RtkAudUService64                                                                           C:\Windows\System32\Dr
+                                                                                                 iverStore\FileReposito
+                                                                                                 ry\realtekservice.inf_
+                                                                                                 amd64_da83c4764fd71b24
+                                                                                                 \RtkAudUService64.exe 
+10048 RtkAudUService64                                                                           C:\WINDOWS\System32\Dr
+                                                                                                 iverStore\FileReposito
+                                                                                                 ry\realtekservice.inf_
+                                                                                                 amd64_da83c4764fd71b24
+                                                                                                 \RtkAudUService64.exe 
+ 5536 RtkAudUService64                                                                           C:\WINDOWS\System32\Dr
+                                                                                                 iverStore\FileReposito
+                                                                                                 ry\realtekservice.inf_
+                                                                                                 amd64_da83c4764fd71b24
+                                                                                                 \RtkAudUService64.exe 
+19292 RuntimeBroker                                                                              C:\Windows\System32\Ru
+                                                                                                 ntimeBroker.exe       
+24276 RuntimeBroker                                                                              C:\Windows\System32\Ru
+                                                                                                 ntimeBroker.exe       
+24776 RuntimeBroker                                                                              C:\Windows\System32\Ru
+                                                                                                 ntimeBroker.exe       
+16484 RuntimeBroker                                                                              C:\Windows\System32\Ru
+                                                                                                 ntimeBroker.exe       
+ 2644 RuntimeBroker                                                                              C:\Windows\System32\Ru
+                                                                                                 ntimeBroker.exe       
+ 3724 RuntimeBroker                                                                              C:\Windows\System32\Ru
+                                                                                                 ntimeBroker.exe       
+13716 RuntimeBroker                                                                              C:\Windows\System32\Ru
+                                                                                                 ntimeBroker.exe       
+20224 SDXHelper                                                                                  C:\Program Files\Micro
+                                                                                                 soft Office\Root\Offic
+                                                                                                 e16\SDXHelper.exe     
+14300 SearchHost                                                                                 C:\WINDOWS\SystemApps\
+                                                                                                 MicrosoftWindows.Clien
+                                                                                                 t.CBS_cw5n1h2txyewy\Se
+                                                                                                 archHost.exe          
+12488 SearchIndexer                                                                              C:\WINDOWS\system32\Se
+                                                                                                 archIndexer.exe       
+11280 SECOCL64                                                                                   C:\WINDOWS\System32\SE
+                                                                                                 COCL64.exe            
+ 5588 SECOMN64                                                                                   C:\WINDOWS\System32\SE
+                                                                                                 COMN64.exe            
   204 Secure System                                                                                                    
-13256 SecurityHealthService                                                                                            
- 6800 SecurityHealthSystray                                              C:\Windows\System32\SecurityHealthSystray.exe 
- 1320 services                                                                                                         
- 8560 sihost                                                             C:\WINDOWS\system32\sihost.exe                
- 3952 smartscreen                                                        C:\Windows\System32\smartscreen.exe           
-  860 smss                                                                                                             
- 4024 SnippingTool                     Knipprogramma                     C:\Program Files\WindowsApps\Microsoft.ScreenS
-                                                                         ketch_11.2505.21.0_x64__8wekyb3d8bbwe\Snipping
-                                                                         Tool\SnippingTool.exe                         
- 4560 spoolsv                                                            C:\WINDOWS\System32\spoolsv.exe               
-10616 StartMenuExperienceHost                                            C:\Windows\SystemApps\Microsoft.Windows.StartM
-                                                                         enuExperienceHost_cw5n1h2txyewy\StartMenuExper
-                                                                         ienceHost.exe                                 
- 7080 steam                                                              C:\Program Files (x86)\Steam\steam.exe        
- 9128 steamwebhelper                                                     C:\Program Files (x86)\Steam\bin\cef\cef.win7x
-                                                                         64\steamwebhelper.exe                         
-13528 steamwebhelper                                                     C:\Program Files (x86)\Steam\bin\cef\cef.win7x
-                                                                         64\steamwebhelper.exe                         
-15540 steamwebhelper                                                     C:\Program Files (x86)\Steam\bin\cef\cef.win7x
-                                                                         64\steamwebhelper.exe                         
- 7696 steamwebhelper                                                     C:\Program Files (x86)\Steam\bin\cef\cef.win7x
-                                                                         64\steamwebhelper.exe                         
- 5420 steamwebhelper                                                     C:\Program Files (x86)\Steam\bin\cef\cef.win7x
-                                                                         64\steamwebhelper.exe                         
- 6432 steamwebhelper                                                     C:\Program Files (x86)\Steam\bin\cef\cef.win7x
-                                                                         64\steamwebhelper.exe                         
- 6956 steamwebhelper                   Steam                             C:\Program Files (x86)\Steam\bin\cef\cef.win7x
-                                                                         64\steamwebhelper.exe                         
- 5220 SurSvc                                                             C:\Program Files\Intel\SUR\QUEENCREEK\SurSvc.e
-                                                                         xe                                            
- 4776 svchost                                                            C:\WINDOWS\System32\svchost.exe               
- 4496 svchost                                                            C:\WINDOWS\system32\svchost.exe               
- 6428 svchost                                                            C:\WINDOWS\system32\svchost.exe               
- 5012 svchost                                                                                                          
- 4408 svchost                                                            C:\WINDOWS\System32\svchost.exe               
- 4200 svchost                                                            C:\WINDOWS\system32\svchost.exe               
- 4488 svchost                                                                                                          
- 4480 svchost                                                            C:\WINDOWS\system32\svchost.exe               
- 8588 svchost                                                            C:\WINDOWS\system32\svchost.exe               
-11952 svchost                                                            C:\WINDOWS\system32\svchost.exe               
- 9988 svchost                                                            C:\WINDOWS\system32\svchost.exe               
-14364 svchost                                                            C:\WINDOWS\system32\svchost.exe               
-13708 svchost                                                                                                          
- 8608 svchost                                                            C:\WINDOWS\system32\svchost.exe               
- 8600 svchost                                                            C:\WINDOWS\system32\svchost.exe               
- 9084 svchost                                                            C:\WINDOWS\System32\svchost.exe               
- 8680 svchost                                                            C:\WINDOWS\system32\svchost.exe               
- 3708 svchost                                                            C:\WINDOWS\System32\svchost.exe               
- 1848 svchost                                                            C:\WINDOWS\system32\svchost.exe               
- 1820 svchost                                                            C:\WINDOWS\system32\svchost.exe               
- 1916 svchost                                                            C:\WINDOWS\system32\svchost.exe               
- 1856 svchost                                                            C:\WINDOWS\system32\svchost.exe               
- 1448 svchost                                                            C:\WINDOWS\system32\svchost.exe               
- 1212 svchost                                                            C:\WINDOWS\system32\svchost.exe               
- 1612 svchost                                                            C:\WINDOWS\system32\svchost.exe               
- 1508 svchost                                                            C:\WINDOWS\system32\svchost.exe               
- 2104 svchost                                                            C:\WINDOWS\System32\svchost.exe               
- 2844 svchost                                                            C:\WINDOWS\system32\svchost.exe               
- 2360 svchost                                                            C:\WINDOWS\system32\svchost.exe               
- 3504 svchost                                                            C:\WINDOWS\system32\svchost.exe               
- 3472 svchost                                                            C:\WINDOWS\system32\svchost.exe               
- 2176 svchost                                                            C:\WINDOWS\system32\svchost.exe               
- 2124 svchost                                                            C:\WINDOWS\system32\svchost.exe               
- 2328 svchost                                                            C:\WINDOWS\system32\svchost.exe               
- 2240 svchost                                                            C:\WINDOWS\system32\svchost.exe               
-14216 SynTPEnh                                                           C:\WINDOWS\System32\SynTPEnh.exe              
- 2716 SynTPEnhService                                                    C:\WINDOWS\System32\SynTPEnhService.exe       
- 3280 SysInfoCap                                                         C:\WINDOWS\System32\DriverStore\FileRepository
-                                                                         \hpcustomcapcomp.inf_amd64_1466604327697633\x6
-                                                                         4\SysInfoCap.exe                              
+16980 SecurityHealthService                                                                                            
+16960 SecurityHealthSystray                                                                      C:\Windows\System32\Se
+                                                                                                 curityHealthSystray.ex
+                                                                                                 e                     
+ 1248 services                                                                                                         
+17156 SetPoint                                                                                   C:\Program Files\Logit
+                                                                                                 ech\SetPointP\SetPoint
+                                                                                                 .exe                  
+ 9152 ShellExperienceHost                                                                        C:\WINDOWS\SystemApps\
+                                                                                                 ShellExperienceHost_cw
+                                                                                                 5n1h2txyewy\ShellExper
+                                                                                                 ienceHost.exe         
+11104 sihost                                                                                     C:\WINDOWS\system32\si
+                                                                                                 host.exe              
+21632 smartscreen                                                                                C:\Windows\System32\sm
+                                                                                                 artscreen.exe         
+  848 smss                                                                                                             
+ 4640 spoolsv                                                                                    C:\WINDOWS\System32\sp
+                                                                                                 oolsv.exe             
+ 6248 sshd                                                                                       C:\WINDOWS\System32\Op
+                                                                                                 enSSH\sshd.exe        
+14332 StartMenuExperienceHost                                                                    C:\Windows\SystemApps\
+                                                                                                 Microsoft.Windows.Star
+                                                                                                 tMenuExperienceHost_cw
+                                                                                                 5n1h2txyewy\StartMenuE
+                                                                                                 xperienceHost.exe     
+ 5632 SurSvc                                                                                     C:\Program Files\Intel
+                                                                                                 \SUR\QUEENCREEK\SurSvc
+                                                                                                 .exe                  
+ 5740 svchost                                                                                    C:\WINDOWS\system32\sv
+                                                                                                 chost.exe             
+ 5000 svchost                                                                                    C:\WINDOWS\System32\sv
+                                                                                                 chost.exe             
+ 6684 svchost                                                                                    C:\WINDOWS\system32\sv
+                                                                                                 chost.exe             
+ 9324 svchost                                                                                    C:\WINDOWS\system32\sv
+                                                                                                 chost.exe             
+ 9300 svchost                                                                                    C:\WINDOWS\system32\sv
+                                                                                                 chost.exe             
+ 4356 svchost                                                                                    C:\WINDOWS\system32\sv
+                                                                                                 chost.exe             
+ 4348 svchost                                                                                    C:\WINDOWS\System32\sv
+                                                                                                 chost.exe             
+ 4476 svchost                                                                                    C:\WINDOWS\system32\sv
+                                                                                                 chost.exe             
+ 4788 svchost                                                                                    C:\WINDOWS\System32\sv
+                                                                                                 chost.exe             
+ 4496 svchost                                                                                    C:\WINDOWS\System32\sv
+                                                                                                 chost.exe             
+16040 svchost                                                                                    C:\WINDOWS\system32\sv
+                                                                                                 chost.exe             
+14184 svchost                                                                                    C:\WINDOWS\system32\sv
+                                                                                                 chost.exe             
+17188 svchost                                                                                    C:\WINDOWS\system32\sv
+                                                                                                 chost.exe             
+18588 svchost                                                                                    C:\WINDOWS\System32\sv
+                                                                                                 chost.exe             
+17460 svchost                                                                                    C:\WINDOWS\system32\sv
+                                                                                                 chost.exe             
+10896 svchost                                                                                    C:\WINDOWS\system32\sv
+                                                                                                 chost.exe             
+10564 svchost                                                                                    C:\WINDOWS\system32\sv
+                                                                                                 chost.exe             
+10900 svchost                                                                                    C:\WINDOWS\system32\sv
+                                                                                                 chost.exe             
+13936 svchost                                                                                    C:\WINDOWS\system32\sv
+                                                                                                 chost.exe             
+10936 svchost                                                                                    C:\WINDOWS\system32\sv
+                                                                                                 chost.exe             
+ 1856 svchost                                                                                    C:\WINDOWS\system32\sv
+                                                                                                 chost.exe             
+ 1800 svchost                                                                                    C:\WINDOWS\system32\sv
+                                                                                                 chost.exe             
+ 1872 svchost                                                                                    C:\WINDOWS\system32\sv
+                                                                                                 chost.exe             
+ 2000 svchost                                                                                    C:\WINDOWS\system32\sv
+                                                                                                 chost.exe             
+ 1888 svchost                                                                                    C:\WINDOWS\system32\sv
+                                                                                                 chost.exe             
+ 1308 svchost                                                                                    C:\WINDOWS\system32\sv
+                                                                                                 chost.exe             
+  456 svchost                                                                                                          
+ 1372 svchost                                                                                    C:\WINDOWS\system32\sv
+                                                                                                 chost.exe             
+ 1536 svchost                                                                                    C:\WINDOWS\system32\sv
+                                                                                                 chost.exe             
+ 1444 svchost                                                                                    C:\WINDOWS\system32\sv
+                                                                                                 chost.exe             
+ 3460 svchost                                                                                    C:\WINDOWS\system32\sv
+                                                                                                 chost.exe             
+ 3240 svchost                                                                                                          
+ 3596 svchost                                                                                    C:\WINDOWS\system32\sv
+                                                                                                 chost.exe             
+ 4164 svchost                                                                                    C:\WINDOWS\system32\sv
+                                                                                                 chost.exe             
+ 3752 svchost                                                                                    C:\WINDOWS\System32\sv
+                                                                                                 chost.exe             
+ 2200 svchost                                                                                    C:\WINDOWS\system32\sv
+                                                                                                 chost.exe             
+ 2120 svchost                                                                                    C:\WINDOWS\System32\sv
+                                                                                                 chost.exe             
+ 2340 svchost                                                                                    C:\WINDOWS\system32\sv
+                                                                                                 chost.exe             
+ 2920 svchost                                                                                    C:\WINDOWS\system32\sv
+                                                                                                 chost.exe             
+ 2904 svchost                                                                                    C:\WINDOWS\system32\sv
+                                                                                                 chost.exe             
+13656 SynTPEnh                                                                                   C:\WINDOWS\System32\Sy
+                                                                                                 nTPEnh.exe            
+ 3008 SynTPEnhService                                                                            C:\WINDOWS\System32\Sy
+                                                                                                 nTPEnhService.exe     
+ 3196 SysInfoCap                                                                                 C:\WINDOWS\System32\Dr
+                                                                                                 iverStore\FileReposito
+                                                                                                 ry\hpcustomcapcomp.inf
+                                                                                                 _amd64_db0ee1e66e6d408
+                                                                                                 e\x64\SysInfoCap.exe  
     4 System                                                                                                           
-13356 TabTip                                                             C:\Program Files\Common Files\microsoft shared
-                                                                         \ink\TabTip.exe                               
- 8800 taskhostw                                                          C:\WINDOWS\system32\taskhostw.exe             
- 7848 Taskmgr                          Taakbeheer                        C:\WINDOWS\System32\Taskmgr.exe               
-14656 TextInputHost                    Windows-invoerervaring            C:\WINDOWS\SystemApps\MicrosoftWindows.Client.
-                                                                         CBS_cw5n1h2txyewy\TextInputHost.exe           
- 3260 TouchpointAnalyticsClientService                                   C:\WINDOWS\System32\DriverStore\FileRepository
-                                                                         \hpanalyticscomp.inf_amd64_bdc4c744cf4529f4\x6
-                                                                         4\TouchpointAnalyticsClientService.exe        
- 4696 UninstallMonitor                                                   C:\Program Files (x86)\IObit\IObit Uninstaller
-                                                                         \UninstallMonitor.exe                         
- 7148 unsecapp                                                           C:\WINDOWS\system32\wbem\unsecapp.exe         
- 4088 unsecapp                                                           C:\WINDOWS\system32\wbem\unsecapp.exe         
-10792 WidgetBoard                                                        C:\Program Files\WindowsApps\MicrosoftWindows.
-                                                                         Client.WebExperience_525.15301.20.0_x64__cw5n1
-                                                                         h2txyewy\WidgetBoard.exe                      
- 3492 WidgetService                                                      C:\Program Files\WindowsApps\Microsoft.Widgets
-                                                                         PlatformRuntime_1.6.9.0_x64__8wekyb3d8bbwe\Wid
-                                                                         getService\WidgetService.exe                  
-15928 WindowsTerminal                  Administrator: Windows PowerShell C:\Program Files\WindowsApps\Microsoft.Windows
-                                                                         Terminal_1.22.11141.0_x64__8wekyb3d8bbwe\Windo
-                                                                         wsTerminal.exe                                
- 1272 wininit                                                                                                          
- 1696 winlogon                                                           C:\WINDOWS\system32\winlogon.exe              
- 4932 wlanext                                                            C:\WINDOWS\system32\WLANExt.exe               
- 3888 WmiPrvSE                                                           C:\WINDOWS\system32\wbem\wmiprvse.exe         
- 3732 WmiPrvSE                                                           C:\WINDOWS\system32\wbem\wmiprvse.exe         
- 5504 WMIRegistrationService                                             C:\WINDOWS\System32\DriverStore\FileRepository
-                                                                         \mewmiprov.inf_amd64_f3c201b4c28c14d0\WMIRegis
-                                                                         trationService.exe                            
- 7268 WUDFHost                                                           C:\Windows\System32\WUDFHost.exe              
- 7808 WUDFHost                                                           C:\Windows\System32\WUDFHost.exe              
- 7064 WUDFHost                                                           C:\Windows\System32\WUDFHost.exe              
- 4432 WUDFHost                                                           C:\Windows\System32\WUDFHost.exe              
- 4768 WUDFHost                                                           C:\Windows\System32\WUDFHost.exe              
- 5284 XtuService                                                         C:\WINDOWS\SysWOW64\XtuService.exe            
+ 3392 SystemSettingsBroker                                                                       C:\Windows\System32\Sy
+                                                                                                 stemSettingsBroker.exe
+12660 TabTip                                                                                     C:\Program Files\Commo
+                                                                                                 n Files\microsoft shar
+                                                                                                 ed\ink\TabTip.exe     
+15676 taskhostw                                                                                  C:\WINDOWS\system32\ta
+                                                                                                 skhostw.exe           
+11196 taskhostw                                                                                  C:\WINDOWS\system32\ta
+                                                                                                 skhostw.exe           
+12336 TextInputHost                    Windows-invoerervaring                                    C:\WINDOWS\SystemApps\
+                                                                                                 MicrosoftWindows.Clien
+                                                                                                 t.CBS_cw5n1h2txyewy\Te
+                                                                                                 xtInputHost.exe       
+ 3208 TouchpointAnalyticsClientService                                                           C:\WINDOWS\System32\Dr
+                                                                                                 iverStore\FileReposito
+                                                                                                 ry\hpanalyticscomp.inf
+                                                                                                 _amd64_ef460d1f2a35fc1
+                                                                                                 6\x64\TouchpointAnalyt
+                                                                                                 icsClientService.exe  
+11400 unsecapp                                                                                   C:\WINDOWS\system32\wb
+                                                                                                 em\unsecapp.exe       
+ 4024 unsecapp                                                                                   C:\WINDOWS\system32\wb
+                                                                                                 em\unsecapp.exe       
+ 6192 usbipd                                                                                     C:\Program Files\usbip
+                                                                                                 d-win\usbipd.exe      
+ 5712 WebManagement                                                                              C:\WINDOWS\system32\We
+                                                                                                 bManagement.exe       
+19296 WhatsApp.Root                                                                              C:\Program Files\Windo
+                                                                                                 wsApps\5319275A.WhatsA
+                                                                                                 ppDesktop_2.2616.100.0
+                                                                                                 _x64__cv1g1gvanyjgm\Wh
+                                                                                                 atsApp.Root.exe       
+13640 WidgetBoard                                                                                C:\Program Files\Windo
+                                                                                                 wsApps\MicrosoftWindow
+                                                                                                 s.Client.WebExperience
+                                                                                                 _526.1202.40.0_x64__cw
+                                                                                                 5n1h2txyewy\WidgetBoar
+                                                                                                 d.exe                 
+14664 WidgetService                                                                              C:\Program Files\Windo
+                                                                                                 wsApps\Microsoft.Widge
+                                                                                                 tsPlatformRuntime_1.6.
+                                                                                                 14.0_x64__8wekyb3d8bbw
+                                                                                                 e\WidgetService\Widget
+                                                                                                 Service.exe           
+ 7816 WindowsPackageManagerServer                                                                C:\Program Files\Windo
+                                                                                                 wsApps\Microsoft.Deskt
+                                                                                                 opAppInstaller_1.28.24
+                                                                                                 0.0_x64__8wekyb3d8bbwe
+                                                                                                 \WindowsPackageManager
+                                                                                                 Server.exe            
+13904 WindowsTerminal                  Administrator: Windows PowerShell                         C:\Program Files\Windo
+                                                                                                 wsApps\Microsoft.Windo
+                                                                                                 wsTerminal_1.24.11321.
+                                                                                                 0_x64__8wekyb3d8bbwe\W
+                                                                                                 indowsTerminal.exe    
+ 1200 wininit                                                                                                          
+ 1640 winlogon                                                                                   C:\WINDOWS\system32\wi
+                                                                                                 nlogon.exe            
+ 4808 wlanext                                                                                    C:\WINDOWS\system32\WL
+                                                                                                 ANExt.exe             
+23780 WmiPrvSE                                                                                   C:\WINDOWS\system32\wb
+                                                                                                 em\wmiprvse.exe       
+ 2284 WmiPrvSE                                                                                   C:\WINDOWS\system32\wb
+                                                                                                 em\wmiprvse.exe       
+ 5760 WMIRegistrationService                                                                     C:\WINDOWS\System32\Dr
+                                                                                                 iverStore\FileReposito
+                                                                                                 ry\mewmiprov.inf_amd64
+                                                                                                 _f3c201b4c28c14d0\WMIR
+                                                                                                 egistrationService.exe
+ 3248 WUDFHost                                                                                   C:\Windows\System32\WU
+                                                                                                 DFHost.exe            
+ 3620 WUDFHost                                                                                   C:\Windows\System32\WU
+                                                                                                 DFHost.exe            
+ 9156 WUDFHost                                                                                   C:\Windows\System32\WU
+                                                                                                 DFHost.exe            
+ 1648 WUDFHost                                                                                   C:\Windows\System32\WU
+                                                                                                 DFHost.exe            
+ 1784 WUDFHost                                                                                   C:\Windows\System32\WU
+                                                                                                 DFHost.exe            
+ 1936 WUDFHost                                                                                   C:\Windows\System32\WU
+                                                                                                 DFHost.exe            
+ 5860 XtuService                                                                                 C:\WINDOWS\SysWOW64\Xt
+                                                                                                 uService.exe          
 
 
 

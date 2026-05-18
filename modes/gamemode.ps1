@@ -1,87 +1,124 @@
-# 🔐 Check admin
-if (-not ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator")) {
-    Write-Host "Herstart als Administrator vereist..."
-    Start-Process powershell "-ExecutionPolicy Bypass -File `"$PSCommandPath`"" -Verb RunAs
-    exit
-}
+# ============================================================================
+# gamemode.ps1
+# ============================================================================
 
-Write-Host "🎮 Game-modus wordt gestart..." -ForegroundColor Cyan
-
-# Sluit niet-essentiële processen
-# $killList = @(
-#     "chrome", "firefox", "msedge", "brave", "vivaldi", "opera", "iexplore", "safari",
-#     "OneDrive", "Teams", "Zoom", "Discord", "Spotify", "Signal", "WhatsApp",
-#     "phpstorm64", "code", "idea64", "datagrip64", "ollama", "ollama app", "Ollama",
-#     "wampmanager", "mysqld", "httpd", "node", "ngrok",
-#     "YourPhone", "Widgets", "Cortana", "RuntimeBroker", "StartMenuExperienceHost", "SearchIndexer",
-#     "XboxGameBar", "GameBar", "GameBarFTServer"
-# )
-
-$killList = @(
-    # Browsers
-    "brave", "chrome", "firefox", "iexplore", "msedge", "opera", "safari", "vivaldi",
-
-    # Cloud & communicatie
-    "Discord", "OneDrive", "Signal", "Spotify", "Teams", "WhatsApp", "Zoom",
-
-    # Dev/tools
-    "code", "Code", "datagrip64", "idea64", "ngrok", "node", "ollama", "ollama app", "Ollama",
-    "phpstorm64", "wampmanager", "mysqld", "httpd",
-
-    # PrintNode
-    "nssm_64", "PrintNodeService",
-
-    # HP/Printer/Intel/Support
-    "AppHelperCap", "CTHelper", "DiagsCap", "DisplayControl", "DisplayControlService", "DSAUpdateService",
-    "DYMOConnectPnPService", "FileSyncHelper", "HPSF", "HPSupportAssistant", "HPSupportSolutionsFrameworkService",
-    "hpwuschd2", "ibguard", "ibserver", "IntelAnalyticsService", "IntelAudioService", "IntelConnect",
-    "IntelConnectService", "IntelConnectivityNetworkService", "IntelGraphicsSoftware", "IntelGraphicsSoftware.Service",
-    "IntelProviderDataHelperService", "NetworkCap", "PresentMonService", "SysInfoCap", "XtuService", "UninstallMonitor", "Microsoft.SharePoint",
-
-    # Windows extra’s & achtergrond
-    "Cortana", "GameBar", "GameBarFTServer", "RuntimeBroker", "SearchHost", "SearchIndexer", "StartMenuExperienceHost",
-    "Taskmgr", "TouchpointAnalyticsClientService", "Widgets", "WidgetBoard", "WidgetService", "YourPhone", "TabTip", "XboxGameBar",
-
-    # Extra: Knipprogramma
-    "SnippingTool", "SnipAndSketch"
+param(
+    [switch]$KeepExplorer,
+    [switch]$NoSteam,
+    [switch]$NoSelfElevate
 )
 
+# Admin check
+if (-not $NoSelfElevate) {
+    $IsAdmin = ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole(
+        [Security.Principal.WindowsBuiltInRole]::Administrator
+    )
 
-foreach ($proc in $killList) {
-    Write-Host "Sluiten van $proc.exe (indien actief)..."
-    Stop-Process -Name $proc -Force -ErrorAction SilentlyContinue
+    if (-not $IsAdmin) {
+        Start-Process powershell.exe -Verb RunAs -ArgumentList "-ExecutionPolicy Bypass -File `"$PSCommandPath`""
+        exit
+    }
 }
 
-# Sluit ALLE explorer-processen (taakbalk, vensters)
-Write-Host "Sluiten van ALLE Windows Verkenner (explorer.exe, incl. taakbalk)..."
-Get-Process -Name explorer -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue
+$ProcessesToKill = @(
+    "chrome",
+    "msedge",
+    "firefox",
+    "WhatsApp",
+    "Discord",
+    "Teams",
+    "Skype",
+    "OneDrive",
+    "figma_agent",
+    "Code",
+    "code",
+    "PowerToys",
+    "PowerToys.Peek.UI",
+    "PowerToys.ColorPickerUI",
+    "PowerToys.QuickAccess",
+    "Microsoft.CmdPal.UI",
+    "Microsoft.CmdPal.Ext.PowerToys",
+    "DSATray",
+    "IntelConnect",
+    "logioptionsplus_agent",
+    "logioptionsplus_updater",
+    "WidgetBoard",
+    "mysqld"
+)
 
-Start-Sleep -Seconds 2 # even wachten tot alles echt afgesloten is
+$ServicesToStop = @(
+    "SysMain",
+    "WSearch",
+    "SystemUsageReportSvc_QUEENCREEK",
+    "DSAService",
+    "DSAUpdateService",
+    "Intel Analytics Service",
+    "HpTouchpointAnalyticsService"
+)
 
+Write-Host ""
+Write-Host "==================================================" -ForegroundColor Cyan
+Write-Host " GAME MODE ACTIVATED" -ForegroundColor Cyan
+Write-Host "==================================================" -ForegroundColor Cyan
+Write-Host ""
 
+$os = Get-CimInstance Win32_OperatingSystem
+$totalRamMB = [math]::Round($os.TotalVisibleMemorySize / 1024, 0)
+$freeRamMB  = [math]::Round($os.FreePhysicalMemory / 1024, 0)
 
-# Stop zware Windows services
-$services = @("SysMain","WSearch","MapsBroker","DiagTrack","PrintNotify")
-foreach ($service in $services) {
-    Write-Host "Stoppen van Windows service: $service..."
-    Stop-Service -Name $service -Force -ErrorAction SilentlyContinue
+Write-Host "RAM BEFORE : $freeRamMB MB free of $totalRamMB MB" -ForegroundColor Yellow
+Write-Host ""
+
+Write-Host "Closing processes..." -ForegroundColor Cyan
+
+foreach ($proc in $ProcessesToKill) {
+    Get-Process -Name $proc -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue
 }
 
-# Start Steam als nodig
-if (-not (Get-Process -Name "steam" -ErrorAction SilentlyContinue)) {
-    Write-Host "Steam wordt gestart..."
-    Start-Process "C:\Program Files (x86)\Steam\steam.exe"
-    Start-Sleep -Seconds 7
+Write-Host ""
+Write-Host "Stopping services..." -ForegroundColor Cyan
+
+foreach ($svc in $ServicesToStop) {
+    $service = Get-Service -Name $svc -ErrorAction SilentlyContinue
+
+    if ($service -and $service.Status -eq "Running") {
+        Stop-Service -Name $svc -Force -ErrorAction SilentlyContinue
+    }
 }
 
-# Start 1 nieuwe explorer.exe (voor taakbalk & bureaublad)
-# Explorer (taakbalk/bureaublad) alleen starten indien nodig:
-if (-not (Get-Process -Name "explorer" -ErrorAction SilentlyContinue)) {
-    Write-Host "explorer.exe draait niet, wordt nu gestart..."
-    Start-Process explorer.exe
-    Write-Host "✅ explorer.exe is gestart."
-} else {
-    Write-Host "explorer.exe draait al, starten is niet nodig."
+if (-not $KeepExplorer) {
+    Write-Host ""
+    Write-Host "Closing Explorer..." -ForegroundColor Cyan
+    Stop-Process -Name explorer -Force -ErrorAction SilentlyContinue
 }
 
-Write-Host "✅ Game-modus actief! Alles opgeschoond." -ForegroundColor Green
+Write-Host ""
+Write-Host "Running memory cleanup..." -ForegroundColor Cyan
+
+[System.GC]::Collect()
+[System.GC]::WaitForPendingFinalizers()
+[System.GC]::Collect()
+
+if (-not $NoSteam) {
+    Write-Host ""
+    Write-Host "Starting Steam..." -ForegroundColor Cyan
+    Start-Process "steam://open/main" -ErrorAction SilentlyContinue
+}
+
+Start-Sleep -Seconds 3
+
+$os2 = Get-CimInstance Win32_OperatingSystem
+$freeRamMB2 = [math]::Round($os2.FreePhysicalMemory / 1024, 0)
+$gain = $freeRamMB2 - $freeRamMB
+
+Write-Host ""
+Write-Host "==================================================" -ForegroundColor Green
+Write-Host " GAME MODE READY" -ForegroundColor Green
+Write-Host "==================================================" -ForegroundColor Green
+Write-Host ""
+
+Write-Host "RAM AFTER  : $freeRamMB2 MB free" -ForegroundColor Green
+Write-Host "RAM GAINED : $gain MB" -ForegroundColor Green
+Write-Host ""
+
+exit 0
