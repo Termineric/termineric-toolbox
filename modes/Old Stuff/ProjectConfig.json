@@ -1,0 +1,71 @@
+{
+    "DefaultFolders": [
+        {
+            "Name": "Common Project Files",
+            "Files": [
+                "README.md",
+                "GlobalConstantsUnit.pas"
+            ]
+        },
+        {
+            "Name": "Database Scripts",
+            "Files": [
+                "DB_Init.sql"
+            ]
+        },
+        {
+            "Name": "Graphical",
+            "Files": []
+        },
+        {
+            "Name": "Documents",
+            "Files": [
+                "Project_Notes.docx"
+            ]
+        },
+        {
+            "Name": "Settings-Info",
+            "Files": [
+                "Settings_Readme.txt",
+                "Options_Table.txt"
+            ]
+        }
+    ],
+    "WebFolders": [
+        {
+            "Name": "Web-Src",
+            "Files": []
+        }
+    ],
+    "ProjectTypes": {
+        "Delphi": {
+            "ExtraFolders": [
+                {
+                    "Name": "Source",
+                    "Files": [
+                        "MainForm.pas",
+                        "MainForm.dfm",
+                        "DataModule.pas"
+                    ]
+                },
+                {
+                    "Name": "Units",
+                    "Files": [
+                        "Unit1.pas",
+                        "Unit2.pas"
+                    ]
+                }
+            ]
+        },
+        "PHP vanilla": {
+            "ExtraFolders": [
+                "Web-Src"
+            ]
+        },
+        "Laravel": {
+            "ExtraFolders": [
+                "Web-Src"
+            ]
+        }
+    }
+}

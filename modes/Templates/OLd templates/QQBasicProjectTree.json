@@ -1,0 +1,740 @@
+﻿[
+    {
+        "content":  "",
+        "name":  "Apps-Help",
+        "children":  {
+                         "content":  "",
+                         "name":  "Dummy.File",
+                         "children":  {
+
+                                      },
+                         "_id":  "ffcaa7d5a3b58c0ab27f0942",
+                         "ProjectTypes":  [
+                                              "Delphi",
+                                              "Laravel"
+                                          ],
+                         "type":  "file"
+                     },
+        "_id":  "c0f8540884e9ad6767b53381",
+        "ProjectTypes":  "General",
+        "type":  "folder"
+    },
+    {
+        "content":  "",
+        "name":  "Beta Version",
+        "children":  [
+                         {
+                             "content":  "",
+                             "name":  "All others stuff",
+                             "children":  {
+                                              "content":  "",
+                                              "name":  "Dummy.File",
+                                              "children":  {
+
+                                                           },
+                                              "_id":  "5f7af2e5f33021dfc74ff051",
+                                              "ProjectTypes":  [
+                                                                   "Delphi",
+                                                                   "Laravel"
+                                                               ],
+                                              "type":  "file"
+                                          },
+                             "_id":  "c8fe2864c48aa5710121c479",
+                             "ProjectTypes":  "General",
+                             "type":  "folder"
+                         },
+                         {
+                             "content":  "",
+                             "name":  "Apps-Help",
+                             "children":  [
+                                              {
+                                                  "content":  "",
+                                                  "name":  "Images",
+                                                  "children":  {
+                                                                   "content":  "",
+                                                                   "name":  "Dummy.File",
+                                                                   "children":  {
+
+                                                                                },
+                                                                   "_id":  "1f4d24de5a51c9b787bc7feb",
+                                                                   "ProjectTypes":  [
+                                                                                        "Delphi",
+                                                                                        "Laravel"
+                                                                                    ],
+                                                                   "type":  "file"
+                                                               },
+                                                  "_id":  "60b32481ab49f07fe8b235b4",
+                                                  "ProjectTypes":  "General",
+                                                  "type":  "folder"
+                                              },
+                                              {
+                                                  "content":  "",
+                                                  "name":  "Dummy.File",
+                                                  "children":  {
+
+                                                               },
+                                                  "_id":  "7e0ba928c13332ed2afa17d9",
+                                                  "ProjectTypes":  [
+                                                                       "Delphi",
+                                                                       "Laravel"
+                                                                   ],
+                                                  "type":  "file"
+                                              }
+                                          ],
+                             "_id":  "f5043aed2fb7d738474f27cc",
+                             "ProjectTypes":  "General",
+                             "type":  "folder"
+                         },
+                         {
+                             "content":  "",
+                             "name":  "DataBase",
+                             "children":  [
+                                              {
+                                                  "content":  "",
+                                                  "name":  "MetaData",
+                                                  "children":  {
+                                                                   "content":  "",
+                                                                   "name":  "Dummy.File",
+                                                                   "children":  {
+
+                                                                                },
+                                                                   "_id":  "200f6c8426c4d743f739cedc",
+                                                                   "ProjectTypes":  [
+                                                                                        "Delphi",
+                                                                                        "Laravel"
+                                                                                    ],
+                                                                   "type":  "file"
+                                                               },
+                                                  "_id":  "7ee28f0802c789f585a1388e",
+                                                  "ProjectTypes":  "General",
+                                                  "type":  "folder"
+                                              },
+                                              {
+                                                  "content":  "",
+                                                  "name":  "Dummy.File",
+                                                  "children":  {
+
+                                                               },
+                                                  "_id":  "732ebc10fca47a3a240bf15d",
+                                                  "ProjectTypes":  [
+                                                                       "Delphi",
+                                                                       "Laravel"
+                                                                   ],
+                                                  "type":  "file"
+                                              }
+                                          ],
+                             "_id":  "ff7fcd16bffbc0dccf3d8fc8",
+                             "ProjectTypes":  "General",
+                             "type":  "folder"
+                         },
+                         {
+                             "content":  "",
+                             "name":  "File Base",
+                             "children":  {
+                                              "content":  "",
+                                              "name":  "Dummy.File",
+                                              "children":  {
+
+                                                           },
+                                              "_id":  "62878f739ae5e94911edf680",
+                                              "ProjectTypes":  [
+                                                                   "Delphi",
+                                                                   "Laravel"
+                                                               ],
+                                              "type":  "file"
+                                          },
+                             "_id":  "2dcbe7cb129b3165990cdc4f",
+                             "ProjectTypes":  "General",
+                             "type":  "folder"
+                         },
+                         {
+                             "content":  "",
+                             "name":  "Legacy Folder",
+                             "children":  {
+                                              "content":  "",
+                                              "name":  "Dummy.File",
+                                              "children":  {
+
+                                                           },
+                                              "_id":  "fb7bee7fa5e5569916e72820",
+                                              "ProjectTypes":  [
+                                                                   "Delphi",
+                                                                   "Laravel"
+                                                               ],
+                                              "type":  "file"
+                                          },
+                             "_id":  "e24e93d495aa244c1c193f17",
+                             "ProjectTypes":  "General",
+                             "type":  "folder"
+                         },
+                         {
+                             "content":  "",
+                             "name":  "Log",
+                             "children":  {
+                                              "content":  "",
+                                              "name":  "Dummy.File",
+                                              "children":  {
+
+                                                           },
+                                              "_id":  "a8b7447087db925bd8565a7c",
+                                              "ProjectTypes":  [
+                                                                   "Delphi",
+                                                                   "Laravel"
+                                                               ],
+                                              "type":  "file"
+                                          },
+                             "_id":  "4fc81a2564f7e48192494d70",
+                             "ProjectTypes":  "General",
+                             "type":  "folder"
+                         },
+                         {
+                             "content":  "",
+                             "name":  "Reports",
+                             "children":  {
+                                              "content":  "",
+                                              "name":  "Dummy.File",
+                                              "children":  {
+
+                                                           },
+                                              "_id":  "4ebde7401793d76029629457",
+                                              "ProjectTypes":  [
+                                                                   "Delphi",
+                                                                   "Laravel"
+                                                               ],
+                                              "type":  "file"
+                                          },
+                             "_id":  "42d1d0074ae859d6d84311a3",
+                             "ProjectTypes":  "General",
+                             "type":  "folder"
+                         },
+                         {
+                             "content":  "",
+                             "name":  "Temps",
+                             "children":  {
+                                              "content":  "",
+                                              "name":  "Dummy.File",
+                                              "children":  {
+
+                                                           },
+                                              "_id":  "0f8abf6a47c5009ed1c1b389",
+                                              "ProjectTypes":  [
+                                                                   "Delphi",
+                                                                   "Laravel"
+                                                               ],
+                                              "type":  "file"
+                                          },
+                             "_id":  "e73f1f43ac12905bedd30894",
+                             "ProjectTypes":  "General",
+                             "type":  "folder"
+                         },
+                         {
+                             "content":  "",
+                             "name":  "Dummy.File",
+                             "children":  {
+
+                                          },
+                             "_id":  "eea741c6ed1b91a3e877fd75",
+                             "ProjectTypes":  [
+                                                  "Delphi",
+                                                  "Laravel"
+                                              ],
+                             "type":  "file"
+                         },
+                         {
+                             "content":  "DQoNCg==",
+                             "name":  "Settings.cfg",
+                             "children":  {
+
+                                          },
+                             "_id":  "76569dbb6192c91d95b8a943",
+                             "ProjectTypes":  [
+                                                  "Delphi",
+                                                  "Laravel"
+                                              ],
+                             "type":  "file"
+                         }
+                     ],
+        "_id":  "6c14d7019c82e1860a5732a6",
+        "ProjectTypes":  "General",
+        "type":  "folder"
+    },
+    {
+        "content":  "",
+        "name":  "Commen Project Files",
+        "children":  {
+                         "content":  "",
+                         "name":  "Dummy.File",
+                         "children":  {
+
+                                      },
+                         "_id":  "731f05965c507496c4bbf9a9",
+                         "ProjectTypes":  [
+                                              "Delphi",
+                                              "Laravel"
+                                          ],
+                         "type":  "file"
+                     },
+        "_id":  "71132f55820b1c671b712774",
+        "ProjectTypes":  "General",
+        "type":  "folder"
+    },
+    {
+        "content":  "",
+        "name":  "Current Version",
+        "children":  {
+                         "content":  "",
+                         "name":  "Dummy.File",
+                         "children":  {
+
+                                      },
+                         "_id":  "a3b6de71b1dfe20c33fba321",
+                         "ProjectTypes":  [
+                                              "Delphi",
+                                              "Laravel"
+                                          ],
+                         "type":  "file"
+                     },
+        "_id":  "d12c29b97d7e6011731375e2",
+        "ProjectTypes":  "General",
+        "type":  "folder"
+    },
+    {
+        "content":  "",
+        "name":  "DataBase Scripts",
+        "children":  [
+                         {
+                             "content":  "",
+                             "name":  "JSON-Files",
+                             "children":  {
+                                              "content":  "",
+                                              "name":  "Dummy.File",
+                                              "children":  {
+
+                                                           },
+                                              "_id":  "5114b1c8d261dcf7b339ec5b",
+                                              "ProjectTypes":  [
+                                                                   "Delphi",
+                                                                   "Laravel"
+                                                               ],
+                                              "type":  "file"
+                                          },
+                             "_id":  "4e3df09de286a7a6a128ecbc",
+                             "ProjectTypes":  "General",
+                             "type":  "folder"
+                         },
+                         {
+                             "content":  "",
+                             "name":  "SQL-Files",
+                             "children":  {
+                                              "content":  "",
+                                              "name":  "Dummy.File",
+                                              "children":  {
+
+                                                           },
+                                              "_id":  "e3b2c42d77872865532e71e1",
+                                              "ProjectTypes":  [
+                                                                   "Delphi",
+                                                                   "Laravel"
+                                                               ],
+                                              "type":  "file"
+                                          },
+                             "_id":  "136e96961e1440b1f8e7d3c5",
+                             "ProjectTypes":  "General",
+                             "type":  "folder"
+                         },
+                         {
+                             "content":  "",
+                             "name":  "XML-Files",
+                             "children":  {
+                                              "content":  "",
+                                              "name":  "Dummy.File",
+                                              "children":  {
+
+                                                           },
+                                              "_id":  "6ebd8db2781f88979f800fa1",
+                                              "ProjectTypes":  [
+                                                                   "Delphi",
+                                                                   "Laravel"
+                                                               ],
+                                              "type":  "file"
+                                          },
+                             "_id":  "fcea901f4af928215f4fb1ee",
+                             "ProjectTypes":  "General",
+                             "type":  "folder"
+                         },
+                         {
+                             "content":  "",
+                             "name":  "Dummy.File",
+                             "children":  {
+
+                                          },
+                             "_id":  "eac24eb8611f5bf238d507e5",
+                             "ProjectTypes":  [
+                                                  "Delphi",
+                                                  "Laravel"
+                                              ],
+                             "type":  "file"
+                         }
+                     ],
+        "_id":  "e7f01df6cfc706405385f76b",
+        "ProjectTypes":  "General",
+        "type":  "folder"
+    },
+    {
+        "content":  "",
+        "name":  "Documents",
+        "children":  {
+                         "content":  "",
+                         "name":  "Dummy.File",
+                         "children":  {
+
+                                      },
+                         "_id":  "cecec41d86a2feadd90e4fce",
+                         "ProjectTypes":  [
+                                              "Delphi",
+                                              "Laravel"
+                                          ],
+                         "type":  "file"
+                     },
+        "_id":  "d69ce5fb9ee48e1689617438",
+        "ProjectTypes":  "General",
+        "type":  "folder"
+    },
+    {
+        "content":  "",
+        "name":  "Graphical",
+        "children":  [
+                         {
+                             "content":  "",
+                             "name":  "Adobe Files",
+                             "children":  {
+                                              "content":  "",
+                                              "name":  "Dummy.File",
+                                              "children":  {
+
+                                                           },
+                                              "_id":  "ce2c06874660b78afcc50dee",
+                                              "ProjectTypes":  [
+                                                                   "Delphi",
+                                                                   "Laravel"
+                                                               ],
+                                              "type":  "file"
+                                          },
+                             "_id":  "c8f82906517197dce9ad511d",
+                             "ProjectTypes":  "General",
+                             "type":  "folder"
+                         },
+                         {
+                             "content":  "",
+                             "name":  "Buttons",
+                             "children":  {
+                                              "content":  "",
+                                              "name":  "Dummy.File",
+                                              "children":  {
+
+                                                           },
+                                              "_id":  "519a068f2fc6c41467de97f1",
+                                              "ProjectTypes":  [
+                                                                   "Delphi",
+                                                                   "Laravel"
+                                                               ],
+                                              "type":  "file"
+                                          },
+                             "_id":  "b79e99047fd81b5669b39cca",
+                             "ProjectTypes":  "General",
+                             "type":  "folder"
+                         },
+                         {
+                             "content":  "",
+                             "name":  "General",
+                             "children":  {
+                                              "content":  "",
+                                              "name":  "Dummy.File",
+                                              "children":  {
+
+                                                           },
+                                              "_id":  "f33a3333b1c5454e5b245ceb",
+                                              "ProjectTypes":  [
+                                                                   "Delphi",
+                                                                   "Laravel"
+                                                               ],
+                                              "type":  "file"
+                                          },
+                             "_id":  "ad3bee223f31a1872adb501d",
+                             "ProjectTypes":  "General",
+                             "type":  "folder"
+                         },
+                         {
+                             "content":  "",
+                             "name":  "Icon",
+                             "children":  {
+                                              "content":  "",
+                                              "name":  "Dummy.File",
+                                              "children":  {
+
+                                                           },
+                                              "_id":  "81c5b03a7370abe5316981a0",
+                                              "ProjectTypes":  [
+                                                                   "Delphi",
+                                                                   "Laravel"
+                                                               ],
+                                              "type":  "file"
+                                          },
+                             "_id":  "f1778aafa7168e14fd121d7c",
+                             "ProjectTypes":  "General",
+                             "type":  "folder"
+                         },
+                         {
+                             "content":  "",
+                             "name":  "Logo",
+                             "children":  {
+                                              "content":  "",
+                                              "name":  "Dummy.File",
+                                              "children":  {
+
+                                                           },
+                                              "_id":  "40c328c9ec225117edf31f2f",
+                                              "ProjectTypes":  [
+                                                                   "Delphi",
+                                                                   "Laravel"
+                                                               ],
+                                              "type":  "file"
+                                          },
+                             "_id":  "6e43040edd36c2d934365e2a",
+                             "ProjectTypes":  "General",
+                             "type":  "folder"
+                         },
+                         {
+                             "content":  "",
+                             "name":  "Style",
+                             "children":  {
+                                              "content":  "",
+                                              "name":  "Dummy.File",
+                                              "children":  {
+
+                                                           },
+                                              "_id":  "de2f039cf209c4c1904c9f49",
+                                              "ProjectTypes":  [
+                                                                   "Delphi",
+                                                                   "Laravel"
+                                                               ],
+                                              "type":  "file"
+                                          },
+                             "_id":  "3b781700eb99e43ec8fbf9bd",
+                             "ProjectTypes":  "General",
+                             "type":  "folder"
+                         },
+                         {
+                             "content":  "",
+                             "name":  "Dummy.File",
+                             "children":  {
+
+                                          },
+                             "_id":  "e7526bd74a5b7a592ab93436",
+                             "ProjectTypes":  [
+                                                  "Delphi",
+                                                  "Laravel"
+                                              ],
+                             "type":  "file"
+                         }
+                     ],
+        "_id":  "58cb91652e99d92e23f5c4eb",
+        "ProjectTypes":  "General",
+        "type":  "folder"
+    },
+    {
+        "content":  "",
+        "name":  "Hardware",
+        "children":  {
+                         "content":  "",
+                         "name":  "Dummy.File",
+                         "children":  {
+
+                                      },
+                         "_id":  "857264b21ff0dd208a8f478a",
+                         "ProjectTypes":  [
+                                              "Delphi",
+                                              "Laravel"
+                                          ],
+                         "type":  "file"
+                     },
+        "_id":  "4d6b97530e1b7d707ba1eb59",
+        "ProjectTypes":  "General",
+        "type":  "folder"
+    },
+    {
+        "content":  "",
+        "name":  "Legacy Folder",
+        "children":  {
+                         "content":  "",
+                         "name":  "Dummy.File",
+                         "children":  {
+
+                                      },
+                         "_id":  "afcaf104acd9b09e32f1da4a",
+                         "ProjectTypes":  [
+                                              "Delphi",
+                                              "Laravel"
+                                          ],
+                         "type":  "file"
+                     },
+        "_id":  "d82d32327353c2703716e56e",
+        "ProjectTypes":  "General",
+        "type":  "folder"
+    },
+    {
+        "content":  "",
+        "name":  "LibrarySupport",
+        "children":  {
+                         "content":  "",
+                         "name":  "Dummy.File",
+                         "children":  {
+
+                                      },
+                         "_id":  "7b31caad94df464f7e1be52b",
+                         "ProjectTypes":  [
+                                              "Delphi",
+                                              "Laravel"
+                                          ],
+                         "type":  "file"
+                     },
+        "_id":  "77e4b83545ed1d5036d1c4e1",
+        "ProjectTypes":  "General",
+        "type":  "folder"
+    },
+    {
+        "content":  "",
+        "name":  "Proof of concept",
+        "children":  [
+                         {
+                             "content":  "",
+                             "name":  "Sand-Box",
+                             "children":  {
+                                              "content":  "",
+                                              "name":  "Dummy.File",
+                                              "children":  {
+
+                                                           },
+                                              "_id":  "e73c337daa75ac9fcadc3203",
+                                              "ProjectTypes":  [
+                                                                   "Delphi",
+                                                                   "Laravel"
+                                                               ],
+                                              "type":  "file"
+                                          },
+                             "_id":  "77ed7b3ef5b3b733d31da6a4",
+                             "ProjectTypes":  "General",
+                             "type":  "folder"
+                         },
+                         {
+                             "content":  "",
+                             "name":  "Dummy.File",
+                             "children":  {
+
+                                          },
+                             "_id":  "3aa0b60cc3de5377d07e8666",
+                             "ProjectTypes":  [
+                                                  "Delphi",
+                                                  "Laravel"
+                                              ],
+                             "type":  "file"
+                         }
+                     ],
+        "_id":  "15e3e0a1bb894f9b742df445",
+        "ProjectTypes":  "General",
+        "type":  "folder"
+    },
+    {
+        "content":  "",
+        "name":  "Settings-Info",
+        "children":  {
+                         "content":  "",
+                         "name":  "Dummy.File",
+                         "children":  {
+
+                                      },
+                         "_id":  "194e9a335e70dec895121d7a",
+                         "ProjectTypes":  [
+                                              "Delphi",
+                                              "Laravel"
+                                          ],
+                         "type":  "file"
+                     },
+        "_id":  "426c14200502b19549e95904",
+        "ProjectTypes":  "General",
+        "type":  "folder"
+    },
+    {
+        "content":  "",
+        "name":  "Source-(rename 2 Apps name)",
+        "children":  {
+                         "content":  "",
+                         "name":  "Dummy.File",
+                         "children":  {
+
+                                      },
+                         "_id":  "229a2b9c9cacffb809cda7f0",
+                         "ProjectTypes":  [
+                                              "Delphi",
+                                              "Laravel"
+                                          ],
+                         "type":  "file"
+                     },
+        "_id":  "e5696406d15fba91e5d5a88d",
+        "ProjectTypes":  "General",
+        "type":  "folder"
+    },
+    {
+        "content":  "",
+        "name":  "Source-SandBox",
+        "children":  {
+                         "content":  "",
+                         "name":  "Dummy.File",
+                         "children":  {
+
+                                      },
+                         "_id":  "88221e2ab24382f7bcef4002",
+                         "ProjectTypes":  [
+                                              "Delphi",
+                                              "Laravel"
+                                          ],
+                         "type":  "file"
+                     },
+        "_id":  "0bb754eaf6557598083892d6",
+        "ProjectTypes":  "General",
+        "type":  "folder"
+    },
+    {
+        "content":  "",
+        "name":  "Source-Web",
+        "children":  {
+                         "content":  "",
+                         "name":  "Dummy.File",
+                         "children":  {
+
+                                      },
+                         "_id":  "3ace45e7217d4b59558986bb",
+                         "ProjectTypes":  [
+                                              "Delphi",
+                                              "Laravel"
+                                          ],
+                         "type":  "file"
+                     },
+        "_id":  "a96fa13654a08b62bdfd7e43",
+        "ProjectTypes":  "General",
+        "type":  "folder"
+    },
+    {
+        "content":  "e1Byb2plY3QgTmFtZSkNClRoaXMgcHJvamVjdCANCg0KDQoNCk1vcmUgaXMgY29tbWluZyAuLi4uLi4NCg0KDQoNCkZvbGRlciBzdHJ1Y3R1cmUgaXMgYmFzaWMgZm9yIGFueSBvZiBteSBwcm9qZWN0cyBwbGVhc2UgZG9uJ3QgYXNrIGFib3V0IHdoeSBoYXZlIGRhdGFiYXNlIGZvbGRlciBvciBzbw0K",
+        "name":  "README.md",
+        "children":  {
+
+                     },
+        "_id":  "2c8c2d58dfc133731d1269e4",
+        "ProjectTypes":  [
+                             "Delphi",
+                             "Laravel"
+                         ],
+        "type":  "file"
+    }
+]

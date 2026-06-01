@@ -1,0 +1,116 @@
+[
+  {
+    "name": "Laravel-Source",
+    "type": "folder",
+    "children": []
+  },
+
+  {
+    "name": "Packages",
+    "type": "folder",
+    "children": []
+  },
+
+  {
+    "name": "Database Scripts",
+    "type": "folder",
+    "children": []
+  },
+
+  {
+    "name": "Legacy Code",
+    "type": "folder",
+    "children": []
+  },
+  {
+    "name": "Live Version",
+    "type": "folder",
+    "children": []
+  },
+  {
+    "name": "Tools",
+    "type": "folder",
+    "children": []
+  },
+
+  {
+    "name": "DataBase",
+    "type": "folder",
+    "children": [
+      {
+        "name": "JSON-Files",
+        "type": "folder",
+        "children": []
+      },
+      {
+        "name": "SQL-Files",
+        "type": "folder",
+        "children": []
+      },
+      {
+        "name": "SQLite",
+        "type": "folder",
+        "children": []
+      },
+      {
+        "name": "XML-Files",
+        "type": "folder",
+        "children": []
+      }
+    ]
+  },
+
+  {
+    "name": "Documents",
+    "type": "folder",
+    "children": []
+  },
+  {
+    "name": "React-Source",
+    "type": "folder",
+    "children": [
+      {
+        "name": "src",
+        "type": "folder",
+        "children": []
+      },
+      {
+        "name": "public",
+        "type": "folder",
+        "children": []
+      },
+      {
+        "name": "dist",
+        "type": "folder",
+        "children": []
+      }
+    ]
+  },
+  {
+    "name": "Graphical",
+    "type": "folder",
+    "children": [
+      {
+        "name": "Buttons",
+        "type": "folder",
+        "children": []
+      },
+      {
+        "name": "Exsample Image",
+        "type": "folder",
+        "children": []
+      },
+      {
+        "name": "Style",
+        "type": "folder",
+        "children": []
+      }
+    ]
+  },
+
+  {
+    "name": "Tools",
+    "type": "folder",
+    "children": []
+  }
+]

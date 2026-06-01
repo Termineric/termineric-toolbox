@@ -1,0 +1,16 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{822EEBD1-1B7C-4FD6-8C6B-95A25FCF1163}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+       
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    
+</Project>

@@ -1,0 +1,47 @@
+[
+    {
+        "name": "Laravel-Source",
+        "type": "folder",
+        "children": []
+    },
+    {
+        "name": "React-Source",
+        "type": "folder",
+        "children": []
+    },
+    {
+        "name": "Packages",
+        "type": "folder",
+        "children": []
+    },
+    {
+        "name": "Documents",
+        "type": "folder",
+        "children": []
+    },
+    {
+        "name": "Database Scripts",
+        "type": "folder",
+        "children": []
+    },
+    {
+        "name": "Graphical",
+        "type": "folder",
+        "children": []
+    },
+    {
+        "name": "Legacy Code",
+        "type": "folder",
+        "children": []
+    },
+    {
+        "name": "Live Version",
+        "type": "folder",
+        "children": []
+    },
+    {
+        "name": "Tools",
+        "type": "folder",
+        "children": []
+    }
+]

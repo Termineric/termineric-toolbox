@@ -1,0 +1,1039 @@
+[
+    {
+        "name":  "Apps-Help",
+        "type":  "folder",
+        "content":  "",
+        "children":  {
+                         "name":  "Dummy.File",
+                         "type":  "file",
+                         "content":  "",
+                         "children":  null
+                     }
+    },
+    {
+        "name":  "Beta Version",
+        "type":  "folder",
+        "content":  "",
+        "children":  [
+                         {
+                             "name":  "All others stuff",
+                             "type":  "folder",
+                             "content":  "",
+                             "children":  {
+                                              "name":  "Dummy.File",
+                                              "type":  "file",
+                                              "content":  "",
+                                              "children":  null
+                                          }
+                         },
+                         {
+                             "name":  "Apps-Help",
+                             "type":  "folder",
+                             "content":  "",
+                             "children":  [
+                                              {
+                                                  "name":  "Images",
+                                                  "type":  "folder",
+                                                  "content":  "",
+                                                  "children":  {
+                                                                   "name":  "Dummy.File",
+                                                                   "type":  "file",
+                                                                   "content":  "",
+                                                                   "children":  null
+                                                               }
+                                              },
+                                              {
+                                                  "name":  "Dummy.File",
+                                                  "type":  "file",
+                                                  "content":  "",
+                                                  "children":  null
+                                              },
+                                              {
+                                                  "name":  "Dummy.File",
+                                                  "type":  "file",
+                                                  "content":  "",
+                                                  "children":  null
+                                              }
+                                          ]
+                         },
+                         {
+                             "name":  "DataBase",
+                             "type":  "folder",
+                             "content":  "",
+                             "children":  [
+                                              {
+                                                  "name":  "MetaData",
+                                                  "type":  "folder",
+                                                  "content":  "",
+                                                  "children":  {
+                                                                   "name":  "Dummy.File",
+                                                                   "type":  "file",
+                                                                   "content":  "",
+                                                                   "children":  null
+                                                               }
+                                              },
+                                              {
+                                                  "name":  "Dummy.File",
+                                                  "type":  "file",
+                                                  "content":  "",
+                                                  "children":  null
+                                              },
+                                              {
+                                                  "name":  "Dummy.File",
+                                                  "type":  "file",
+                                                  "content":  "",
+                                                  "children":  null
+                                              }
+                                          ]
+                         },
+                         {
+                             "name":  "File Base",
+                             "type":  "folder",
+                             "content":  "",
+                             "children":  {
+                                              "name":  "Dummy.File",
+                                              "type":  "file",
+                                              "content":  "",
+                                              "children":  null
+                                          }
+                         },
+                         {
+                             "name":  "Legacy Folder",
+                             "type":  "folder",
+                             "content":  "",
+                             "children":  {
+                                              "name":  "Dummy.File",
+                                              "type":  "file",
+                                              "content":  "",
+                                              "children":  null
+                                          }
+                         },
+                         {
+                             "name":  "Log",
+                             "type":  "folder",
+                             "content":  "",
+                             "children":  {
+                                              "name":  "Dummy.File",
+                                              "type":  "file",
+                                              "content":  "",
+                                              "children":  null
+                                          }
+                         },
+                         {
+                             "name":  "Reports",
+                             "type":  "folder",
+                             "content":  "",
+                             "children":  {
+                                              "name":  "Dummy.File",
+                                              "type":  "file",
+                                              "content":  "",
+                                              "children":  null
+                                          }
+                         },
+                         {
+                             "name":  "Temps",
+                             "type":  "folder",
+                             "content":  "",
+                             "children":  {
+                                              "name":  "Dummy.File",
+                                              "type":  "file",
+                                              "content":  "",
+                                              "children":  null
+                                          }
+                         },
+                         {
+                             "name":  "Dummy.File",
+                             "type":  "file",
+                             "content":  "",
+                             "children":  null
+                         },
+                         {
+                             "name":  "Settings.cfg",
+                             "type":  "file",
+                             "content":  "DQoNCg==",
+                             "children":  null
+                         },
+                         {
+                             "name":  "Dummy.File",
+                             "type":  "file",
+                             "content":  "",
+                             "children":  null
+                         },
+                         {
+                             "name":  "Images",
+                             "type":  "folder",
+                             "content":  "",
+                             "children":  {
+                                              "name":  "Dummy.File",
+                                              "type":  "file",
+                                              "content":  "",
+                                              "children":  null
+                                          }
+                         },
+                         {
+                             "name":  "Dummy.File",
+                             "type":  "file",
+                             "content":  "",
+                             "children":  null
+                         },
+                         {
+                             "name":  "Dummy.File",
+                             "type":  "file",
+                             "content":  "",
+                             "children":  null
+                         },
+                         {
+                             "name":  "MetaData",
+                             "type":  "folder",
+                             "content":  "",
+                             "children":  {
+                                              "name":  "Dummy.File",
+                                              "type":  "file",
+                                              "content":  "",
+                                              "children":  null
+                                          }
+                         },
+                         {
+                             "name":  "Dummy.File",
+                             "type":  "file",
+                             "content":  "",
+                             "children":  null
+                         },
+                         {
+                             "name":  "Dummy.File",
+                             "type":  "file",
+                             "content":  "",
+                             "children":  null
+                         },
+                         {
+                             "name":  "Dummy.File",
+                             "type":  "file",
+                             "content":  "",
+                             "children":  null
+                         },
+                         {
+                             "name":  "Dummy.File",
+                             "type":  "file",
+                             "content":  "",
+                             "children":  null
+                         },
+                         {
+                             "name":  "Dummy.File",
+                             "type":  "file",
+                             "content":  "",
+                             "children":  null
+                         },
+                         {
+                             "name":  "Dummy.File",
+                             "type":  "file",
+                             "content":  "",
+                             "children":  null
+                         },
+                         {
+                             "name":  "Dummy.File",
+                             "type":  "file",
+                             "content":  "",
+                             "children":  null
+                         }
+                     ]
+    },
+    {
+        "name":  "Commen Project Files",
+        "type":  "folder",
+        "content":  "",
+        "children":  {
+                         "name":  "Dummy.File",
+                         "type":  "file",
+                         "content":  "",
+                         "children":  null
+                     }
+    },
+    {
+        "name":  "Current Version",
+        "type":  "folder",
+        "content":  "",
+        "children":  {
+                         "name":  "Dummy.File",
+                         "type":  "file",
+                         "content":  "",
+                         "children":  null
+                     }
+    },
+    {
+        "name":  "DataBase Scripts",
+        "type":  "folder",
+        "content":  "",
+        "children":  [
+                         {
+                             "name":  "JSON-Files",
+                             "type":  "folder",
+                             "content":  "",
+                             "children":  {
+                                              "name":  "Dummy.File",
+                                              "type":  "file",
+                                              "content":  "",
+                                              "children":  null
+                                          }
+                         },
+                         {
+                             "name":  "SQL-Files",
+                             "type":  "folder",
+                             "content":  "",
+                             "children":  {
+                                              "name":  "Dummy.File",
+                                              "type":  "file",
+                                              "content":  "",
+                                              "children":  null
+                                          }
+                         },
+                         {
+                             "name":  "XML-Files",
+                             "type":  "folder",
+                             "content":  "",
+                             "children":  {
+                                              "name":  "Dummy.File",
+                                              "type":  "file",
+                                              "content":  "",
+                                              "children":  null
+                                          }
+                         },
+                         {
+                             "name":  "Dummy.File",
+                             "type":  "file",
+                             "content":  "",
+                             "children":  null
+                         },
+                         {
+                             "name":  "Dummy.File",
+                             "type":  "file",
+                             "content":  "",
+                             "children":  null
+                         },
+                         {
+                             "name":  "Dummy.File",
+                             "type":  "file",
+                             "content":  "",
+                             "children":  null
+                         },
+                         {
+                             "name":  "Dummy.File",
+                             "type":  "file",
+                             "content":  "",
+                             "children":  null
+                         }
+                     ]
+    },
+    {
+        "name":  "Documents",
+        "type":  "folder",
+        "content":  "",
+        "children":  {
+                         "name":  "Dummy.File",
+                         "type":  "file",
+                         "content":  "",
+                         "children":  null
+                     }
+    },
+    {
+        "name":  "Graphical",
+        "type":  "folder",
+        "content":  "",
+        "children":  [
+                         {
+                             "name":  "Adobe Files",
+                             "type":  "folder",
+                             "content":  "",
+                             "children":  {
+                                              "name":  "Dummy.File",
+                                              "type":  "file",
+                                              "content":  "",
+                                              "children":  null
+                                          }
+                         },
+                         {
+                             "name":  "Buttons",
+                             "type":  "folder",
+                             "content":  "",
+                             "children":  {
+                                              "name":  "Dummy.File",
+                                              "type":  "file",
+                                              "content":  "",
+                                              "children":  null
+                                          }
+                         },
+                         {
+                             "name":  "General",
+                             "type":  "folder",
+                             "content":  "",
+                             "children":  {
+                                              "name":  "Dummy.File",
+                                              "type":  "file",
+                                              "content":  "",
+                                              "children":  null
+                                          }
+                         },
+                         {
+                             "name":  "Icon",
+                             "type":  "folder",
+                             "content":  "",
+                             "children":  {
+                                              "name":  "Dummy.File",
+                                              "type":  "file",
+                                              "content":  "",
+                                              "children":  null
+                                          }
+                         },
+                         {
+                             "name":  "Logo",
+                             "type":  "folder",
+                             "content":  "",
+                             "children":  {
+                                              "name":  "Dummy.File",
+                                              "type":  "file",
+                                              "content":  "",
+                                              "children":  null
+                                          }
+                         },
+                         {
+                             "name":  "Style",
+                             "type":  "folder",
+                             "content":  "",
+                             "children":  {
+                                              "name":  "Dummy.File",
+                                              "type":  "file",
+                                              "content":  "",
+                                              "children":  null
+                                          }
+                         },
+                         {
+                             "name":  "Dummy.File",
+                             "type":  "file",
+                             "content":  "",
+                             "children":  null
+                         },
+                         {
+                             "name":  "Dummy.File",
+                             "type":  "file",
+                             "content":  "",
+                             "children":  null
+                         },
+                         {
+                             "name":  "Dummy.File",
+                             "type":  "file",
+                             "content":  "",
+                             "children":  null
+                         },
+                         {
+                             "name":  "Dummy.File",
+                             "type":  "file",
+                             "content":  "",
+                             "children":  null
+                         },
+                         {
+                             "name":  "Dummy.File",
+                             "type":  "file",
+                             "content":  "",
+                             "children":  null
+                         },
+                         {
+                             "name":  "Dummy.File",
+                             "type":  "file",
+                             "content":  "",
+                             "children":  null
+                         },
+                         {
+                             "name":  "Dummy.File",
+                             "type":  "file",
+                             "content":  "",
+                             "children":  null
+                         }
+                     ]
+    },
+    {
+        "name":  "Hardware",
+        "type":  "folder",
+        "content":  "",
+        "children":  {
+                         "name":  "Dummy.File",
+                         "type":  "file",
+                         "content":  "",
+                         "children":  null
+                     }
+    },
+    {
+        "name":  "Legacy Folder",
+        "type":  "folder",
+        "content":  "",
+        "children":  {
+                         "name":  "Dummy.File",
+                         "type":  "file",
+                         "content":  "",
+                         "children":  null
+                     }
+    },
+    {
+        "name":  "LibrarySupport",
+        "type":  "folder",
+        "content":  "",
+        "children":  {
+                         "name":  "Dummy.File",
+                         "type":  "file",
+                         "content":  "",
+                         "children":  null
+                     }
+    },
+    {
+        "name":  "Proof of concept",
+        "type":  "folder",
+        "content":  "",
+        "children":  [
+                         {
+                             "name":  "Sand-Box",
+                             "type":  "folder",
+                             "content":  "",
+                             "children":  {
+                                              "name":  "Dummy.File",
+                                              "type":  "file",
+                                              "content":  "",
+                                              "children":  null
+                                          }
+                         },
+                         {
+                             "name":  "Dummy.File",
+                             "type":  "file",
+                             "content":  "",
+                             "children":  null
+                         },
+                         {
+                             "name":  "Dummy.File",
+                             "type":  "file",
+                             "content":  "",
+                             "children":  null
+                         }
+                     ]
+    },
+    {
+        "name":  "Settings-Info",
+        "type":  "folder",
+        "content":  "",
+        "children":  {
+                         "name":  "Dummy.File",
+                         "type":  "file",
+                         "content":  "",
+                         "children":  null
+                     }
+    },
+    {
+        "name":  "Source-(rename 2 Apps name)",
+        "type":  "folder",
+        "content":  "",
+        "children":  {
+                         "name":  "Dummy.File",
+                         "type":  "file",
+                         "content":  "",
+                         "children":  null
+                     }
+    },
+    {
+        "name":  "Source-SandBox",
+        "type":  "folder",
+        "content":  "",
+        "children":  {
+                         "name":  "Dummy.File",
+                         "type":  "file",
+                         "content":  "",
+                         "children":  null
+                     }
+    },
+    {
+        "name":  "Source-Web",
+        "type":  "folder",
+        "content":  "",
+        "children":  {
+                         "name":  "Dummy.File",
+                         "type":  "file",
+                         "content":  "",
+                         "children":  null
+                     }
+    },
+    {
+        "name":  "README.md",
+        "type":  "file",
+        "content":  "e1Byb2plY3QgTmFtZSkNClRoaXMgcHJvamVjdCANCg0KDQoNCk1vcmUgaXMgY29tbWluZyAuLi4uLi4NCg0KDQoNCkZvbGRlciBzdHJ1Y3R1cmUgaXMgYmFzaWMgZm9yIGFueSBvZiBteSBwcm9qZWN0cyBwbGVhc2UgZG9uJ3QgYXNrIGFib3V0IHdoeSBoYXZlIGRhdGFiYXNlIGZvbGRlciBvciBzbw0K",
+        "children":  null
+    },
+    {
+        "name":  "Dummy.File",
+        "type":  "file",
+        "content":  "",
+        "children":  null
+    },
+    {
+        "name":  "All others stuff",
+        "type":  "folder",
+        "content":  "",
+        "children":  {
+                         "name":  "Dummy.File",
+                         "type":  "file",
+                         "content":  "",
+                         "children":  null
+                     }
+    },
+    {
+        "name":  "Apps-Help",
+        "type":  "folder",
+        "content":  "",
+        "children":  [
+                         {
+                             "name":  "Images",
+                             "type":  "folder",
+                             "content":  "",
+                             "children":  {
+                                              "name":  "Dummy.File",
+                                              "type":  "file",
+                                              "content":  "",
+                                              "children":  null
+                                          }
+                         },
+                         {
+                             "name":  "Dummy.File",
+                             "type":  "file",
+                             "content":  "",
+                             "children":  null
+                         },
+                         {
+                             "name":  "Dummy.File",
+                             "type":  "file",
+                             "content":  "",
+                             "children":  null
+                         }
+                     ]
+    },
+    {
+        "name":  "DataBase",
+        "type":  "folder",
+        "content":  "",
+        "children":  [
+                         {
+                             "name":  "MetaData",
+                             "type":  "folder",
+                             "content":  "",
+                             "children":  {
+                                              "name":  "Dummy.File",
+                                              "type":  "file",
+                                              "content":  "",
+                                              "children":  null
+                                          }
+                         },
+                         {
+                             "name":  "Dummy.File",
+                             "type":  "file",
+                             "content":  "",
+                             "children":  null
+                         },
+                         {
+                             "name":  "Dummy.File",
+                             "type":  "file",
+                             "content":  "",
+                             "children":  null
+                         }
+                     ]
+    },
+    {
+        "name":  "File Base",
+        "type":  "folder",
+        "content":  "",
+        "children":  {
+                         "name":  "Dummy.File",
+                         "type":  "file",
+                         "content":  "",
+                         "children":  null
+                     }
+    },
+    {
+        "name":  "Legacy Folder",
+        "type":  "folder",
+        "content":  "",
+        "children":  {
+                         "name":  "Dummy.File",
+                         "type":  "file",
+                         "content":  "",
+                         "children":  null
+                     }
+    },
+    {
+        "name":  "Log",
+        "type":  "folder",
+        "content":  "",
+        "children":  {
+                         "name":  "Dummy.File",
+                         "type":  "file",
+                         "content":  "",
+                         "children":  null
+                     }
+    },
+    {
+        "name":  "Reports",
+        "type":  "folder",
+        "content":  "",
+        "children":  {
+                         "name":  "Dummy.File",
+                         "type":  "file",
+                         "content":  "",
+                         "children":  null
+                     }
+    },
+    {
+        "name":  "Temps",
+        "type":  "folder",
+        "content":  "",
+        "children":  {
+                         "name":  "Dummy.File",
+                         "type":  "file",
+                         "content":  "",
+                         "children":  null
+                     }
+    },
+    {
+        "name":  "Dummy.File",
+        "type":  "file",
+        "content":  "",
+        "children":  null
+    },
+    {
+        "name":  "Settings.cfg",
+        "type":  "file",
+        "content":  "DQoNCg==",
+        "children":  null
+    },
+    {
+        "name":  "Dummy.File",
+        "type":  "file",
+        "content":  "",
+        "children":  null
+    },
+    {
+        "name":  "Images",
+        "type":  "folder",
+        "content":  "",
+        "children":  {
+                         "name":  "Dummy.File",
+                         "type":  "file",
+                         "content":  "",
+                         "children":  null
+                     }
+    },
+    {
+        "name":  "Dummy.File",
+        "type":  "file",
+        "content":  "",
+        "children":  null
+    },
+    {
+        "name":  "Dummy.File",
+        "type":  "file",
+        "content":  "",
+        "children":  null
+    },
+    {
+        "name":  "MetaData",
+        "type":  "folder",
+        "content":  "",
+        "children":  {
+                         "name":  "Dummy.File",
+                         "type":  "file",
+                         "content":  "",
+                         "children":  null
+                     }
+    },
+    {
+        "name":  "Dummy.File",
+        "type":  "file",
+        "content":  "",
+        "children":  null
+    },
+    {
+        "name":  "Dummy.File",
+        "type":  "file",
+        "content":  "",
+        "children":  null
+    },
+    {
+        "name":  "Dummy.File",
+        "type":  "file",
+        "content":  "",
+        "children":  null
+    },
+    {
+        "name":  "Dummy.File",
+        "type":  "file",
+        "content":  "",
+        "children":  null
+    },
+    {
+        "name":  "Dummy.File",
+        "type":  "file",
+        "content":  "",
+        "children":  null
+    },
+    {
+        "name":  "Dummy.File",
+        "type":  "file",
+        "content":  "",
+        "children":  null
+    },
+    {
+        "name":  "Dummy.File",
+        "type":  "file",
+        "content":  "",
+        "children":  null
+    },
+    {
+        "name":  "Dummy.File",
+        "type":  "file",
+        "content":  "",
+        "children":  null
+    },
+    {
+        "name":  "Dummy.File",
+        "type":  "file",
+        "content":  "",
+        "children":  null
+    },
+    {
+        "name":  "JSON-Files",
+        "type":  "folder",
+        "content":  "",
+        "children":  {
+                         "name":  "Dummy.File",
+                         "type":  "file",
+                         "content":  "",
+                         "children":  null
+                     }
+    },
+    {
+        "name":  "SQL-Files",
+        "type":  "folder",
+        "content":  "",
+        "children":  {
+                         "name":  "Dummy.File",
+                         "type":  "file",
+                         "content":  "",
+                         "children":  null
+                     }
+    },
+    {
+        "name":  "XML-Files",
+        "type":  "folder",
+        "content":  "",
+        "children":  {
+                         "name":  "Dummy.File",
+                         "type":  "file",
+                         "content":  "",
+                         "children":  null
+                     }
+    },
+    {
+        "name":  "Dummy.File",
+        "type":  "file",
+        "content":  "",
+        "children":  null
+    },
+    {
+        "name":  "Dummy.File",
+        "type":  "file",
+        "content":  "",
+        "children":  null
+    },
+    {
+        "name":  "Dummy.File",
+        "type":  "file",
+        "content":  "",
+        "children":  null
+    },
+    {
+        "name":  "Dummy.File",
+        "type":  "file",
+        "content":  "",
+        "children":  null
+    },
+    {
+        "name":  "Dummy.File",
+        "type":  "file",
+        "content":  "",
+        "children":  null
+    },
+    {
+        "name":  "Adobe Files",
+        "type":  "folder",
+        "content":  "",
+        "children":  {
+                         "name":  "Dummy.File",
+                         "type":  "file",
+                         "content":  "",
+                         "children":  null
+                     }
+    },
+    {
+        "name":  "Buttons",
+        "type":  "folder",
+        "content":  "",
+        "children":  {
+                         "name":  "Dummy.File",
+                         "type":  "file",
+                         "content":  "",
+                         "children":  null
+                     }
+    },
+    {
+        "name":  "General",
+        "type":  "folder",
+        "content":  "",
+        "children":  {
+                         "name":  "Dummy.File",
+                         "type":  "file",
+                         "content":  "",
+                         "children":  null
+                     }
+    },
+    {
+        "name":  "Icon",
+        "type":  "folder",
+        "content":  "",
+        "children":  {
+                         "name":  "Dummy.File",
+                         "type":  "file",
+                         "content":  "",
+                         "children":  null
+                     }
+    },
+    {
+        "name":  "Logo",
+        "type":  "folder",
+        "content":  "",
+        "children":  {
+                         "name":  "Dummy.File",
+                         "type":  "file",
+                         "content":  "",
+                         "children":  null
+                     }
+    },
+    {
+        "name":  "Style",
+        "type":  "folder",
+        "content":  "",
+        "children":  {
+                         "name":  "Dummy.File",
+                         "type":  "file",
+                         "content":  "",
+                         "children":  null
+                     }
+    },
+    {
+        "name":  "Dummy.File",
+        "type":  "file",
+        "content":  "",
+        "children":  null
+    },
+    {
+        "name":  "Dummy.File",
+        "type":  "file",
+        "content":  "",
+        "children":  null
+    },
+    {
+        "name":  "Dummy.File",
+        "type":  "file",
+        "content":  "",
+        "children":  null
+    },
+    {
+        "name":  "Dummy.File",
+        "type":  "file",
+        "content":  "",
+        "children":  null
+    },
+    {
+        "name":  "Dummy.File",
+        "type":  "file",
+        "content":  "",
+        "children":  null
+    },
+    {
+        "name":  "Dummy.File",
+        "type":  "file",
+        "content":  "",
+        "children":  null
+    },
+    {
+        "name":  "Dummy.File",
+        "type":  "file",
+        "content":  "",
+        "children":  null
+    },
+    {
+        "name":  "Dummy.File",
+        "type":  "file",
+        "content":  "",
+        "children":  null
+    },
+    {
+        "name":  "Dummy.File",
+        "type":  "file",
+        "content":  "",
+        "children":  null
+    },
+    {
+        "name":  "Dummy.File",
+        "type":  "file",
+        "content":  "",
+        "children":  null
+    },
+    {
+        "name":  "Sand-Box",
+        "type":  "folder",
+        "content":  "",
+        "children":  {
+                         "name":  "Dummy.File",
+                         "type":  "file",
+                         "content":  "",
+                         "children":  null
+                     }
+    },
+    {
+        "name":  "Dummy.File",
+        "type":  "file",
+        "content":  "",
+        "children":  null
+    },
+    {
+        "name":  "Dummy.File",
+        "type":  "file",
+        "content":  "",
+        "children":  null
+    },
+    {
+        "name":  "Dummy.File",
+        "type":  "file",
+        "content":  "",
+        "children":  null
+    },
+    {
+        "name":  "Dummy.File",
+        "type":  "file",
+        "content":  "",
+        "children":  null
+    },
+    {
+        "name":  "Dummy.File",
+        "type":  "file",
+        "content":  "",
+        "children":  null
+    },
+    {
+        "name":  "Dummy.File",
+        "type":  "file",
+        "content":  "",
+        "children":  null
+    }
+]

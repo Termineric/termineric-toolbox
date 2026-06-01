@@ -1,0 +1,428 @@
+<!doctype html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Builder Cheatsheet</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+            color: #222;
+        }
+
+        header {
+            background: #ffffff;
+            border-bottom: 1px solid #d8dee6;
+            padding: 20px 28px;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+
+        header p {
+            margin: 6px 0 0 0;
+            color: #666;
+        }
+
+        .layout {
+            display: grid;
+            grid-template-columns: 260px 1fr;
+            gap: 24px;
+            max-width: 1280px;
+            margin: 24px auto;
+            padding: 0 24px;
+        }
+
+        nav {
+            background: #ffffff;
+            border: 1px solid #d8dee6;
+            border-radius: 10px;
+            padding: 16px;
+            position: sticky;
+            top: 100px;
+            align-self: start;
+        }
+
+        nav a {
+            display: block;
+            padding: 7px 8px;
+            color: #222;
+            text-decoration: none;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+
+        nav a:hover {
+            background: #e8f0ff;
+            color: #2563eb;
+        }
+
+        #search {
+            width: 100%;
+            padding: 14px;
+            font-size: 18px;
+            border: 1px solid #cfd6df;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .chapter {
+            background: #ffffff;
+            border: 1px solid #d8dee6;
+            border-radius: 12px;
+            padding: 22px;
+            margin-bottom: 24px;
+        }
+
+        .chapter h2 {
+            margin-top: 0;
+            border-bottom: 1px solid #d8dee6;
+            padding-bottom: 10px;
+        }
+
+        .section {
+            border-left: 4px solid #2563eb;
+            padding-left: 16px;
+            margin-top: 24px;
+        }
+
+        .note {
+            color: #666;
+            margin-top: 0;
+        }
+
+        .command-title {
+            font-weight: bold;
+            margin: 16px 0 6px 0;
+        }
+
+        pre {
+            background: #1f2933;
+            color: #ffffff;
+            padding: 14px;
+            border-radius: 8px;
+            overflow-x: auto;
+            white-space: pre-wrap;
+            margin: 0;
+            line-height: 1.45;
+        }
+
+        .copy-row {
+            text-align: right;
+            margin-top: 6px;
+        }
+
+        button {
+            border: 1px solid #cfd6df;
+            background: #ffffff;
+            border-radius: 6px;
+            padding: 6px 10px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #e8f0ff;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        @media (max-width: 900px) {
+            .layout {
+                grid-template-columns: 1fr;
+            }
+
+            nav {
+                position: static;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Builder Cheatsheet</h1>
+    <p>Persoonlijke command-map voor Laravel, React, toolbox en deploy.</p>
+</header>
+
+<div class="layout">
+    <nav>
+        <strong>Index</strong>
+        <a href="#laravel">Laravel</a>
+        <a href="#laravel-development">Laravel / Development</a>
+        <a href="#laravel-builders">Laravel / Builders</a>
+        <a href="#laravel-database">Laravel / Database</a>
+        <a href="#laravel-adminlte">Laravel / AdminLTE</a>
+        <a href="#laravel-cache">Laravel / Cache & Debug</a>
+        <a href="#react">React</a>
+        <a href="#toolbox">Toolbox</a>
+        <a href="#deploy">Deploy</a>
+        <a href="#git">Git</a>
+    </nav>
+
+    <main>
+        <input id="search" type="search" placeholder="Zoeken... controller, model, migrate, build, cache">
+
+        <article id="laravel" class="chapter">
+            <h2>Laravel</h2>
+
+            <section id="laravel-development" class="section">
+                <h3>Development</h3>
+                <p class="note">Commands voor lokaal starten en basisinstallatie.</p>
+
+                <div class="command-title">Laravel server starten</div>
+                <pre>php artisan serve</pre>
+                <div class="copy-row"><button onclick="copyPrevious(this)">Copy</button></div>
+
+                <div class="command-title">Composer packages installeren</div>
+                <pre>composer install</pre>
+                <div class="copy-row"><button onclick="copyPrevious(this)">Copy</button></div>
+
+                <div class="command-title">NPM packages installeren</div>
+                <pre>npm install</pre>
+                <div class="copy-row"><button onclick="copyPrevious(this)">Copy</button></div>
+
+                <div class="command-title">Frontend build maken</div>
+                <pre>npm run build</pre>
+                <div class="copy-row"><button onclick="copyPrevious(this)">Copy</button></div>
+            </section>
+
+            <section id="laravel-builders" class="section">
+                <h3>Builders</h3>
+                <p class="note">Onderdelen aanmaken: controllers, models, requests, middleware.</p>
+
+                <div class="command-title">Controller maken</div>
+                <pre>php artisan make:controller ProductController</pre>
+                <div class="copy-row"><button onclick="copyPrevious(this)">Copy</button></div>
+
+                <div class="command-title">Resource controller maken</div>
+                <pre>php artisan make:controller ProductController --resource</pre>
+                <div class="copy-row"><button onclick="copyPrevious(this)">Copy</button></div>
+
+                <div class="command-title">API controller maken</div>
+                <pre>php artisan make:controller Api/ProductController --api</pre>
+                <div class="copy-row"><button onclick="copyPrevious(this)">Copy</button></div>
+
+                <div class="command-title">Model maken</div>
+                <pre>php artisan make:model Product</pre>
+                <div class="copy-row"><button onclick="copyPrevious(this)">Copy</button></div>
+
+                <div class="command-title">Model + migration maken</div>
+                <pre>php artisan make:model Product -m</pre>
+                <div class="copy-row"><button onclick="copyPrevious(this)">Copy</button></div>
+
+                <div class="command-title">Model + migration + controller maken</div>
+                <pre>php artisan make:model Product -mc</pre>
+                <div class="copy-row"><button onclick="copyPrevious(this)">Copy</button></div>
+
+                <div class="command-title">Model + migration + resource controller maken</div>
+                <pre>php artisan make:model Product -mcr</pre>
+                <div class="copy-row"><button onclick="copyPrevious(this)">Copy</button></div>
+
+                <div class="command-title">Middleware maken</div>
+                <pre>php artisan make:middleware RoleMiddleware</pre>
+                <div class="copy-row"><button onclick="copyPrevious(this)">Copy</button></div>
+
+                <div class="command-title">Form request maken</div>
+                <pre>php artisan make:request StoreProductRequest</pre>
+                <div class="copy-row"><button onclick="copyPrevious(this)">Copy</button></div>
+
+                <div class="command-title">Command maken</div>
+                <pre>php artisan make:command SyncProducts</pre>
+                <div class="copy-row"><button onclick="copyPrevious(this)">Copy</button></div>
+            </section>
+
+            <section id="laravel-database" class="section">
+                <h3>Database</h3>
+                <p class="note">Database bouwen, wijzigen en vullen.</p>
+
+                <div class="command-title">Migration maken</div>
+                <pre>php artisan make:migration create_products_table</pre>
+                <div class="copy-row"><button onclick="copyPrevious(this)">Copy</button></div>
+
+                <div class="command-title">Migration uitvoeren</div>
+                <pre>php artisan migrate</pre>
+                <div class="copy-row"><button onclick="copyPrevious(this)">Copy</button></div>
+
+                <div class="command-title">Laatste migration terugdraaien</div>
+                <pre>php artisan migrate:rollback</pre>
+                <div class="copy-row"><button onclick="copyPrevious(this)">Copy</button></div>
+
+                <div class="command-title">Database opnieuw opbouwen</div>
+                <pre>php artisan migrate:fresh</pre>
+                <div class="copy-row"><button onclick="copyPrevious(this)">Copy</button></div>
+
+                <div class="command-title">Seeder maken</div>
+                <pre>php artisan make:seeder ProductSeeder</pre>
+                <div class="copy-row"><button onclick="copyPrevious(this)">Copy</button></div>
+
+                <div class="command-title">Seeders uitvoeren</div>
+                <pre>php artisan db:seed</pre>
+                <div class="copy-row"><button onclick="copyPrevious(this)">Copy</button></div>
+            </section>
+
+            <section id="laravel-adminlte" class="section">
+                <h3>AdminLTE</h3>
+                <p class="note">Basis voor beheerpanelen met jeroennoten/laravel-adminlte.</p>
+
+                <div class="command-title">Laravel UI installeren</div>
+                <pre>composer require laravel/ui</pre>
+                <div class="copy-row"><button onclick="copyPrevious(this)">Copy</button></div>
+
+                <div class="command-title">Auth scaffold maken</div>
+                <pre>php artisan ui bootstrap --auth</pre>
+                <div class="copy-row"><button onclick="copyPrevious(this)">Copy</button></div>
+
+                <div class="command-title">AdminLTE installeren</div>
+                <pre>composer require jeroennoten/laravel-adminlte
+php artisan adminlte:install</pre>
+                <div class="copy-row"><button onclick="copyPrevious(this)">Copy</button></div>
+            </section>
+
+            <section id="laravel-cache" class="section">
+                <h3>Cache & Debug</h3>
+                <p class="note">Gebruik dit als Laravel raar doet na wijzigingen.</p>
+
+                <div class="command-title">Alles leegmaken</div>
+                <pre>php artisan optimize:clear</pre>
+                <div class="copy-row"><button onclick="copyPrevious(this)">Copy</button></div>
+
+                <div class="command-title">Autoload verversen</div>
+                <pre>composer dump-autoload</pre>
+                <div class="copy-row"><button onclick="copyPrevious(this)">Copy</button></div>
+
+                <div class="command-title">Routes tonen</div>
+                <pre>php artisan route:list</pre>
+                <div class="copy-row"><button onclick="copyPrevious(this)">Copy</button></div>
+            </section>
+        </article>
+
+        <article id="react" class="chapter">
+            <h2>React</h2>
+
+            <section class="section">
+                <h3>Development</h3>
+                <div class="command-title">Packages installeren</div>
+                <pre>npm install</pre>
+                <div class="copy-row"><button onclick="copyPrevious(this)">Copy</button></div>
+
+                <div class="command-title">Dev server starten</div>
+                <pre>npm run dev</pre>
+                <div class="copy-row"><button onclick="copyPrevious(this)">Copy</button></div>
+            </section>
+
+            <section class="section">
+                <h3>Build</h3>
+                <div class="command-title">Production build maken</div>
+                <pre>npm run build</pre>
+                <div class="copy-row"><button onclick="copyPrevious(this)">Copy</button></div>
+
+                <div class="command-title">Build preview</div>
+                <pre>npm run preview</pre>
+                <div class="copy-row"><button onclick="copyPrevious(this)">Copy</button></div>
+            </section>
+        </article>
+
+        <article id="toolbox" class="chapter">
+            <h2>Toolbox</h2>
+
+            <section class="section">
+                <h3>Project setup</h3>
+                <div class="command-title">Projectstructuur in huidige map</div>
+                <pre>Create-Project</pre>
+                <div class="copy-row"><button onclick="copyPrevious(this)">Copy</button></div>
+
+                <div class="command-title">Nieuwe projectmap maken</div>
+                <pre>Create-Project BPanel</pre>
+                <div class="copy-row"><button onclick="copyPrevious(this)">Copy</button></div>
+
+                <div class="command-title">Project met template maken</div>
+                <pre>Create-Project -t:test MyProject</pre>
+                <div class="copy-row"><button onclick="copyPrevious(this)">Copy</button></div>
+            </section>
+
+            <section class="section">
+                <h3>Starter sites</h3>
+                <div class="command-title">React starter maken</div>
+                <pre>New-React-Site</pre>
+                <div class="copy-row"><button onclick="copyPrevious(this)">Copy</button></div>
+
+                <div class="command-title">Laravel starter maken</div>
+                <pre>New-Laravel-Site</pre>
+                <div class="copy-row"><button onclick="copyPrevious(this)">Copy</button></div>
+            </section>
+        </article>
+
+        <article id="deploy" class="chapter">
+            <h2>Deploy</h2>
+
+            <section class="section">
+                <h3>React naar Laravel</h3>
+                <div class="command-title">Build en kopieer naar Laravel public</div>
+                <pre>Build-React-Laravel</pre>
+                <div class="copy-row"><button onclick="copyPrevious(this)">Copy</button></div>
+            </section>
+        </article>
+
+        <article id="git" class="chapter">
+            <h2>Git</h2>
+
+            <section class="section">
+                <h3>Basis</h3>
+                <div class="command-title">Status bekijken</div>
+                <pre>git status</pre>
+                <div class="copy-row"><button onclick="copyPrevious(this)">Copy</button></div>
+
+                <div class="command-title">Alles toevoegen</div>
+                <pre>git add .</pre>
+                <div class="copy-row"><button onclick="copyPrevious(this)">Copy</button></div>
+
+                <div class="command-title">Commit maken</div>
+                <pre>git commit -m "Beschrijving van wijziging"</pre>
+                <div class="copy-row"><button onclick="copyPrevious(this)">Copy</button></div>
+
+                <div class="command-title">Pushen</div>
+                <pre>git push</pre>
+                <div class="copy-row"><button onclick="copyPrevious(this)">Copy</button></div>
+            </section>
+        </article>
+    </main>
+</div>
+
+<script>
+    function copyPrevious(button) {
+        const row = button.closest('.copy-row');
+        const pre = row.previousElementSibling;
+        const text = pre.innerText.trim();
+
+        navigator.clipboard.writeText(text).then(function () {
+            const oldText = button.innerText;
+            button.innerText = 'Copied';
+            setTimeout(function () {
+                button.innerText = oldText;
+            }, 1000);
+        });
+    }
+
+    document.getElementById('search').addEventListener('input', function () {
+        const value = this.value.toLowerCase();
+        const chapters = document.querySelectorAll('.chapter');
+
+        chapters.forEach(function (chapter) {
+            const text = chapter.innerText.toLowerCase();
+            chapter.classList.toggle('hidden', !text.includes(value));
+        });
+    });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,984 @@
+﻿[  {
+    "_id": "91b32dd9b352c6503e3010ea",
+    "type": "folder",
+    "name": "Basic Project map 2019",
+    "children": [
+      {
+        "_id": "7a2bc5c90e9c3b9bcfab44fa",
+        "type": "article",
+        "name": "Project_File.dsk",
+        "children": []
+      },
+      {
+        "_id": "71d4c64ee93c9e7faac1b797",
+        "type": "article",
+        "name": "Project_File.groupproj",
+        "children": []
+      }
+    ]
+  },
+  {
+    "_id": "57e5702acb056669ec96ab66",
+    "type": "folder",
+    "name": "Basic Project map 2021",
+    "children": [
+      {
+        "_id": "cc0b4c351f4327bd655f31dd",
+        "type": "folder",
+        "name": "Apps-Help",
+        "children": [
+          {
+            "_id": "1bbf4567d95550f2bb11a6f4",
+            "type": "article",
+            "name": "Dummy.File",
+            "children": []
+          }
+        ]
+      },
+      {
+        "_id": "277e3b0b9bd5f4b1f07fdc10",
+        "type": "folder",
+        "name": "Beta Version",
+        "children": [
+          {
+            "_id": "c6a5a2a94c26bd72a2bfa071",
+            "type": "folder",
+            "name": "All others stuff",
+            "children": [
+              {
+                "_id": "eeeb461005e96146a5f7c14c",
+                "type": "article",
+                "name": "Dummy.File",
+                "children": []
+              }
+            ]
+          },
+          {
+            "_id": "b5e3ae4ffe14740d7ac326b0",
+            "type": "folder",
+            "name": "Apps-Help",
+            "children": [
+              {
+                "_id": "74f5e19db673f161b60cb76d",
+                "type": "folder",
+                "name": "Images",
+                "children": [
+                  {
+                    "_id": "a65345627b36ea1393ce612a",
+                    "type": "article",
+                    "name": "Dummy.File",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "_id": "75e1f0bec9dd3dce1f41ceba",
+                "type": "article",
+                "name": "Dummy.File",
+                "children": []
+              }
+            ]
+          },
+          {
+            "_id": "79ca0c01b54cb5f6a6d25d9a",
+            "type": "folder",
+            "name": "BIN",
+            "children": [
+              {
+                "_id": "eab1b7641c372cf90d0ec2f4",
+                "type": "article",
+                "name": "Dummy.File",
+                "children": []
+              }
+            ]
+          },
+          {
+            "_id": "36da93ee39add7703017df66",
+            "type": "folder",
+            "name": "DataBase",
+            "children": [
+              {
+                "_id": "625bec3257ad1f7fcdbf7754",
+                "type": "folder",
+                "name": "MetaData",
+                "children": [
+                  {
+                    "_id": "cfec7dfff3ef27bc606d172a",
+                    "type": "article",
+                    "name": "Dummy.File",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "_id": "5b057010be25f6b75d29395e",
+                "type": "article",
+                "name": "Dummy.File",
+                "children": []
+              }
+            ]
+          },
+          {
+            "_id": "bd9fe2964f9ee01d0490e277",
+            "type": "folder",
+            "name": "Log",
+            "children": [
+              {
+                "_id": "5cbf9cc0def67333d4da0290",
+                "type": "article",
+                "name": "Dummy.File",
+                "children": []
+              }
+            ]
+          },
+          {
+            "_id": "432c72dedb25e4669cea20cf",
+            "type": "folder",
+            "name": "Reports",
+            "children": [
+              {
+                "_id": "06c01b4559d1cc96aa309ec7",
+                "type": "article",
+                "name": "Dummy.File",
+                "children": []
+              }
+            ]
+          },
+          {
+            "_id": "206d440a4dc164e9ef56b14e",
+            "type": "folder",
+            "name": "Temps",
+            "children": [
+              {
+                "_id": "e047cde4b0a20eb6aec0ee49",
+                "type": "article",
+                "name": "Dummy.File",
+                "children": []
+              }
+            ]
+          },
+          {
+            "_id": "f47dc92b90d04dc15f0665c4",
+            "type": "article",
+            "name": "Dummy.File",
+            "children": []
+          },
+          {
+            "_id": "be36621ca690670212942034",
+            "type": "article",
+            "name": "Settings.cfg",
+            "children": []
+          }
+        ]
+      },
+      {
+        "_id": "bfea202b16e6930eae6abb37",
+        "type": "folder",
+        "name": "Commen Project Files",
+        "children": [
+          {
+            "_id": "7dfd7452daf0dfa673292005",
+            "type": "article",
+            "name": "Dummy.File",
+            "children": []
+          }
+        ]
+      },
+      {
+        "_id": "67e93d6fd0af96f52e932154",
+        "type": "folder",
+        "name": "Current Version",
+        "children": [
+          {
+            "_id": "6a99baf00ae3ecfae9b01950",
+            "type": "article",
+            "name": "Dummy.File",
+            "children": []
+          }
+        ]
+      },
+      {
+        "_id": "66c9d0d7b1e11dae14b1de53",
+        "type": "folder",
+        "name": "DataBase Scripts",
+        "children": [
+          {
+            "_id": "309e06c93acb6b49bde6d050",
+            "type": "folder",
+            "name": "JSON-Files",
+            "children": [
+              {
+                "_id": "116693770f9daac73712b6a6",
+                "type": "article",
+                "name": "Dummy.File",
+                "children": []
+              }
+            ]
+          },
+          {
+            "_id": "9acae42ec29a14576e014bda",
+            "type": "folder",
+            "name": "SQL-Files",
+            "children": [
+              {
+                "_id": "f0c236defdab0697049accf1",
+                "type": "article",
+                "name": "Dummy.File",
+                "children": []
+              }
+            ]
+          },
+          {
+            "_id": "7194a3359694a154114d4514",
+            "type": "folder",
+            "name": "XML-Files",
+            "children": [
+              {
+                "_id": "62aaaeb65c30f6b05a347bb9",
+                "type": "article",
+                "name": "Dummy.File",
+                "children": []
+              }
+            ]
+          },
+          {
+            "_id": "02dbef0ddcfa7daeaec492a5",
+            "type": "article",
+            "name": "Dummy.File",
+            "children": []
+          }
+        ]
+      },
+      {
+        "_id": "d00c0df92ffe429c26d910da",
+        "type": "folder",
+        "name": "Documents",
+        "children": [
+          {
+            "_id": "0055717144e32935540b775d",
+            "type": "article",
+            "name": "Dummy.File",
+            "children": []
+          }
+        ]
+      },
+      {
+        "_id": "512f3aa520660ad1a75741dd",
+        "type": "folder",
+        "name": "Graphical",
+        "children": [
+          {
+            "_id": "ae54a279413114602ac54754",
+            "type": "folder",
+            "name": "Adobe Files",
+            "children": [
+              {
+                "_id": "67eb66c33920595d3276c962",
+                "type": "article",
+                "name": "Dummy.File",
+                "children": []
+              }
+            ]
+          },
+          {
+            "_id": "b2dbf43ab2c0c9a9223adcda",
+            "type": "folder",
+            "name": "Buttons",
+            "children": [
+              {
+                "_id": "4a127fcf9d7aa5ccc6e0b9a7",
+                "type": "article",
+                "name": "Dummy.File",
+                "children": []
+              }
+            ]
+          },
+          {
+            "_id": "70007c29710170ae7de5b631",
+            "type": "folder",
+            "name": "General",
+            "children": [
+              {
+                "_id": "d2e7a2cabbccdac0bfe712d1",
+                "type": "article",
+                "name": "Dummy.File",
+                "children": []
+              }
+            ]
+          },
+          {
+            "_id": "49af3a5d2333cc62b79b092f",
+            "type": "folder",
+            "name": "Icon",
+            "children": [
+              {
+                "_id": "b7957c92c94d0be21f502efe",
+                "type": "article",
+                "name": "Dummy.File",
+                "children": []
+              }
+            ]
+          },
+          {
+            "_id": "502f60e000bff9249c76d255",
+            "type": "folder",
+            "name": "Logo",
+            "children": [
+              {
+                "_id": "ddca34dea631a6d2c66a90f5",
+                "type": "article",
+                "name": "Dummy.File",
+                "children": []
+              }
+            ]
+          },
+          {
+            "_id": "f004cfe0d6a2a2d1c4be019b",
+            "type": "folder",
+            "name": "Style",
+            "children": [
+              {
+                "_id": "d47ee6004edacf93d6c531b0",
+                "type": "article",
+                "name": "Dummy.File",
+                "children": []
+              }
+            ]
+          },
+          {
+            "_id": "ccbf6355ca1cf1d6339a4231",
+            "type": "article",
+            "name": "Dummy.File",
+            "children": []
+          }
+        ]
+      },
+      {
+        "_id": "e1ad9c21066c0f7066d40ac4",
+        "type": "folder",
+        "name": "Hardware",
+        "children": [
+          {
+            "_id": "e2954c6e9ebcf4dec43cdedd",
+            "type": "article",
+            "name": "Dummy.File",
+            "children": []
+          }
+        ]
+      },
+      {
+        "_id": "7e73cfd66b3f1c1b92000bef",
+        "type": "folder",
+        "name": "Legacy Folder",
+        "children": [
+          {
+            "_id": "f62beb5f76eb29f0303dee76",
+            "type": "article",
+            "name": "Dummy.File",
+            "children": []
+          }
+        ]
+      },
+      {
+        "_id": "547b03315265073111d07370",
+        "type": "folder",
+        "name": "LibrarySupport",
+        "children": [
+          {
+            "_id": "e0abced7ec12e1d77597e56c",
+            "type": "article",
+            "name": "Dummy.File",
+            "children": []
+          }
+        ]
+      },
+      {
+        "_id": "1ce102e5b1716d4cda2bf001",
+        "type": "folder",
+        "name": "Proof of concept",
+        "children": [
+          {
+            "_id": "92d1c6522c2f792f03fd1fdc",
+            "type": "folder",
+            "name": "Sand-Box",
+            "children": [
+              {
+                "_id": "03b3297bb5acd1c3347cc2cd",
+                "type": "article",
+                "name": "Dummy.File",
+                "children": []
+              }
+            ]
+          },
+          {
+            "_id": "a66945be2d6721ced51f023b",
+            "type": "article",
+            "name": "Dummy.File",
+            "children": []
+          }
+        ]
+      },
+      {
+        "_id": "c074b1215e5625f996c62feb",
+        "type": "folder",
+        "name": "Settings-Info",
+        "children": [
+          {
+            "_id": "b6fbc493992df4694544fb7c",
+            "type": "article",
+            "name": "Dummy.File",
+            "children": []
+          }
+        ]
+      },
+      {
+        "_id": "3550965679c90ffb1de4b397",
+        "type": "folder",
+        "name": "Source-Apps(rename 2 Apps name)",
+        "children": [
+          {
+            "_id": "cd03c2be9a7f629cac5e3bc6",
+            "type": "article",
+            "name": "Dummy.File",
+            "children": []
+          }
+        ]
+      },
+      {
+        "_id": "77ae2c117e99b7b1ad97f476",
+        "type": "article",
+        "name": "README.md",
+        "children": []
+      }
+    ]
+  },
+  {
+    "_id": "62f0c3742beb262add3c25af",
+    "type": "folder",
+    "name": "Basic Project map 2022",
+    "children": [
+      {
+        "_id": "1cdb25fdd29f396d6d93ee19",
+        "type": "folder",
+        "name": "Apps-Help",
+        "children": [
+          {
+            "_id": "03bb55b0bc2e19e406eb6b9b",
+            "type": "article",
+            "name": "Dummy.File",
+            "children": []
+          }
+        ]
+      },
+      {
+        "_id": "311561eb39259c64175a7d7f",
+        "type": "folder",
+        "name": "Beta Version",
+        "children": [
+          {
+            "_id": "5ba2b64503a0b4c9c46fd5da",
+            "type": "folder",
+            "name": "All others stuff",
+            "children": [
+              {
+                "_id": "0a7b9aa407c372979a0014a3",
+                "type": "article",
+                "name": "Dummy.File",
+                "children": []
+              }
+            ]
+          },
+          {
+            "_id": "0adac69cda06ffa6c75143ce",
+            "type": "folder",
+            "name": "Apps-Help",
+            "children": [
+              {
+                "_id": "dd2a5c1d934f17ab7443c05d",
+                "type": "folder",
+                "name": "Images",
+                "children": [
+                  {
+                    "_id": "571dacb396f5ddbed54563da",
+                    "type": "article",
+                    "name": "Dummy.File",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "_id": "d7076dbbdd02e7d92dd3cc06",
+                "type": "article",
+                "name": "Dummy.File",
+                "children": []
+              }
+            ]
+          },
+          {
+            "_id": "5a243c0267c3b1769b4c30af",
+            "type": "folder",
+            "name": "DataBase",
+            "children": [
+              {
+                "_id": "43654a6657bc1af4435563c7",
+                "type": "folder",
+                "name": "MetaData",
+                "children": [
+                  {
+                    "_id": "d7b157e444ed3735aabf29ed",
+                    "type": "article",
+                    "name": "Dummy.File",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "_id": "3527e0f0c3dca3565659602b",
+                "type": "article",
+                "name": "Dummy.File",
+                "children": []
+              }
+            ]
+          },
+          {
+            "_id": "09feddff7697ed223ca65242",
+            "type": "folder",
+            "name": "File Base",
+            "children": [
+              {
+                "_id": "feb1a3915cd6329ee932a570",
+                "type": "article",
+                "name": "Dummy.File",
+                "children": []
+              }
+            ]
+          },
+          {
+            "_id": "42214656e04f3031f52e3c1d",
+            "type": "folder",
+            "name": "Legacy Folder",
+            "children": [
+              {
+                "_id": "0177f6fe7cfd32f6bff462d0",
+                "type": "article",
+                "name": "Dummy.File",
+                "children": []
+              }
+            ]
+          },
+          {
+            "_id": "313b3e4d95f34e653765ca57",
+            "type": "folder",
+            "name": "Log",
+            "children": [
+              {
+                "_id": "7c627a97b94e15c2ac1e94c0",
+                "type": "article",
+                "name": "Dummy.File",
+                "children": []
+              }
+            ]
+          },
+          {
+            "_id": "40003e70f5c5f4917d695335",
+            "type": "folder",
+            "name": "Reports",
+            "children": [
+              {
+                "_id": "cf22a3012b03742237909e7f",
+                "type": "article",
+                "name": "Dummy.File",
+                "children": []
+              }
+            ]
+          },
+          {
+            "_id": "c0159d0b13accec6027b03d4",
+            "type": "folder",
+            "name": "Temps",
+            "children": [
+              {
+                "_id": "f95c39650676503cc35c2ade",
+                "type": "article",
+                "name": "Dummy.File",
+                "children": []
+              }
+            ]
+          },
+          {
+            "_id": "5011c9a2613ef7ad6c69fc70",
+            "type": "article",
+            "name": "Dummy.File",
+            "children": []
+          },
+          {
+            "_id": "3ad146fe7e5042faaffb73cd",
+            "type": "article",
+            "name": "Settings.cfg",
+            "children": []
+          }
+        ]
+      },
+      {
+        "_id": "d9dcba127b02e6274d67d222",
+        "type": "folder",
+        "name": "Commen Project Files",
+        "children": [
+          {
+            "_id": "40b53d46d5d9ccde5959a2df",
+            "type": "article",
+            "name": "Dummy.File",
+            "children": []
+          }
+        ]
+      },
+      {
+        "_id": "4bd647cecadbe9fafedddaad",
+        "type": "folder",
+        "name": "Current Version",
+        "children": [
+          {
+            "_id": "ddd3cbfb93026cdc07e4700a",
+            "type": "article",
+            "name": "Dummy.File",
+            "children": []
+          }
+        ]
+      },
+      {
+        "_id": "90e2c406cd366306fd9c47b4",
+        "type": "folder",
+        "name": "DataBase Scripts",
+        "children": [
+          {
+            "_id": "a0fb0c3e9bab23ee4ddef771",
+            "type": "folder",
+            "name": "JSON-Files",
+            "children": [
+              {
+                "_id": "15296f957572fed31432764e",
+                "type": "article",
+                "name": "Dummy.File",
+                "children": []
+              }
+            ]
+          },
+          {
+            "_id": "b02c216742954d9d12eeaf74",
+            "type": "folder",
+            "name": "SQL-Files",
+            "children": [
+              {
+                "_id": "0254c27235497f29deb36fbd",
+                "type": "article",
+                "name": "Dummy.File",
+                "children": []
+              }
+            ]
+          },
+          {
+            "_id": "99ecdd4266d7a13f17baea67",
+            "type": "folder",
+            "name": "XML-Files",
+            "children": [
+              {
+                "_id": "23e49ebaa2afbdec6e1b73a9",
+                "type": "article",
+                "name": "Dummy.File",
+                "children": []
+              }
+            ]
+          },
+          {
+            "_id": "2a9ec16bb53c5b9a6e57a4fb",
+            "type": "article",
+            "name": "Dummy.File",
+            "children": []
+          }
+        ]
+      },
+      {
+        "_id": "cb021d9b9c7133b723746269",
+        "type": "folder",
+        "name": "Documents",
+        "children": [
+          {
+            "_id": "dad4eefd695b33e69ed67279",
+            "type": "article",
+            "name": "Dummy.File",
+            "children": []
+          }
+        ]
+      },
+      {
+        "_id": "5ecff1ce1be2aefb39367ae9",
+        "type": "folder",
+        "name": "Graphical",
+        "children": [
+          {
+            "_id": "d2b1e30e7b7f26d5105e35a7",
+            "type": "folder",
+            "name": "Adobe Files",
+            "children": [
+              {
+                "_id": "67fa401cc1d5dea6a04200fe",
+                "type": "article",
+                "name": "Dummy.File",
+                "children": []
+              }
+            ]
+          },
+          {
+            "_id": "e0e04f0f5b69f1b4032b6900",
+            "type": "folder",
+            "name": "Buttons",
+            "children": [
+              {
+                "_id": "b1d479b5e5e326b7b03ebcbd",
+                "type": "article",
+                "name": "Dummy.File",
+                "children": []
+              }
+            ]
+          },
+          {
+            "_id": "4ef6d94045351de71fd3dfdd",
+            "type": "folder",
+            "name": "General",
+            "children": [
+              {
+                "_id": "13fe43afb019b47cfd3b193c",
+                "type": "article",
+                "name": "Dummy.File",
+                "children": []
+              }
+            ]
+          },
+          {
+            "_id": "790d9354f0515137ac2d307d",
+            "type": "folder",
+            "name": "Icon",
+            "children": [
+              {
+                "_id": "92a6a7375cf6bd1f3714badf",
+                "type": "article",
+                "name": "Dummy.File",
+                "children": []
+              }
+            ]
+          },
+          {
+            "_id": "05cab46d712401955eb49252",
+            "type": "folder",
+            "name": "Logo",
+            "children": [
+              {
+                "_id": "354ab2ba56b007c3671ff375",
+                "type": "article",
+                "name": "Dummy.File",
+                "children": []
+              }
+            ]
+          },
+          {
+            "_id": "de9296729f94703517dbc5ff",
+            "type": "folder",
+            "name": "Style",
+            "children": [
+              {
+                "_id": "076f95952ec9263cc1bbf119",
+                "type": "article",
+                "name": "Dummy.File",
+                "children": []
+              }
+            ]
+          },
+          {
+            "_id": "7deeb4dc9b6b01de1afcbcbf",
+            "type": "article",
+            "name": "Dummy.File",
+            "children": []
+          }
+        ]
+      },
+      {
+        "_id": "306cb61294d06712f1bfa09d",
+        "type": "folder",
+        "name": "Hardware",
+        "children": [
+          {
+            "_id": "f62aaa64d9ce96aeedc30a32",
+            "type": "article",
+            "name": "Dummy.File",
+            "children": []
+          }
+        ]
+      },
+      {
+        "_id": "3ed930a43fa315a90691c720",
+        "type": "folder",
+        "name": "Legacy Folder",
+        "children": [
+          {
+            "_id": "aeb37e1dea6dd5b6b9bd3026",
+            "type": "article",
+            "name": "Dummy.File",
+            "children": []
+          }
+        ]
+      },
+      {
+        "_id": "e0439232a96c59d3da13ed90",
+        "type": "folder",
+        "name": "LibrarySupport",
+        "children": [
+          {
+            "_id": "9022e97237d63ac345f291df",
+            "type": "article",
+            "name": "Dummy.File",
+            "children": []
+          }
+        ]
+      },
+      {
+        "_id": "454b33c57e2f145c95315fea",
+        "type": "folder",
+        "name": "Proof of concept",
+        "children": [
+          {
+            "_id": "fbdc3d936729b70b014e4fdb",
+            "type": "folder",
+            "name": "Sand-Box",
+            "children": [
+              {
+                "_id": "f47505e663cc350329603292",
+                "type": "article",
+                "name": "Dummy.File",
+                "children": []
+              }
+            ]
+          },
+          {
+            "_id": "412a47a00d76205225c661c0",
+            "type": "article",
+            "name": "Dummy.File",
+            "children": []
+          }
+        ]
+      },
+      {
+        "_id": "3ba0647a7a4b3df0a1fbdb40",
+        "type": "folder",
+        "name": "Settings-Info",
+        "children": [
+          {
+            "_id": "545ac45d5796c53cc3a76240",
+            "type": "article",
+            "name": "Dummy.File",
+            "children": []
+          }
+        ]
+      },
+      {
+        "_id": "416f0ec624cb41e25e1bf15a",
+        "type": "folder",
+        "name": "Source-(rename 2 Apps name)",
+        "children": [
+          {
+            "_id": "f995bfede6cf9a7056adb79c",
+            "type": "article",
+            "name": "Dummy.File",
+            "children": []
+          }
+        ]
+      },
+      {
+        "_id": "05ead7362629c27ca7ff0d33",
+        "type": "folder",
+        "name": "Source-SandBox",
+        "children": [
+          {
+            "_id": "c63e2534096ce412175bd931",
+            "type": "article",
+            "name": "Dummy.File",
+            "children": []
+          }
+        ]
+      },
+      {
+        "_id": "b342ac9d04cb2e1e251edc47",
+        "type": "folder",
+        "name": "Source-Web",
+        "children": [
+          {
+            "_id": "29c6ac0da00e76100c52eb72",
+            "type": "article",
+            "name": "Dummy.File",
+            "children": []
+          }
+        ]
+      },
+      {
+        "_id": "9c139fafe3972acfd9a31aeb",
+        "type": "article",
+        "name": "README.md",
+        "children": []
+      }
+    ]
+  },
+  {
+    "_id": "f65ecc2f5022bcf15df25b73",
+    "type": "folder",
+    "name": "Nieuwe map",
+    "children": [
+
+    ]
+  },
+  {
+    "_id": "e3c26b0c56bd1d7a40ddde15",
+    "type": "article",
+    "name": "Basic Project map 2019.zip",
+    "children": []
+  },
+  {
+    "_id": "4cba676ec1a71cfe10effb26",
+    "type": "article",
+    "name": "Basic Project map 2021.zip",
+    "children": []
+  },
+  {
+    "_id": "7f4ff715077979750fa6f24c",
+    "type": "article",
+    "name": "Basic Project map 2022.zip",
+    "children": []
+  },
+  {
+    "_id": "026dfb6e3c5c1057b0d6b251",
+    "type": "article",
+    "name": "D.bat",
+    "children": []
+  },
+  {
+    "_id": "34f9a4796bf31adc24a7af37",
+    "type": "article",
+    "name": "Init.PS1",
+    "children": []
+  },
+  {
+    "_id": "3b76ee561e1f31532dec40eb",
+    "type": "article",
+    "name": "ProjectConfig.json",
+    "children": []
+  },
+  {
+    "_id": "5266240b741e6b25210c93aa",
+    "type": "article",
+    "name": "ProjectTreeBuilder.PS1",
+    "children": []
+  },
+  {
+    "_id": "7a121b5c7577aa5d712c5390",
+    "type": "article",
+    "name": "readoutfolderstruturk.PS1",
+    "children": []
+  }]
