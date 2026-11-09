@@ -15,45 +15,132 @@ if (-not $NoSelfElevate) {
     )
 
     if (-not $IsAdmin) {
-        Start-Process powershell.exe -Verb RunAs -ArgumentList "-ExecutionPolicy Bypass -File `"$PSCommandPath`""
+        $ElevateArgs = "-ExecutionPolicy Bypass -File `"$PSCommandPath`""
+        if ($KeepExplorer) { $ElevateArgs += " -KeepExplorer" }
+        if ($NoSteam)      { $ElevateArgs += " -NoSteam" }
+
+        Start-Process powershell.exe -Verb RunAs -ArgumentList $ElevateArgs
         exit
     }
 }
 
+# Wildcards (*) allowed. Nothing is disabled: everything returns after reboot.
 $ProcessesToKill = @(
+    # Browsers / chat / AI
     "chrome",
     "msedge",
     "firefox",
-    "WhatsApp",
+    "msedgewebview2",
+    "WhatsApp*",
     "Discord",
     "Teams",
     "Skype",
-    "OneDrive",
-    "figma_agent",
+    "claude*",
+    "cowork-svc",
+    "ChatGPT*",
+    "ollama*",
+
+    # Dev / design
     "Code",
-    "code",
-    "PowerToys",
-    "PowerToys.Peek.UI",
-    "PowerToys.ColorPickerUI",
-    "PowerToys.QuickAccess",
-    "Microsoft.CmdPal.UI",
-    "Microsoft.CmdPal.Ext.PowerToys",
+    "Photoshop",
+    "figma_agent",
+    "duet",
+    "httpd",
+    "mysqld",
+
+    # Microsoft extras
+    "OneDrive*",
+    "FileCoAuth",
+    "FileSyncHelper",
+    "SDXHelper",
+    "PowerToys*",
+    "Microsoft.CmdPal*",
+    "Widget*",
+    "CrossDeviceService",
+
+    # Intel / HP / Logitech tray tools
     "DSATray",
     "IntelConnect",
-    "logioptionsplus_agent",
-    "logioptionsplus_updater",
-    "WidgetBoard",
-    "mysqld"
+    "ICPS",
+    "IDBWM",
+    "IntelGraphicsSoftware",
+    "esrv",
+    "hpwuschd2",
+    "DisplayControl",
+    "cthelper",
+    "logioptionsplus*",
+    "logi_crashpad_handler",
+    "SetPoint",
+    "KHALMNPR",
+    "laclient"
 )
 
+# Stopped BEFORE the processes, otherwise they restart their own process.
 $ServicesToStop = @(
-    "SysMain",
-    "WSearch",
-    "SystemUsageReportSvc_QUEENCREEK",
+    # Web / database
+    "Apache2.4",
+    "mysql",
+    "IBG_gds_db",
+    "IBS_gds_db",
+
+    # AI apps
+    "CodexSandboxService.OpenAI.Codex",
+    "CoworkVMService",
+
+    # Intel
     "DSAService",
     "DSAUpdateService",
+    "ESRV_SVC_QUEENCREEK",
+    "SystemUsageReportSvc_QUEENCREEK",
     "Intel Analytics Service",
-    "HpTouchpointAnalyticsService"
+    "Intel Connectivity Network Service",
+    "Intel Provider Data Helper Service",
+    "IntelConnectService",
+    "IDBWM",
+    "IntelCstService",
+    "dptftcs",
+    "igccservice",
+    "XTU3SERVICE",
+
+    # HP
+    "HpTouchpointAnalyticsService",
+    "HPDiagsCap",
+    "HPSysInfoCap",
+    "HPNetworkCap",
+    "HPAppHelperCap",
+    "HPDCService",
+    "HPPrintScanDoctorService",
+
+    # Printing / scanning
+    "PrintNode",
+    "DYMOConnectPnPService",
+    "Spooler",
+    "StiSvc",
+
+    # Logitech / Office
+    "OptionsPlusUpdaterService",
+    "logi_lamparray_service",
+    "ClickToRunSvc",
+
+    # Remote / USB / virtualisation
+    "sshd",
+    "ssh-agent",
+    "usbipd",
+    "IpOverUsbSvc",
+    "WebManagement",
+    "LxssManager",
+    "vmcompute",
+    "hns",
+
+    # Windows background
+    "SysMain",
+    "WSearch",
+    "DiagTrack",
+    "DPS",
+    "DoSvc",
+    "PcaSvc",
+    "TrkWks",
+    "lfsvc"
 )
 
 Write-Host ""
@@ -69,13 +156,6 @@ $freeRamMB  = [math]::Round($os.FreePhysicalMemory / 1024, 0)
 Write-Host "RAM BEFORE : $freeRamMB MB free of $totalRamMB MB" -ForegroundColor Yellow
 Write-Host ""
 
-Write-Host "Closing processes..." -ForegroundColor Cyan
-
-foreach ($proc in $ProcessesToKill) {
-    Get-Process -Name $proc -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue
-}
-
-Write-Host ""
 Write-Host "Stopping services..." -ForegroundColor Cyan
 
 foreach ($svc in $ServicesToStop) {
@@ -84,6 +164,15 @@ foreach ($svc in $ServicesToStop) {
     if ($service -and $service.Status -eq "Running") {
         Stop-Service -Name $svc -Force -ErrorAction SilentlyContinue
     }
+}
+
+Write-Host ""
+Write-Host "Closing processes..." -ForegroundColor Cyan
+
+foreach ($proc in $ProcessesToKill) {
+    Get-Process -Name $proc -ErrorAction SilentlyContinue |
+        Where-Object { $_.Id -ne $PID } |
+        Stop-Process -Force -ErrorAction SilentlyContinue
 }
 
 if (-not $KeepExplorer) {

@@ -1,0 +1,279 @@
+==================================================
+==================================================
+Total RAM : 16077 MB
+Used RAM  : 7952 MB
+Free RAM  : 8125 MB
+
+==================================================
+==================================================
+
+ProcessName                      Id    MemoryMB CPU
+-----------                      --    -------- ---
+claude                           2280  607,6    343,390625
+Memory Compression               3404  400,2    22,390625
+MsMpEng                          5528  363,1    825,203125
+claude                           18172 246,6    1,59375
+claude                           1736  243,3    83,265625
+explorer                         13176 227,5    47,265625
+claude                           2568  217,3    66,171875
+ChatGPT Classic                  10380 194      147,140625
+WhatsApp.Root                    6660  179,5    13,09375
+claude                           15884 176,2    161,703125
+WindowsTerminal                  21056 130,8    0,28125
+claude                           16056 121,1    0,28125
+pwsh                             15800 121,1    1,984375
+claude                           4944  115,4    0,203125
+claude                           7388  115      1,40625
+DSAService                       5216  103,8    116,75
+claude                           2440  103,6    0,3125
+claude                           6248  103      0,078125
+claude                           11748 102,8    0,453125
+claude                           9800  102,4    3,28125
+esrv_svc                         15308 97,2     605,171875
+logioptionsplus_agent            12884 95       49,140625
+pwsh                             15020 92,7     0,5625
+ChatGPT Classic                  16488 92,3     3,8125
+DSATray                          17044 89,7     3,171875
+svchost                          2576  88,1     83,25
+TextInputHost                    15516 87,1     3,15625
+SearchHost                       10352 86,1     5,765625
+claude                           4296  84,9     0,3125
+CrossDeviceService               15900 82,1     5,828125
+ChatGPT Classic                  12060 81       13,09375
+StartMenuExperienceHost          13808 80,5     3,171875
+dwm                              2804  75,2     136,171875
+SysInfoCap                       3396  70,7     2,546875
+intel_cst_service_standalone     5344  69,9     9,328125
+OneDrive.Sync.Service            16612 68,5     12,65625
+ICPS                             5148  67,5     2,203125
+TouchpointAnalyticsClientService 3364  66,2     2,3125
+SurSvc                           5408  64,2     133,96875
+claude                           9540  61       3,515625
+ChatGPT Classic                  4868  58       7,390625
+TabTip                           16684 51,7     1,90625
+Secure System                    204   48,1     0
+IntelConnectivityNetworkService  18736 46,7     5
+pwsh                             14752 43,6     0,890625
+WmiPrvSE                         4024  43,3     128,25
+XtuService                       5472  41,7     1,34375
+msedgewebview2                   12052 40,9     4,421875
+svchost                          12976 40,8     5,28125
+OneApp.IGCC.WinService           5236  40,4     1,046875
+DSAUpdateService                 5228  39,2     0,9375
+svchost                          1984  38,5     28,359375
+svchost                          3008  38,1     8,671875
+svchost                          13720 37,6     3,265625
+Registry                         236   37,1     0,75
+IntelGraphicsSoftware.Service    5304  36,7     0,75
+WidgetBoard                      14984 35,7     0,953125
+OfficeClickToRun                 5288  35       1,390625
+svchost                          1920  35       45,9375
+ChatGPT Classic                  15152 34,7     0,03125
+SearchIndexer                    12408 33,9     107,0625
+esrv                             14716 32,3     7,6875
+sihost                           12908 32,3     3,59375
+PresentMonService                7784  32,2     380,375
+spoolsv                          4648  32,2     3,78125
+RuntimeBroker                    14344 31,8     1,359375
+mysqld                           5428  31,7     0,5
+claude                           15260 30,1     0,03125
+PrintNodeService                 6104  30,1     8,6875
+ShellExperienceHost              5960  29,9     0,140625
+svchost                          1592  29,8     6,96875
+RuntimeBroker                    14520 29,6     1,578125
+lsass                            1436  25,9     11,390625
+IntelAudioService                5268  25,6     0,375
+codex-windows-sandbox-service    9372  25,2     0,0625
+svchost                          1976  25,2     22,375
+ctfmon                           16672 24,9     6,546875
+IntelConnect                     4032  24,6     8,203125
+ollama                           13268 23,9     8,859375
+SDXHelper                        18052 23,5     11,8125
+DisplayControl                   15148 22,9     3,8125
+WmiPrvSE                         4136  21,3     4,53125
+logioptionsplus_updater          5384  21,1     4,625
+RuntimeBroker                    12892 20,9     0,015625
+SetPoint                         12192 20,9     0,609375
+ollama app                       19844 20,6     0,375
+RtkAudUService64                 5560  20       1,578125
+svchost                          18152 19,7     1,53125
+MpDefenderCoreService            5436  19,5     1,515625
+NetworkCap                       3372  19,4     0,453125
+dasHost                          10056 19,4     0,640625
+WUDFHost                         9400  19,4     27,90625
+AppHelperCap                     3388  19,2     0,53125
+WidgetService                    18884 19       0,1875
+svchost                          3636  18,9     20,03125
+taskhostw                        13240 18,9     0,65625
+IDBWM                            7064  18,9     5,75
+DiagsCap                         3380  18,3     0,40625
+taskhostw                        20124 18,3     0,09375
+svchost                          4552  18,1     3,734375
+
+
+
+==================================================
+==================================================
+
+Name                               DisplayName                                                          StartType
+----                               -----------                                                          ---------
+Apache2.4                          Apache2.4                                                            Automatic
+Appinfo                            Application Information                                                 Manual
+AppXSvc                            AppX Deployment Service (AppXSVC)                                       Manual
+BthAvctpSvc                        AVCTP-service                                                           Manual
+BrokerInfrastructure               Background Tasks Infrastructure Service                              Automatic
+BFE                                Base Filtering Engine                                                Automatic
+DispBrokerDesktopSvc               Beeldschermbeleidsservice                                            Automatic
+wscsvc                             Beveiligingscentrum                                                  Automatic
+BTAGService                        Bluetooth Audio Gateway-service                                         Manual
+bthserv                            Bluetooth Support Service                                               Manual
+camsvc                             Capability Access Manager Service                                       Manual
+CodexSandboxService.OpenAI.Codex   ChatGPT                                                              Automatic
+CoworkVMService                    Claude                                                               Automatic
+KeyIso                             CNG Key Isolation                                                       Manual
+EventSystem                        COM+ Event System                                                    Automatic
+PimIndexMaintenanceSvc_28934e      Contact Data_28934e                                                     Manual
+CoreMessagingRegistrar             CoreMessaging                                                        Automatic
+VaultSvc                           Credential Manager                                                      Manual
+CryptSvc                           Cryptographic Services                                               Automatic
+DsSvc                              Data Sharing Service                                                    Manual
+DusmSvc                            Dataverbruik                                                         Automatic
+DcomLaunch                         DCOM Server Process Launcher                                         Automatic
+debugregsvc                        debugregsvc                                                          Automatic
+DoSvc                              Delivery Optimization                                                   Manual
+DeviceAssociationService           Device Association Service                                           Automatic
+Dhcp                               DHCP Client                                                          Automatic
+DPS                                Diagnostic Policy Service                                            Automatic
+TrkWks                             Distributed Link Tracking Client                                     Automatic
+Dnscache                           DNS Client                                                           Automatic
+DYMOConnectPnPService              DYMO Connect PnP Service                                             Automatic
+ElanTouchXiSvc                     ELAN WoT Capable Service                                             Automatic
+ESRV_SVC_QUEENCREEK                Energy Server Service queencreek                                     Automatic
+FDResPub                           Function Discovery Resource Publication                                 Manual
+CDPUserSvc_28934e                  Gebruikerservice voor Connected Devices Platform_28934e              Automatic
+cbdhsvc_28934e                     Gebruikersservice voor klembord_28934e                               Automatic
+lfsvc                              Geolocation Service                                                     Manual
+gpsvc                              Group Policy Client                                                  Automatic
+hns                                Host Network Service                                                    Manual
+OneSyncSvc_28934e                  Host synchroniseren_28934e                                           Automatic
+HPAppHelperCap                     HP App Helper HSA Service                                            Automatic
+HPDiagsCap                         HP Diagnostics HSA Service                                           Automatic
+HPDCService                        HP Display Control Service by Portrait Displays                      Automatic
+HpTouchpointAnalyticsService       HP Insights Analytics                                                Automatic
+HPNetworkCap                       HP Network HSA Service                                               Automatic
+HPPrintScanDoctorService           HP Print Scan Doctor Service                                         Automatic
+HPSysInfoCap                       HP System Info HSA Service                                           Automatic
+hidserv                            Human Interface Device Service                                          Manual
+HvHost                             HV-hostservice                                                          Manual
+vmcompute                          Hyper-V-Host Compute-Service                                            Manual
+IKEEXT                             IKE and AuthIP IPsec Keying Modules                                  Automatic
+Intel Analytics Service            Intel Analytics Service                                              Automatic
+Intel Connectivity Network Service Intel Connectivity Network Service                                   Automatic
+IDBWM                              Intel Dynamic Bandwidth Management                                      Manual
+Intel Provider Data Helper Service Intel Provider Data Helper Service                                   Automatic
+IntelAudioService                  Intel(R) Audio Service                                               Automatic
+cplspcon                           Intel(R) Content Protection HDCP Service                             Automatic
+IntelCstService                    Intel(R) Context Sensing Technology Service                          Automatic
+DSAService                         Intel(R) Driver & Support Assistant                                  Automatic
+DSAUpdateService                   Intel(R) Driver & Support Assistant Updater                          Automatic
+jhi_service                        Intel(R) Dynamic Application Loader Host Interface Service           Automatic
+dptftcs                            Intel(R) Dynamic Tuning Technology Telemetry Service                 Automatic
+igccservice                        Intel(R) Graphics Command Center Service                             Automatic
+ipfsvc                             Intel(R) Innovation Platform Framework Service                       Automatic
+WMIRegistrationService             Intel(R) Management Engine WMI Provider Registration                 Automatic
+SystemUsageReportSvc_QUEENCREEK    Intel(R) System Usage Report Service SystemUsageReportSvc_QUEENCREEK Automatic
+IntelGraphicsSoftwareService       Intel® Graphics Software Service                                     Automatic
+IntelConnectService                IntelConnect Service                                                    Manual
+IBG_gds_db                         InterBase 2020 64bit Guardian gds_db                                 Automatic
+IBS_gds_db                         InterBase 2020 64bit Server gds_db                                      Manual
+SharedAccess                       Internet Connection Sharing (ICS)                                       Manual
+iphlpsvc                           IP Helper                                                            Automatic
+PolicyAgent                        IPsec Policy Agent                                                      Manual
+LSM                                Local Session Manager                                                Automatic
+OptionsPlusUpdaterService          Logi Options+                                                        Automatic
+logi_lamparray_service             Logitech LampArray Service                                           Automatic
+LxssManager                        LxssManager                                                             Manual
+WdNisSvc                           Microsoft Defender Antivirus-netwerkinspectieservice                    Manual
+WinDefend                          Microsoft Defender Antivirus-service                                 Automatic
+MDCoreSvc                          Microsoft Defender Core-service                                      Automatic
+ClickToRunSvc                      Microsoft Office Click-to-Run Service                                Automatic
+NgcSvc                             Microsoft Passport                                                      Manual
+NgcCtnrSvc                         Microsoft Passport Container                                            Manual
+InstallService                     Microsoft Store-installatieservice                                      Manual
+mysql                              mysql                                                                Automatic
+nlsX86cc                           Nalpeiron Licensing Service                                          Automatic
+nvagent                            Netwerkvirtualisatieservice                                             Manual
+NcdAutoSetup                       Network Connected Devices Auto-Setup                                    Manual
+NcbService                         Network Connection Broker                                               Manual
+Netman                             Network Connections                                                     Manual
+netprofm                           Network List Service                                                    Manual
+nsi                                Network Store Interface Service                                      Automatic
+NPSMSvc_28934e                     NPSMSvc_28934e                                                          Manual
+BluetoothUserService_28934e        Ondersteuningsservice voor Bluetooth-gebruikers_28934e                  Manual
+ssh-agent                          OpenSSH Authentication Agent                                         Automatic
+sshd                               OpenSSH SSH Server                                                      Manual
+PenService_28934e                  PenService_28934e                                                       Manual
+PlugPlay                           Plug and Play                                                           Manual
+Power                              Power                                                                Automatic
+Spooler                            Print Spooler                                                        Automatic
+PrintNode                          PrintNode                                                            Automatic
+PcaSvc                             Program Compatibility Assistant Service                                 Manual
+RmSvc                              Radiobeheerservice                                                      Manual
+RtkAudioUniversalService           Realtek Audio Universal Service                                      Automatic
+RpcSs                              Remote Procedure Call (RPC)                                          Automatic
+RpcEptMapper                       RPC Endpoint Mapper                                                  Automatic
+SamSs                              Security Accounts Manager                                            Automatic
+SensrSvc                           Sensor Monitoring Service                                               Manual
+SensorService                      Sensor Service                                                          Manual
+LanmanServer                       Server                                                               Automatic
+CDPSvc                             Service Platform voor verbonden apparaten                               Manual
+DisplayEnhancementService          Service voor beeldschermverbetering                                     Manual
+LicenseManager                     Service voor Windows-licentiebeheer                                     Manual
+ShellHWDetection                   Shell Hardware Detection                                             Automatic
+SECOMNService                      Sound Research SECOMN Service                                        Automatic
+SSDPSRV                            SSDP Discovery                                                          Manual
+SshdBroker                         SshdBroker                                                              Manual
+StateRepository                    State Repository Service                                             Automatic
+StorSvc                            Storage Service                                                         Manual
+SynTPEnhService                    SynTPEnhService                                                      Automatic
+SysMain                            SysMain                                                              Automatic
+WpnService                         Systeemservice voor Windows Push Notifications                          Manual
+SENS                               System Event Notification Service                                    Automatic
+SystemEventsBroker                 System Events Broker                                                 Automatic
+Schedule                           Task Scheduler                                                       Automatic
+lmhosts                            TCP/IP NetBIOS Helper                                                   Manual
+TextInputManagementService         Text Input Management Service                                        Automatic
+Themes                             Themes                                                               Automatic
+TimeBrokerSvc                      Time Broker                                                             Manual
+UdkUserSvc_28934e                  UDK-gebruikersservice_28934e                                            Manual
+UsoSvc                             Update Orchestrator-service                                             Manual
+usbipd                             USBIP Device Host                                                    Automatic
+UserDataSvc_28934e                 User Data Access_28934e                                                 Manual
+UnistoreSvc_28934e                 User Data Storage_28934e                                                Manual
+UserManager                        User Manager                                                         Automatic
+ProfSvc                            User Profile Service                                                 Automatic
+WebManagement                      Web Management                                                       Automatic
+webthreatdefusersvc_28934e         Web Threat Defense-gebruikersservice_28934e                          Automatic
+webthreatdefsvc                    Web Threat Defense-service                                              Manual
+TokenBroker                        Webaccountbeheer                                                        Manual
+Audiosrv                           Windows Audio                                                        Automatic
+AudioEndpointBuilder               Windows Audio Endpoint Builder                                       Automatic
+wcncsvc                            Windows Connect Now - Config Registrar                                  Manual
+Wcmsvc                             Windows Connection Manager                                           Automatic
+mpssvc                             Windows Defender Firewall                                            Automatic
+EventLog                           Windows Event Log                                                    Automatic
+FontCache                          Windows Font Cache Service                                           Automatic
+StiSvc                             Windows Image Acquisition (WIA)                                      Automatic
+Winmgmt                            Windows Management Instrumentation                                   Automatic
+icssvc                             Windows Mobile Hotspot Service                                          Manual
+IpOverUsbSvc                       Windows Phone IP over USB Transport (IpOverUsbSvc)                   Automatic
+WpnUserService_28934e              Windows Push Notifications User Service_28934e                       Automatic
+WSearch                            Windows Search                                                       Automatic
+W32Time                            Windows Time                                                            Manual
+SecurityHealthService              Windows-beveiligingsservice                                             Manual
+WinHttpAutoProxySvc                WinHTTP Web Proxy Auto-Discovery Service                                Manual
+WlanSvc                            WLAN AutoConfig                                                      Automatic
+LanmanWorkstation                  Workstation                                                          Automatic
+XTU3SERVICE                        XTUOCDriverService                                                   Automatic
+
+
